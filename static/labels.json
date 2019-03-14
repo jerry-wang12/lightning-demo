@@ -1,0 +1,745 @@
+{
+  "name": "labels",
+  "children": [
+    {
+      "name": "LightningButtonMenu.loading.js",
+      "content": "export default 'Loading menu items...';"
+    },
+    {
+      "name": "LightningErrorMessage.validityValueMissing.js",
+      "content": "export default 'Complete this field.';"
+    },
+    {
+      "name": "LightningFormattedEmail.emailIconLabel.js",
+      "content": "export default 'Email';"
+    },
+    {
+      "name": "LightningHelptext.buttonAlternativeText.js",
+      "content": "export default 'Help';"
+    },
+    {
+      "name": "LightningErrorMessage.validityTypeMismatch.js",
+      "content": "export default 'You have entered an invalid format.';"
+    },
+    {
+      "name": "LightningInputFile.buttonLabel.js",
+      "content": "export default 'Upload Files';"
+    },
+    {
+      "name": "LightningInputLocation.coordinateIsRequired.js",
+      "content": "export default 'Coordinate is required';"
+    },
+    {
+      "name": "LightningInputLocation.invalidLatitude.js",
+      "content": "export default 'Latitude should be a decimal number in a range [-90, 90]';"
+    },
+    {
+      "name": "LightningInputLocation.invalidLongitude.js",
+      "content": "export default 'Longitude should be a decimal number in a range [-180, 180]';"
+    },
+    {
+      "name": "LightningInputLocation.latitude.js",
+      "content": "export default 'Latitude';"
+    },
+    {
+      "name": "LightningErrorMessage.validityTooShort.js",
+      "content": "export default 'Your entry is too short.';"
+    },
+    {
+      "name": "LightningInputLocation.longitude.js",
+      "content": "export default 'Longitude';"
+    },
+    {
+      "name": "LightningErrorMessage.validityTooLong.js",
+      "content": "export default 'Your entry is too long.';"
+    },
+    {
+      "name": "LightningInputName.firstName.js",
+      "content": "export default 'First Name';"
+    },
+    {
+      "name": "LightningErrorMessage.validityStepMismatch.js",
+      "content": "export default 'Your entry isn\\'t a valid increment.';"
+    },
+    {
+      "name": "LightningInputName.informalName.js",
+      "content": "export default 'Informal Name';"
+    },
+    {
+      "name": "LightningErrorMessage.validityRangeUnderflow.js",
+      "content": "export default 'The number is too low.';"
+    },
+    {
+      "name": "LightningInputName.lastName.js",
+      "content": "export default 'Last Name';"
+    },
+    {
+      "name": "LightningErrorMessage.validityRangeOverflow.js",
+      "content": "export default 'The number is too high.';"
+    },
+    {
+      "name": "LightningInputName.middleName.js",
+      "content": "export default 'Middle Name';"
+    },
+    {
+      "name": "LightningErrorMessage.validityPatternMismatch.js",
+      "content": "export default 'Your entry does not match the allowed pattern.';"
+    },
+    {
+      "name": "LightningInputName.none.js",
+      "content": "export default 'None';"
+    },
+    {
+      "name": "LightningErrorMessage.validityBadInput.js",
+      "content": "export default 'Enter a valid value.';"
+    },
+    {
+      "name": "LightningInputName.salutation.js",
+      "content": "export default 'Salutation';"
+    },
+    {
+      "name": "LightningDualListbox.upButtonAssistiveText.js",
+      "content": "export default 'Move selection up';"
+    },
+    {
+      "name": "LightningInputName.suffix.js",
+      "content": "export default 'Suffix';"
+    },
+    {
+      "name": "LightningDualListbox.requiredOptionError.js",
+      "content": "export default '{0} must be selected';"
+    },
+    {
+      "name": "LightningListView.loadMore.js",
+      "content": "export default 'Load More';"
+    },
+    {
+      "name": "LightningDualListbox.requiredError.js",
+      "content": "export default 'An option must be selected';"
+    },
+    {
+      "name": "LightningLookup.add.js",
+      "content": "export default 'Add';"
+    },
+    {
+      "name": "LightningDualListbox.optionLockAssistiveText.js",
+      "content": "export default ': item cannot be removed from {0}';"
+    },
+    {
+      "name": "LightningLookup.createNewObject.js",
+      "content": "export default 'New {0}';"
+    },
+    {
+      "name": "LightningDualListbox.moveSelectionToAssistiveText.js",
+      "content": "export default 'Move selection to {0}';"
+    },
+    {
+      "name": "LightningLookup.currentSelection.js",
+      "content": "export default 'Current Selection';"
+    },
+    {
+      "name": "LightningDualListbox.minRequiredErrorSingular.js",
+      "content": "export default 'At least 1 option must be selected';"
+    },
+    {
+      "name": "LightningLookup.recentObject.js",
+      "content": "export default 'Recent {0}';"
+    },
+    {
+      "name": "LightningDualListbox.minRequiredErrorPlural.js",
+      "content": "export default 'At least {0} options must be selected';"
+    },
+    {
+      "name": "LightningLookup.search.js",
+      "content": "export default 'Search';"
+    },
+    {
+      "name": "LightningDualListbox.minHelp.js",
+      "content": "export default ' [and a minimum of {0}]';"
+    },
+    {
+      "name": "LightningLookup.searchForInObject.js",
+      "content": "export default '\"{0}\" in {1}';"
+    },
+    {
+      "name": "LightningDualListbox.minErrorSingular.js",
+      "content": "export default 'Select at least 1 option';"
+    },
+    {
+      "name": "LightningLookup.searchObjectsPlaceholder.js",
+      "content": "export default 'Search {0}...';"
+    },
+    {
+      "name": "LightningDualListbox.minErrorPlural.js",
+      "content": "export default 'Select at least {0} options';"
+    },
+    {
+      "name": "LightningLookup.searchPlaceholder.js",
+      "content": "export default 'Search...';"
+    },
+    {
+      "name": "LightningDualListbox.maxHelp.js",
+      "content": "export default ' [and a maximum of {0}]';"
+    },
+    {
+      "name": "LightningLookup.selectObject.js",
+      "content": "export default 'Choose an object';"
+    },
+    {
+      "name": "LightningDualListbox.maxError.js",
+      "content": "export default 'Select at most {0} options';"
+    },
+    {
+      "name": "LightningMap.coordinatesTitle.js",
+      "content": "export default 'Markers';"
+    },
+    {
+      "name": "LightningDualListbox.downButtonAssistiveText.js",
+      "content": "export default 'Move selection down';"
+    },
+    {
+      "name": "LightningMap.openInGoogleMaps.js",
+      "content": "export default 'Open in Google Maps';"
+    },
+    {
+      "name": "LightningDualListbox.componentAssistiveText.js",
+      "content": "export default 'Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.';"
+    },
+    {
+      "name": "LightningNoticeFooter.okButton.js",
+      "content": "export default 'OK';"
+    },
+    {
+      "name": "LightningDateTimePicker.yearSelector.js",
+      "content": "export default 'Pick a Year';"
+    },
+    {
+      "name": "LightningPicklist.available.js",
+      "content": "export default 'Available';"
+    },
+    {
+      "name": "LightningDateTimePicker.today.js",
+      "content": "export default 'Today';"
+    },
+    {
+      "name": "LightningPicklist.chosen.js",
+      "content": "export default 'Chosen';"
+    },
+    {
+      "name": "LightningDateTimePicker.timeLabel.js",
+      "content": "export default 'Time';"
+    },
+    {
+      "name": "LightningPicklist.noneLabel.js",
+      "content": "export default '--None--';"
+    },
+    {
+      "name": "LightningDateTimePicker.selectDate.js",
+      "content": "export default 'Select a date';"
+    },
+    {
+      "name": "LightningPill.delete.js",
+      "content": "export default 'Press delete or backspace to remove';"
+    },
+    {
+      "name": "LightningDateTimePicker.rangeUnderflow.js",
+      "content": "export default 'Value must be {0} or later.';"
+    },
+    {
+      "name": "LightningPill.error.js",
+      "content": "export default 'Error';"
+    },
+    {
+      "name": "LightningDateTimePicker.rangeOverflow.js",
+      "content": "export default 'Value must be {0} or earlier.';"
+    },
+    {
+      "name": "LightningPill.remove.js",
+      "content": "export default 'Remove';"
+    },
+    {
+      "name": "LightningDateTimePicker.previousMonth.js",
+      "content": "export default 'Previous Month';"
+    },
+    {
+      "name": "LightningPill.warning.js",
+      "content": "export default 'Warning';"
+    },
+    {
+      "name": "LightningDateTimePicker.nextMonth.js",
+      "content": "export default 'Next Month';"
+    },
+    {
+      "name": "LightningPillContainer.label.js",
+      "content": "export default 'Selected Options:';"
+    },
+    {
+      "name": "LightningDateTimePicker.invalidDate.js",
+      "content": "export default 'Your entry does not match the allowed format {0}.';"
+    },
+    {
+      "name": "LightningPillContainer.more.js",
+      "content": "export default '+{0} more';"
+    },
+    {
+      "name": "LightningDateTimePicker.dateLabel.js",
+      "content": "export default 'Date';"
+    },
+    {
+      "name": "LightningPrimitiveCellActions.loadingActions.js",
+      "content": "export default 'Loading actions';"
+    },
+    {
+      "name": "LightningDateTimePicker.ariaLabelMonth.js",
+      "content": "export default 'Date picker: ';"
+    },
+    {
+      "name": "LightningPrimitiveCellActions.showActions.js",
+      "content": "export default 'Show actions';"
+    },
+    {
+      "name": "LightningDatatable.wrapText.js",
+      "content": "export default 'Wrap text';"
+    },
+    {
+      "name": "LightningPrimitiveCellTree.collapseBranch.js",
+      "content": "export default 'Collapse {0}';"
+    },
+    {
+      "name": "LightningDatatable.updateSelectedItems.js",
+      "content": "export default 'Update {0} selected items';"
+    },
+    {
+      "name": "LightningPrimitiveCellTree.expandBranch.js",
+      "content": "export default 'Expand {0}';"
+    },
+    {
+      "name": "LightningDatatable.sortNone.js",
+      "content": "export default 'Sorted: None';"
+    },
+    {
+      "name": "LightningPrimitiveCoordinate.selected.js",
+      "content": "export default 'is currently selected';"
+    },
+    {
+      "name": "LightningDatatable.sortDesc.js",
+      "content": "export default 'Sorted Descending';"
+    },
+    {
+      "name": "LightningProgressBar.progress.js",
+      "content": "export default 'Progress';"
+    },
+    {
+      "name": "LightningDatatable.sortAsc.js",
+      "content": "export default 'Sorted Ascending';"
+    },
+    {
+      "name": "LightningProgressIndicator.currentStage.js",
+      "content": "export default 'Current Stage';"
+    },
+    {
+      "name": "LightningDatatable.sort.js",
+      "content": "export default 'Sort by:';"
+    },
+    {
+      "name": "LightningProgressIndicator.stageComplete.js",
+      "content": "export default 'Stage Complete';"
+    },
+    {
+      "name": "LightningDatatable.showActions.js",
+      "content": "export default 'Show actions';"
+    },
+    {
+      "name": "LightningRecordEditForm.apiNameMismatch.js",
+      "content": "export default 'API Name {0} is invalid, did you mean \"{1}?\"';"
+    },
+    {
+      "name": "LightningDatatable.selectItem.js",
+      "content": "export default 'Select Item';"
+    },
+    {
+      "name": "LightningRecordEditForm.genericError.js",
+      "content": "export default 'Error in fetching record or record metadata.';"
+    },
+    {
+      "name": "LightningDatatable.selectAll.js",
+      "content": "export default 'Select All';"
+    },
+    {
+      "name": "LightningRecordEditForm.invalidID.js",
+      "content": "export default 'Error in fetching record: invalid record id.';"
+    },
+    {
+      "name": "LightningDatatable.save.js",
+      "content": "export default 'Save';"
+    },
+    {
+      "name": "LightningRecordForm.cancel.js",
+      "content": "export default 'Cancel';"
+    },
+    {
+      "name": "LightningDatatable.rowLevelErrorAssistiveText.js",
+      "content": "export default '{0} has {1} errors';"
+    },
+    {
+      "name": "LightningRecordForm.loading.js",
+      "content": "export default 'Loading';"
+    },
+    {
+      "name": "LightningDatatable.loading.js",
+      "content": "export default 'Loading';"
+    },
+    {
+      "name": "LightningRecordForm.save.js",
+      "content": "export default 'Save';"
+    },
+    {
+      "name": "LightningDatatable.error.js",
+      "content": "export default 'Fix the errors and try saving again';"
+    },
+    {
+      "name": "LightningRichTextAssist.chooseFont.js",
+      "content": "export default 'Choose a font';"
+    },
+    {
+      "name": "LightningDatatable.editHasError.js",
+      "content": "export default 'has error';"
+    },
+    {
+      "name": "LightningRichTextAssist.chooseSize.js",
+      "content": "export default 'Choose a font size';"
+    },
+    {
+      "name": "LightningDatatable.edit.js",
+      "content": "export default 'Edit';"
+    },
+    {
+      "name": "LightningRichTextAssist.composeText.js",
+      "content": "export default 'Compose text';"
+    },
+    {
+      "name": "LightningDatatable.columnWidth.js",
+      "content": "export default 'column width';"
+    },
+    {
+      "name": "LightningRichTextButton.bold.js",
+      "content": "export default 'Bold';"
+    },
+    {
+      "name": "LightningDatatable.closeButtonAssistiveText.js",
+      "content": "export default 'Close dialog';"
+    },
+    {
+      "name": "LightningRichTextButton.bullet.js",
+      "content": "export default 'Bulleted list';"
+    },
+    {
+      "name": "LightningDatatable.clipText.js",
+      "content": "export default 'Clip text';"
+    },
+    {
+      "name": "LightningRichTextButton.centerAlign.js",
+      "content": "export default 'Center align text';"
+    },
+    {
+      "name": "LightningDatatable.chooseARow.js",
+      "content": "export default 'Choose a Row to Select';"
+    },
+    {
+      "name": "LightningRichTextButton.image.js",
+      "content": "export default 'Image';"
+    },
+    {
+      "name": "LightningDatatable.cancel.js",
+      "content": "export default 'Cancel';"
+    },
+    {
+      "name": "LightningRichTextButton.indent.js",
+      "content": "export default 'Indent';"
+    },
+    {
+      "name": "LightningDatatable.apply.js",
+      "content": "export default 'Apply';"
+    },
+    {
+      "name": "LightningRichTextButton.italic.js",
+      "content": "export default 'Italic';"
+    },
+    {
+      "name": "LightningControl.required.js",
+      "content": "export default 'required';"
+    },
+    {
+      "name": "LightningRichTextButton.leftAlign.js",
+      "content": "export default 'Left align text';"
+    },
+    {
+      "name": "LightningControl.loading.js",
+      "content": "export default 'Loading';"
+    },
+    {
+      "name": "LightningRichTextButton.link.js",
+      "content": "export default 'Link';"
+    },
+    {
+      "name": "LightningControl.inactiveCapitalized.js",
+      "content": "export default 'Inactive';"
+    },
+    {
+      "name": "LightningRichTextButton.moreActions.js",
+      "content": "export default 'More actions';"
+    },
+    {
+      "name": "LightningControl.inactive.js",
+      "content": "export default 'inactive';"
+    },
+    {
+      "name": "LightningRichTextButton.number.js",
+      "content": "export default 'Numbered list';"
+    },
+    {
+      "name": "LightningControl.clear.js",
+      "content": "export default 'Clear';"
+    },
+    {
+      "name": "LightningRichTextButton.outdent.js",
+      "content": "export default 'Outdent';"
+    },
+    {
+      "name": "LightningControl.activeCapitalized.js",
+      "content": "export default 'Active';"
+    },
+    {
+      "name": "LightningRichTextButton.removeFormatting.js",
+      "content": "export default 'Remove formatting';"
+    },
+    {
+      "name": "LightningControl.active.js",
+      "content": "export default 'active';"
+    },
+    {
+      "name": "LightningRichTextButton.rightAlign.js",
+      "content": "export default 'Right align text';"
+    },
+    {
+      "name": "LightningCombobox.selectedLabelSingle.js",
+      "content": "export default '1 Option Selected';"
+    },
+    {
+      "name": "LightningRichTextButton.strike.js",
+      "content": "export default 'Strikethrough';"
+    },
+    {
+      "name": "LightningCombobox.selectedLabelMore.js",
+      "content": "export default '{0} Options Selected';"
+    },
+    {
+      "name": "LightningRichTextButton.underline.js",
+      "content": "export default 'Underline';"
+    },
+    {
+      "name": "LightningCombobox.pillCloseButtonAlternativeText.js",
+      "content": "export default 'Clear Selection';"
+    },
+    {
+      "name": "LightningRichTextEditor.alignText.js",
+      "content": "export default 'Align text';"
+    },
+    {
+      "name": "LightningCombobox.loadingText.js",
+      "content": "export default 'Loading';"
+    },
+    {
+      "name": "LightningRichTextEditor.font.js",
+      "content": "export default 'Font';"
+    },
+    {
+      "name": "LightningCombobox.deselectOptionKeyboard.js",
+      "content": "export default 'Press delete or backspace to remove';"
+    },
+    {
+      "name": "LightningRichTextEditor.fontSize.js",
+      "content": "export default 'Font Size';"
+    },
+    {
+      "name": "LightningCombobox.currentSelection.js",
+      "content": "export default 'Current Selection:';"
+    },
+    {
+      "name": "LightningRichTextEditor.formatBackground.js",
+      "content": "export default 'Format background and text color';"
+    },
+    {
+      "name": "LightningCombobox.ariaSelectedOptions.js",
+      "content": "export default 'Selected Options:';"
+    },
+    {
+      "name": "LightningRichTextEditor.formatBody.js",
+      "content": "export default 'Format body';"
+    },
+    {
+      "name": "LightningColorPickerPanel.defaultTab.js",
+      "content": "export default 'Default';"
+    },
+    {
+      "name": "LightningRichTextEditor.formatFont.js",
+      "content": "export default 'Format font family and size';"
+    },
+    {
+      "name": "LightningColorPickerPanel.customTab.js",
+      "content": "export default 'Custom';"
+    },
+    {
+      "name": "LightningRichTextEditor.formatText.js",
+      "content": "export default 'Format text';"
+    },
+    {
+      "name": "LightningColorPicker.redAbbr.js",
+      "content": "export default 'Red';"
+    },
+    {
+      "name": "LightningRichTextEditor.imageSizeExceeded.js",
+      "content": "export default 'The image exceeded the maximum size of 1 MB.';"
+    },
+    {
+      "name": "LightningColorPicker.rInput.js",
+      "content": "export default 'R';"
+    },
+    {
+      "name": "LightningRichTextEditor.imageUploadFailed.js",
+      "content": "export default 'There was a problem uploading the file.';"
+    },
+    {
+      "name": "LightningColorPicker.hueInput.js",
+      "content": "export default 'Select Hue';"
+    },
+    {
+      "name": "LightningRichTextEditor.insertContent.js",
+      "content": "export default 'Insert content';"
+    },
+    {
+      "name": "LightningColorPicker.hexLabel.js",
+      "content": "export default 'Hex';"
+    },
+    {
+      "name": "LightningRichTextEditor.linkCancel.js",
+      "content": "export default 'Cancel';"
+    },
+    {
+      "name": "LightningColorPicker.greenAbbr.js",
+      "content": "export default 'Green';"
+    },
+    {
+      "name": "LightningRichTextEditor.linkInput.js",
+      "content": "export default 'Link URL';"
+    },
+    {
+      "name": "LightningColorPicker.gInput.js",
+      "content": "export default 'G';"
+    },
+    {
+      "name": "LightningRichTextEditor.linkSave.js",
+      "content": "export default 'Save';"
+    },
+    {
+      "name": "LightningColorPicker.errorMessage.js",
+      "content": "export default 'Enter a valid hexadecimal value.';"
+    },
+    {
+      "name": "LightningRichTextEditor.removeFormatting.js",
+      "content": "export default 'Remove formatting';"
+    },
+    {
+      "name": "LightningColorPicker.doneButton.js",
+      "content": "export default 'Done';"
+    },
+    {
+      "name": "LightningSlider.slider.js",
+      "content": "export default 'Slider';"
+    },
+    {
+      "name": "LightningColorPicker.colorPickerInstructions.js",
+      "content": "export default 'Use arrow keys to select a saturation and brightness, on an x and y axis.';"
+    },
+    {
+      "name": "LightningTabs.errorStateAlternativeText.js",
+      "content": "export default 'This item has an error';"
+    },
+    {
+      "name": "LightningColorPicker.cancelButton.js",
+      "content": "export default 'Cancel';"
+    },
+    {
+      "name": "LightningTabs.overflowMore.js",
+      "content": "export default 'More';"
+    },
+    {
+      "name": "LightningColorPicker.blueAbbr.js",
+      "content": "export default 'Blue';"
+    },
+    {
+      "name": "LightningTabs.overflowMoreAlternativeText.js",
+      "content": "export default 'Tabs';"
+    },
+    {
+      "name": "LightningColorPicker.bInput.js",
+      "content": "export default 'B';"
+    },
+    {
+      "name": "LightningTabs.overflowMoreTitle.js",
+      "content": "export default 'More Tabs';"
+    },
+    {
+      "name": "LightningColorPicker.a11yTriggerText.js",
+      "content": "export default 'Choose a color. Current color: ';"
+    },
+    {
+      "name": "LightningTree.collapseBranch.js",
+      "content": "export default 'Collapse Tree Branch';"
+    },
+    {
+      "name": "LightningClickToDial.enabled.js",
+      "content": "export default 'Click to dial';"
+    },
+    {
+      "name": "LightningTree.expandBranch.js",
+      "content": "export default 'Expand Tree Branch';"
+    },
+    {
+      "name": "LightningClickToDial.disabled.js",
+      "content": "export default 'Click to dial disabled';"
+    },
+    {
+      "name": "LightningVerticalNavigation.newItems.js",
+      "content": "export default 'New Items';"
+    },
+    {
+      "name": "LightningCarousel.tabString.js",
+      "content": "export default 'Tab';"
+    },
+    {
+      "name": "LightningVerticalNavigation.showLess.js",
+      "content": "export default 'Show Less';"
+    },
+    {
+      "name": "LightningCarousel.autoPlay.js",
+      "content": "export default 'Stop auto-play';"
+    },
+    {
+      "name": "LightningVerticalNavigation.showMore.js",
+      "content": "export default 'Show More';"
+    },
+    {
+      "name": "LightningButtonMenu.showMenu.js",
+      "content": "export default 'Show menu';"
+    },
+    {
+      "name": "LightningVerticalNavigation.subPage.js",
+      "content": "export default 'Sub page';"
+    },
+    {
+      "name": "LightningInputFile.bodyText.js",
+      "content": "export default 'Or drop files';"
+    }
+  ]
+}

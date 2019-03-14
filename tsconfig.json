@@ -11,6 +11,12 @@
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
+      "lightning/utils": ["src/lightning/utils.js"],
+      "lightning/utilsPrivate": ["src/lightning/utilsPrivate.js"],
+      "lightning/helptext": ["src/lightning/helptext/helptext.js"],
+      "lightning/primitiveBubble": [
+        "src/lightning/primitiveBubble/primitiveBubble.js"
+      ],
       "c/hello-world-app": ["src/components/helloWorldApp/helloWorldApp.ts"]
     }
   },
