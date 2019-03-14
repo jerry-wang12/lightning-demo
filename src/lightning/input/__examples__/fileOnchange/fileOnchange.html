@@ -1,0 +1,22 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            File input field that accepts multiple files. Click the <b>upload files</b> button to add files, the information block below will update as the content changes.
+        </h2>
+
+        <!-- Multiple file with change event -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachment" multiple onchange={handleFilesChange}></lightning-input>
+        </div>
+
+        <div class="slds-m-vertical_medium">
+            <p>The number of files selected to upload is: <span class="slds-text-heading_small">{filesCount}</span></p>
+            <p>The files selected are:</p>
+            <ul class="slds-list_dotted">
+                <template for:each={filesList} for:item="file">
+                    <li key={file.lastModified}>{file.name}</li>
+                </template>
+            </ul>
+        </div>
+    </div>
+</template>

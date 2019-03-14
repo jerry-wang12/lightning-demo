@@ -1,0 +1,25 @@
+<template>
+    <div style="width: 320px;">
+        <lightning-layout>
+            <lightning-layout-item>
+                <lightning-vertical-navigation onbeforeselect={handleBeforeSelect} selected-item={selectedItem}>
+                    <lightning-vertical-navigation-item label="Report 1" name="report_1"></lightning-vertical-navigation-item>
+                    <lightning-vertical-navigation-item label="Report 2" name="report_2"></lightning-vertical-navigation-item>
+                    <lightning-vertical-navigation-item label="Report 3" name="report_3"></lightning-vertical-navigation-item>
+                    <lightning-vertical-navigation-item label="Report 4" name="report_4"></lightning-vertical-navigation-item>
+                    <lightning-vertical-navigation-item label="Report 5" name="report_5"></lightning-vertical-navigation-item>
+                </lightning-vertical-navigation>
+            </lightning-layout-item>
+            <lightning-layout-item class="layoutContent" padding="around-medium">
+                <template if:true={asyncValidation}>
+                    <lightning-spinner alternative-text="Validating asynchronously"></lightning-spinner>
+                </template>
+                <template if:false={asyncValidation}>
+                    <lightning-button label="Click to require validation" onclick={handleClick}></lightning-button>
+                    <p>You Are Viewing: {selectedItem}</p>
+                    <p>Validate on navigate: {hasBeenEdited}</p>
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

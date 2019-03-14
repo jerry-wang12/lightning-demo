@@ -1,0 +1,938 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-input-name Adds assistive-text class to legend when variant is set to label-hidden 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend slds-assistive-text"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name Render Input Name with values set 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="mock-picklist"
+              data-field="salutation"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Salutation
+                   [ name ] 
+                  salutation
+                   [ value ] 
+                  Mr.
+                   [ options ] 
+                  [{"label":"None","value":"None"},{"label":"Mr.","value":"Mr."},{"label":"Ms.","value":"Ms."},{"label":"Mrs.","value":"Mrs."},{"label":"Dr.","value":"Dr."},{"label":"Prof.","value":"Prof."}]
+                   [ placeholder ] 
+                  None
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name Render input name with locale set to lang_Country code 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name Render input name with locale set to language code 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name Render more Field by setting fieldsToDisplay attribute 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="mock-picklist"
+              data-field="salutation"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Salutation
+                   [ name ] 
+                  salutation
+                   [ value ] 
+                  Mr.
+                   [ options ] 
+                  [{"label":"None","value":"None"},{"label":"Mr.","value":"Mr."},{"label":"Ms.","value":"Ms."},{"label":"Mrs.","value":"Mrs."},{"label":"Dr.","value":"Dr."},{"label":"Prof.","value":"Prof."}]
+                   [ placeholder ] 
+                  None
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="middleName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Middle Name
+                   [ name ] 
+                  middleName
+                   [ value ] 
+                  Middleton
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  Middle Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="suffix"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Suffix
+                   [ name ] 
+                  suffix
+                   [ value ] 
+                  The 3rd
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  Suffix
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="informalName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Informal Name
+                   [ name ] 
+                  informalName
+                   [ value ] 
+                  Jo
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  Informal Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name default 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="mock-picklist"
+              data-field="salutation"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Salutation
+                   [ name ] 
+                  salutation
+                   [ value ] 
+                  
+                   [ options ] 
+                  
+                   [ placeholder ] 
+                  None
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name default With Required Field 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      />
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="mock-picklist"
+              data-field="salutation"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Salutation
+                   [ name ] 
+                  salutation
+                   [ value ] 
+                  
+                   [ options ] 
+                  
+                   [ placeholder ] 
+                  None
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name disabled all the fields when disabled is set to true 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;
+
+exports[`lightning-input-name readonly all the fields when readOnly is set to true 1`] = `
+<lightning-input-name
+  class="slds-form-compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Input Name Field
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="lastName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Last Name
+                   [ name ] 
+                  lastName
+                   [ value ] 
+                  Doe
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Last Name
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="mock-input"
+              data-field="firstName"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  First Name
+                   [ name ] 
+                  firstName
+                   [ value ] 
+                  John
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  First Name
+                   [ required ] 
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-name>
+`;

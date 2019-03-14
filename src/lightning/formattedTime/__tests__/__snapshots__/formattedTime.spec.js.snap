@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-time Empty value 1`] = `
+<lightning-formatted-time>
+  #shadow-root(open)
+</lightning-formatted-time>
+`;
+
+exports[`lightning-formatted-time Morning time 1`] = `
+<lightning-formatted-time>
+  #shadow-root(open)
+    2:12 AM
+</lightning-formatted-time>
+`;
+
+exports[`lightning-formatted-time Value without Z suffix 1`] = `
+<lightning-formatted-time>
+  #shadow-root(open)
+    2:12 AM
+</lightning-formatted-time>
+`;
+
+exports[`lightning-formatted-time default by not passing any value 1`] = `
+<lightning-formatted-time>
+  #shadow-root(open)
+</lightning-formatted-time>
+`;
+
+exports[`lightning-formatted-time defaults to the US time format 1`] = `
+<lightning-formatted-time>
+  #shadow-root(open)
+    10:12 PM
+</lightning-formatted-time>
+`;

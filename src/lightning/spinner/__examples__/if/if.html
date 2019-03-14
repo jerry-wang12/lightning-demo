@@ -1,0 +1,12 @@
+<template>
+    <lightning-button label="Toggle" variant="brand" onclick={handleClick}></lightning-button>
+
+    <div class="exampleHolder">
+        <template if:true={loaded}>
+            Put loaded content here
+        </template>
+        <template if:false={loaded}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+    </div>
+</template>

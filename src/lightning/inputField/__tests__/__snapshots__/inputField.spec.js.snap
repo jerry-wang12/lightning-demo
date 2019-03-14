@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Null value renders input with a null value Boolean 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Checkbox label
+           type:
+          checkbox
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value CreatedById 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Created By ID
+           type:
+          text
+           value:
+          Test User
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Currency 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Currency
+           type:
+          number
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Date 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          date
+           type:
+          date
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value DateTime 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          date time
+           type:
+          datetime
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value DecimalNumber 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Decimal Number
+           type:
+          number
+           value:
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value DoubleNumber 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Double Number
+           type:
+          number
+           value:
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Email 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Email
+           type:
+          email
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value LastModifiedById 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Last Modified By ID
+           type:
+          text
+           value:
+          Test User
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value LookupId 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-lookup>
+      #shadow-root(open)
+        <pre>
+          - 
+          LookupId
+           - 
+           - 
+          {"isObjectInfos":true}
+           - 
+          Lookup
+           - 
+          entity
+           - 
+        </pre>
+    </lightning-lookup>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value MultiPicklist 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-picklist>
+      #shadow-root(open)
+        <pre>
+          label:
+          Multi Select Picklist
+           multiple:
+          true
+           value:
+           required:
+          <div>
+            label: 
+            New York
+             value: 
+            New York
+          </div>
+          <div>
+            label: 
+            California
+             value: 
+            California
+          </div>
+          <div>
+            label: 
+            Ontario
+             value: 
+            Ontario
+          </div>
+          <div>
+            label: 
+            British Columbia
+             value: 
+            British Columbia
+          </div>
+        </pre>
+    </lightning-picklist>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value NameSimple 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Simple Name
+           type:
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value OwnerId 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Owner ID
+           type:
+          text
+           value:
+          Test User
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Percent 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Percent
+           type:
+          number
+           value:
+           required:
+          false
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value PercentScale 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Percent
+           type:
+          number
+           value:
+           required:
+          false
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Phone 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Phone Number
+           type:
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Picklist 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-picklist>
+      #shadow-root(open)
+        <pre>
+          label:
+          Single Select Picklist
+           multiple:
+           value:
+           required:
+          <div>
+            label: 
+            New York
+             value: 
+            New York
+          </div>
+          <div>
+            label: 
+            California
+             value: 
+            California
+          </div>
+          <div>
+            label: 
+            Ontario
+             value: 
+            Ontario
+          </div>
+          <div>
+            label: 
+            British Columbia
+             value: 
+            British Columbia
+          </div>
+        </pre>
+    </lightning-picklist>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value ReadOnly 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Plain text
+           type:
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value RequiredNumber 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Required Number
+           type:
+          number
+           value:
+           required:
+          true
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value RichText 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-quill>
+      #shadow-root(open)
+        <pre>
+          - 
+          Rich Text
+           - 
+           - 
+          true
+           - 
+          Some help text
+        </pre>
+    </lightning-quill>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Text 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Plain Text
+           type:
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value TextArea 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-textarea>
+      #shadow-root(open)
+        <pre>
+          label:
+          Plain text
+           value:
+           required:
+        </pre>
+    </lightning-textarea>
+</lightning-input-field>
+`;
+
+exports[`Null value renders input with a null value Url 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          url
+           type:
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`Reactive  value sets the checkbox to unchecked when value is false 1`] = `
+<lightning-input-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <lightning-input>
+      #shadow-root(open)
+        <pre>
+          label:
+          Checkbox label
+           type:
+          checkbox
+           value:
+           required:
+        </pre>
+    </lightning-input>
+</lightning-input-field>
+`;
+
+exports[`object fieldName reference throws an error on objectApiName mismatch 1`] = `"objectApiName (notEntity) for field Text does not match the objectApiName provided for the form (entity)."`;

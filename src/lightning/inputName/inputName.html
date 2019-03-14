@@ -1,0 +1,53 @@
+<template>
+    <fieldset class="slds-form-element">
+        <legend class={computedLegendClass}>
+            <template if:true={required}>
+                <abbr class="slds-required" title={i18n.required}>*</abbr>
+            </template>
+            {label}
+        </legend>
+        <template if:true={fieldLevelHelp}>
+            <lightning-helptext content={fieldLevelHelp}></lightning-helptext>
+        </template>
+        <div class="slds-form-element__control">
+            <div class="slds-form-element__group">
+                <template for:each={fieldsMetaData} for:item="field" for:index="index">
+                    <div class="slds-form-element__row" key={field.name}>
+                        <template if:true={field.isInput}>
+                            <lightning-input
+                                data-field={field.name}
+                                name={field.name}
+                                label={field.label}
+                                value={field.value}
+                                maxlength={field.maxlength}
+                                placeholder={field.placeholder}
+                                required={field.required}
+                                onfocus={handleFocus}
+                                onblur={handleBlur}
+                                onchange={handleChange}
+                                disabled={disabled}
+                                readonly={readOnly}
+                            >
+                            </lightning-input>
+                        </template>
+                        <template if:true={field.isCombobox}>
+                            <lightning-picklist
+                                data-field={field.name}
+                                name={field.name}
+                                label={field.label}
+                                value={field.value}
+                                options={field.options}
+                                onfocus={handleFocus}
+                                onblur={handleBlur}
+                                onchange={handleChange}
+                                disabled={disabled}
+                                placeholder={field.placeholder}
+                            >
+                            </lightning-picklist>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </fieldset>
+</template>

@@ -1,0 +1,10 @@
+<template>
+    <div class="slds-m-vertical_medium">
+        <p>Info: <span class="slds-text-heading_small">{infoText}</span></p>
+    </div>
+    <lightning-pill label="With link" href="/path/to/some/where"></lightning-pill>
+    <lightning-pill label="With only remove handler" onremove={handleRemove}></lightning-pill>
+    <lightning-pill label="With both remove and click handlers" onremove={handleRemove} onclick={handleClick}></lightning-pill>
+    <lightning-pill label="With isolated remove handler" onremove={handleRemoveOnly} onclick={handleClick}></lightning-pill>
+</template>
+

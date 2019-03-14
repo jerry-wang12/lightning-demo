@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-breadcrumbs breadcrumbs 1`] = `
+<snapshot-breadcrumbs>
+  #shadow-root(open)
+    <lightning-breadcrumbs
+      aria-label="Breadcrumbs"
+      role="navigation"
+    >
+      #shadow-root(open)
+        <div
+          class="slds-breadcrumb slds-list_horizontal slds-wrap"
+          role="list"
+        >
+          <slot />
+        </div>
+      <lightning-breadcrumb
+        class="slds-breadcrumb__item slds-text-title_caps"
+        role="listitem"
+      >
+        #shadow-root(open)
+          <a
+            href="LinkParent"
+          >
+            Parent
+          </a>
+      </lightning-breadcrumb>
+      <lightning-breadcrumb
+        class="slds-breadcrumb__item slds-text-title_caps"
+        role="listitem"
+      >
+        #shadow-root(open)
+          <a
+            href="LinkLevel1"
+          >
+            Child1
+          </a>
+      </lightning-breadcrumb>
+      <lightning-breadcrumb
+        class="slds-breadcrumb__item slds-text-title_caps"
+        role="listitem"
+      >
+        #shadow-root(open)
+          <a
+            href="#"
+          >
+            Child2
+          </a>
+      </lightning-breadcrumb>
+    </lightning-breadcrumbs>
+</snapshot-breadcrumbs>
+`;

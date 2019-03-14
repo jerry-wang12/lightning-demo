@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-name Name with medium format 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+    John Middleton Doe
+</lightning-formatted-name>
+`;
+
+exports[`lightning-formatted-name Name with short format 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+    John Doe
+</lightning-formatted-name>
+`;
+
+exports[`lightning-formatted-name default by not passing any value 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+</lightning-formatted-name>
+`;
+
+exports[`lightning-formatted-name defaults to en_US order and long format 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+    Mr. John Middleton Doe The 3rd Jo
+</lightning-formatted-name>
+`;
+
+exports[`lightning-formatted-name full name with ja_JP order 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+    Doe Middleton John The 3rd Jo
+</lightning-formatted-name>
+`;
+
+exports[`lightning-formatted-name full name with only locale set to language - ja 1`] = `
+<lightning-formatted-name>
+  #shadow-root(open)
+    Doe Middleton John The 3rd Jo
+</lightning-formatted-name>
+`;

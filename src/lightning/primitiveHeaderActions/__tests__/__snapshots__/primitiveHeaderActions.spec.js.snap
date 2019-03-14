@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-header-actions should render the basic markup correctly 1`] = `
+<lightning-primitive-header-actions>
+  #shadow-root(open)
+    <lightning-button-menu
+      class="slds-th__action-button slds-dropdown-trigger slds-dropdown-trigger_click"
+      id="primitive-header-action-button-menu-id-1"
+      style="z-index: 1;"
+      tabindex="0"
+    >
+      #shadow-root(open)
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="slds-button slds-button_icon-bare"
+          tabindex="0"
+          value=""
+        >
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-button__icon"
+                data-key="chevrondown"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Show actions
+          </span>
+        </button>
+    </lightning-button-menu>
+</lightning-primitive-header-actions>
+`;
+
+exports[`lightning-primitive-header-actions should render the basic markup correctly 2`] = `
+<lightning-primitive-header-actions>
+  #shadow-root(open)
+    <lightning-button-menu
+      class="slds-th__action-button slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open"
+      id="primitive-header-action-button-menu-id-1"
+      style="z-index: 1;"
+      tabindex="0"
+    >
+      #shadow-root(open)
+        <button
+          aria-expanded="true"
+          aria-haspopup="true"
+          class="slds-button slds-button_icon-bare"
+          tabindex="0"
+          value=""
+        >
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-button__icon"
+                data-key="chevrondown"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Show actions
+          </span>
+        </button>
+        <div
+          class="slds-dropdown slds-dropdown_left"
+        >
+          <div
+            class="slds-dropdown__list"
+            role="menu"
+          >
+            <slot />
+          </div>
+        </div>
+      <lightning-menu-item
+        class="slds-dropdown__item"
+        role="presentation"
+      >
+        #shadow-root(open)
+          <a
+            aria-disabled="false"
+            href="javascript:void(0)"
+            role="menuitem"
+            tabindex="-1"
+          >
+            <span
+              class="slds-truncate"
+            >
+              customer
+            </span>
+          </a>
+      </lightning-menu-item>
+    </lightning-button-menu>
+</lightning-primitive-header-actions>
+`;

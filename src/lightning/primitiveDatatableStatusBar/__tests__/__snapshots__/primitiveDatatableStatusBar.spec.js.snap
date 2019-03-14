@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-datatable-status-bar renders correctly 1`] = `
+<lightning-primitive-datatable-status-bar>
+  #shadow-root(open)
+    <div
+      class="slds-docked-form-footer slds-is-absolute"
+    >
+      <div
+        class="slds-grid slds-grid_align-center"
+      >
+        <button
+          class="slds-button slds-button_neutral"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="slds-button slds-button_brand save-btn"
+          type="button"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+</lightning-primitive-datatable-status-bar>
+`;

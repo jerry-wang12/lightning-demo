@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-datatable-loading-indicator displays correctly 1`] = `
+<lightning-primitive-datatable-loading-indicator>
+  #shadow-root(open)
+    <lightning-spinner
+      class="slds-spinner_container"
+      style="height: 40px;"
+    >
+      #shadow-root(open)
+        <div
+          class="slds-spinner slds-spinner_brand slds-spinner_medium"
+          role="status"
+        >
+          <span
+            class="slds-assistive-text"
+          >
+            Loading
+          </span>
+          <div
+            class="slds-spinner__dot-a"
+          />
+          <div
+            class="slds-spinner__dot-b"
+          />
+        </div>
+    </lightning-spinner>
+</lightning-primitive-datatable-loading-indicator>
+`;

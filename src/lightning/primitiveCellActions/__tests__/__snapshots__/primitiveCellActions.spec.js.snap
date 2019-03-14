@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primitive cell actions dynamic actions should show spinner and load dynamic options 1`] = `
+<div
+  class="slds-dropdown slds-dropdown_left slds-p-vertical_large"
+>
+  <lightning-spinner
+    class="slds-spinner_container"
+  >
+    #shadow-root(open)
+      <div
+        class="slds-spinner slds-spinner_small"
+        role="status"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Loading actions
+        </span>
+        <div
+          class="slds-spinner__dot-a"
+        />
+        <div
+          class="slds-spinner__dot-b"
+        />
+      </div>
+  </lightning-spinner>
+</div>
+`;
+
+exports[`primitive cell actions dynamic actions should show spinner and load dynamic options 2`] = `
+<div
+  class="slds-dropdown__list"
+  role="menu"
+>
+  <slot />
+</div>
+`;
+
+exports[`primitive cell actions should disable second menu item 1`] = `
+<lightning-menu-item
+  class="slds-dropdown__item"
+  role="presentation"
+>
+  #shadow-root(open)
+    <a
+      aria-disabled="true"
+      href="javascript:void(0)"
+      role="menuitem"
+      tabindex="-1"
+    >
+      <span
+        class="slds-truncate"
+      >
+        action2
+      </span>
+    </a>
+</lightning-menu-item>
+`;
+
+exports[`primitive cell actions should show description icon in first menu item 1`] = `
+<lightning-primitive-icon>
+  #shadow-root(open)
+    <svg
+      aria-hidden="true"
+      class="slds-icon-text-default slds-m-left_small slds-shrink-none slds-icon_x-small"
+      data-key="description"
+      focusable="false"
+    >
+      <use
+        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#description"
+      />
+    </svg>
+</lightning-primitive-icon>
+`;

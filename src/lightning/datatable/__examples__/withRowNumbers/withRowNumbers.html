@@ -1,0 +1,30 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            A data table with row numbers shown.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            Click the "Increase row offset" button below to change the starting row number.
+        </p>
+
+        <!-- Row numbers -->
+        <div class="slds-p-around_medium lgc-bg" style="height: 300px;">
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                show-row-number-column
+                row-number-offset={rowOffset}
+                hide-checkbox-column
+                columns={columns}
+                is-loading={tableLoadingState}>
+            </lightning-datatable>
+        </div>
+
+        <div class="slds-m-around_medium">
+            <lightning-button
+                label="Increase row offset"
+                onclick={increaseRowOffset}>
+            </lightning-button>
+        </div>
+    </div>
+</template>

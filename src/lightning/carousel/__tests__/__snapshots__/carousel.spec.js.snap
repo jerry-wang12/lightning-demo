@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-carousel carousel with 3 images 1`] = `
+<lightningtest-carousel-test>
+  #shadow-root(open)
+    <lightning-carousel>
+      #shadow-root(open)
+        <div
+          class="slds-carousel"
+        >
+          <div
+            class="slds-carousel__stage"
+          >
+            <span
+              class="slds-carousel__autoplay"
+            >
+              <button
+                aria-pressed="false"
+                class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small"
+                title="Stop auto-play"
+              >
+                <lightning-primitive-icon
+                  class="slds-button__icon"
+                >
+                  #shadow-root(open)
+                    <svg
+                      aria-hidden="true"
+                      class="slds-icon slds-icon-text-default slds-icon_x-small"
+                      data-key="pause"
+                      focusable="false"
+                    >
+                      <use
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#pause"
+                      />
+                    </svg>
+                </lightning-primitive-icon>
+                <span
+                  class="slds-assistive-text"
+                >
+                  Stop auto-play
+                </span>
+              </button>
+            </span>
+            <div
+              class="slds-carousel__panels"
+            >
+              <slot />
+            </div>
+            <ul
+              class="slds-carousel__indicators"
+              role="tablist"
+            >
+              <li
+                class="slds-carousel__indicator"
+                data-index="0"
+                role="presentation"
+              >
+                <a
+                  aria-controls="carousel-image-4-2"
+                  aria-selected="true"
+                  class="slds-carousel__indicator-action slds-is-active"
+                  href="javascript:void(0);"
+                  id="pagination-item-0-2"
+                  role="tab"
+                  tabindex="0"
+                  title="This is a card Tab"
+                >
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    This is a card Tab
+                  </span>
+                </a>
+              </li>
+              <li
+                class="slds-carousel__indicator"
+                data-index="1"
+                role="presentation"
+              >
+                <a
+                  aria-controls="carousel-image-5-2"
+                  aria-selected="false"
+                  class="slds-carousel__indicator-action"
+                  href="javascript:void(0);"
+                  id="pagination-item-1-2"
+                  role="tab"
+                  tabindex="-1"
+                  title="This is a card Tab"
+                >
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    This is a card Tab
+                  </span>
+                </a>
+              </li>
+              <li
+                class="slds-carousel__indicator"
+                data-index="2"
+                role="presentation"
+              >
+                <a
+                  aria-controls="carousel-image-6-2"
+                  aria-selected="false"
+                  class="slds-carousel__indicator-action"
+                  href="javascript:void(0);"
+                  id="pagination-item-2-2"
+                  role="tab"
+                  tabindex="-1"
+                  title="This is a card Tab"
+                >
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    This is a card Tab
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <lightning-carousel-image
+        class="slds-carousel__panel"
+      >
+        #shadow-root(open)
+          <div
+            aria-hidden="false"
+            aria-labelledby="pagination-item-0"
+            id="carousel-image-4"
+            role="tabpanel"
+          >
+            <a
+              class="slds-carousel__panel-action slds-text-link_reset"
+              tabindex="0"
+            >
+              <div
+                class="slds-carousel__image"
+              >
+                <img
+                  alt="https://www.salesforce.com"
+                  src="https://latest-212.lightningdesignsystem.com/assets/images/carousel/carousel-01.jpg"
+                />
+              </div>
+              <div
+                class="slds-carousel__content"
+              >
+                <h2
+                  class="slds-carousel__content-title"
+                >
+                  First card
+                </h2>
+                <p>
+                  This is a card
+                </p>
+              </div>
+            </a>
+          </div>
+      </lightning-carousel-image>
+      <lightning-carousel-image
+        class="slds-carousel__panel"
+      >
+        #shadow-root(open)
+          <div
+            aria-hidden="true"
+            aria-labelledby="pagination-item-1"
+            id="carousel-image-5"
+            role="tabpanel"
+          >
+            <a
+              class="slds-carousel__panel-action slds-text-link_reset"
+              tabindex="-1"
+            >
+              <div
+                class="slds-carousel__image"
+              >
+                <img
+                  alt="https://www.salesforce.com"
+                  src="https://latest-212.lightningdesignsystem.com/assets/images/carousel/carousel-02.jpg"
+                />
+              </div>
+              <div
+                class="slds-carousel__content"
+              >
+                <h2
+                  class="slds-carousel__content-title"
+                >
+                  Second card
+                </h2>
+                <p>
+                  This is a card
+                </p>
+              </div>
+            </a>
+          </div>
+      </lightning-carousel-image>
+      <lightning-carousel-image
+        class="slds-carousel__panel"
+      >
+        #shadow-root(open)
+          <div
+            aria-hidden="true"
+            aria-labelledby="pagination-item-2"
+            id="carousel-image-6"
+            role="tabpanel"
+          >
+            <a
+              class="slds-carousel__panel-action slds-text-link_reset"
+              tabindex="-1"
+            >
+              <div
+                class="slds-carousel__image"
+              >
+                <img
+                  alt="https://www.salesforce.com"
+                  src="https://latest-212.lightningdesignsystem.com/assets/images/carousel/carousel-03.jpg"
+                />
+              </div>
+              <div
+                class="slds-carousel__content"
+              >
+                <h2
+                  class="slds-carousel__content-title"
+                >
+                  Third card
+                </h2>
+                <p>
+                  This is a card
+                </p>
+              </div>
+            </a>
+          </div>
+      </lightning-carousel-image>
+    </lightning-carousel>
+</lightningtest-carousel-test>
+`;

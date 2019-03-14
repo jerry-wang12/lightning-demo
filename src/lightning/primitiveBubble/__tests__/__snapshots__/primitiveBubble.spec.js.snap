@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-bubble default should be bottom left 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be able to change content 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be able to change content 2`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content modified
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be able to change position 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_top-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be able to change position 2`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-right"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be center bottom 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be center top 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_top"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be left bottom 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be left center 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be left top 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_top-left"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be right bottom 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_bottom-right"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be right center 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_right"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be right top 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-fall-into-ground slds-nubbin_top-right"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    >
+      bubble content
+    </div>
+</lightning-primitive-bubble>
+`;
+
+exports[`lightning-primitive-bubble should be visible 1`] = `
+<lightning-primitive-bubble
+  class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-rise-from-ground"
+>
+  #shadow-root(open)
+    <div
+      class="slds-popover__body"
+      id="lightning-bubble-007"
+    />
+</lightning-primitive-bubble>
+`;

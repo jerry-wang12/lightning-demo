@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-pill has error state 1`] = `
+<lightning-pill
+  class="slds-pill slds-pill_link slds-has-error"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon
+      class="slds-icon_container slds-pill__icon_container slds-m-left_xx-small"
+      title="Error"
+    >
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="icon-error slds-icon_x-small slds-icon-text-error"
+          data-key="warning"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#warning"
+          />
+        </svg>
+    </lightning-primitive-icon>
+    <span
+      class="slds-assistive-text"
+    >
+      Warning
+    </span>
+    <span
+      class="slds-pill__action"
+    >
+      <span
+        class="slds-pill__label"
+      >
+        Pill Label
+      </span>
+    </span>
+    <lightning-button-icon
+      class="slds-pill__remove"
+      tabindex="0"
+    >
+      #shadow-root(open)
+        <button
+          class="slds-button slds-button_icon-bare"
+          title="Remove"
+          type="button"
+        >
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-button__icon"
+                data-key="close"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Remove
+          </span>
+        </button>
+    </lightning-button-icon>
+</lightning-pill>
+`;
+
+exports[`lightning-pill is plain pill 1`] = `
+<lightning-pill
+  class="slds-pill slds-pill_link"
+>
+  #shadow-root(open)
+    <slot />
+    <span
+      class="slds-pill__label"
+    >
+      Plain Pill Label
+    </span>
+    <lightning-primitive-icon
+      class="slds-icon_container slds-pill__remove"
+      title="Remove"
+    >
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon_x-small slds-icon-text-default"
+          data-key="close"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"
+          />
+        </svg>
+    </lightning-primitive-icon>
+    <span
+      class="slds-assistive-text"
+    >
+      Press delete or backspace to remove
+    </span>
+</lightning-pill>
+`;
+
+exports[`lightning-pill should have a label when label prop is provided 1`] = `
+<lightning-pill
+  class="slds-pill slds-pill_link"
+>
+  #shadow-root(open)
+    <span
+      class="slds-pill__icon_container"
+    >
+      <slot />
+    </span>
+    <span
+      class="slds-pill__action"
+    >
+      <span
+        class="slds-pill__label"
+      >
+        Pill Label
+      </span>
+    </span>
+    <lightning-button-icon
+      class="slds-pill__remove"
+      tabindex="0"
+    >
+      #shadow-root(open)
+        <button
+          class="slds-button slds-button_icon-bare"
+          title="Remove"
+          type="button"
+        >
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-button__icon"
+                data-key="close"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Remove
+          </span>
+        </button>
+    </lightning-button-icon>
+</lightning-pill>
+`;
+
+exports[`lightning-pill should have href when href prop is provided 1`] = `
+<lightning-pill
+  class="slds-pill slds-pill_link"
+>
+  #shadow-root(open)
+    <span
+      class="slds-pill__icon_container"
+    >
+      <slot />
+    </span>
+    <a
+      class="slds-pill__action"
+      href="/path/to/some/where"
+    >
+      <span
+        class="slds-pill__label"
+      >
+        Pill Label
+      </span>
+    </a>
+    <lightning-button-icon
+      class="slds-pill__remove"
+      tabindex="0"
+    >
+      #shadow-root(open)
+        <button
+          class="slds-button slds-button_icon-bare"
+          title="Remove"
+          type="button"
+        >
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-button__icon"
+                data-key="close"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Remove
+          </span>
+        </button>
+    </lightning-button-icon>
+</lightning-pill>
+`;

@@ -1,0 +1,370 @@
+{
+  "record-with-value": {
+    "apiName": "Opportunity",
+    "childRelationships": {},
+    "fields": {
+      "Account": {
+        "displayValue": "Yellow Corporation",
+        "value": {
+          "apiName": "Account",
+          "childRelationships": {},
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "001xx000003GYNKAA4"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Yellow Corporation"
+            }
+          },
+          "id": "001xx000003GYNKAA4",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "AccountId": {
+        "displayValue": null,
+        "value": "001xx000003GYNKAA4"
+      },
+      "Amount": {
+        "displayValue": null,
+        "value": null
+      },
+      "CloseDate": {
+        "displayValue": "4/29/2014",
+        "value": "2014-04-29"
+      },
+      "CreatedBy": {
+        "displayValue": "Platform Integration User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000001X7QLAA0"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Platform Integration User"
+            }
+          },
+          "id": "005xx000001X7QLAA0",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "CreatedById": {
+        "displayValue": null,
+        "value": "005xx000001X7QLAA0"
+      },
+      "CreatedDate": {
+        "displayValue": "7/1/2018 11:43 PM",
+        "value": "2018-07-02T06:43:01.000Z"
+      },
+      "CurrentGenerators__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "DeliveryInstallationStatus__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Description": {
+        "displayValue": null,
+        "value": null
+      },
+      "ExpectedRevenue": {
+        "displayValue": null,
+        "value": null
+      },
+      "IsPrivate": {
+        "displayValue": null,
+        "value": false
+      },
+      "LastModifiedBy": {
+        "displayValue": "Platform Integration User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000001X7QLAA0"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Platform Integration User"
+            }
+          },
+          "id": "005xx000001X7QLAA0",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "LastModifiedById": {
+        "displayValue": null,
+        "value": "005xx000001X7QLAA0"
+      },
+      "LastModifiedDate": {
+        "displayValue": "7/6/2018 5:22 PM",
+        "value": "2018-07-07T00:22:23.000Z"
+      },
+      "LeadSource": {
+        "displayValue": null,
+        "value": null
+      },
+      "MainCompetitors__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Name": {
+        "displayValue": null,
+        "value": "Brask Enterprises Inc"
+      },
+      "NextStep": {
+        "displayValue": null,
+        "value": null
+      },
+      "OrderNumber__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Owner": {
+        "displayValue": "Platform Integration User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000001X7QLAA0"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Platform Integration User"
+            }
+          },
+          "id": "005xx000001X7QLAA0",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "OwnerId": {
+        "displayValue": null,
+        "value": "005xx000001X7QLAA0"
+      },
+      "Pricebook2": {
+        "displayValue": null,
+        "value": null
+      },
+      "Pricebook2Id": {
+        "displayValue": null,
+        "value": null
+      },
+      "Probability": {
+        "displayValue": null,
+        "value": 10
+      },
+      "StageName": {
+        "displayValue": "Prospecting",
+        "value": "Prospecting"
+      },
+      "TrackingNumber__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Type": {
+        "displayValue": null,
+        "value": null
+      }
+    },
+    "id": "006xx000001a2m0AAA",
+    "lastModifiedById": "005xx000001X7QLAA0",
+    "lastModifiedDate": "2018-07-07T00:22:23.000Z",
+    "recordTypeInfo": null,
+    "systemModstamp": "2018-07-07T00:22:23.000Z"
+  },
+  "record-without-value": {
+    "apiName": "Opportunity",
+    "childRelationships": {},
+    "eTag": "70c325cc5609890d740e9ebd0bf7df42",
+    "fields": {
+      "Account": {
+        "displayValue": null,
+        "value": null
+      },
+      "AccountId": {
+        "displayValue": null,
+        "value": null
+      },
+      "Amount": {
+        "displayValue": null,
+        "value": null
+      },
+      "CloseDate": {
+        "displayValue": "4/29/2014",
+        "value": "2014-04-29"
+      },
+      "CreatedBy": {
+        "displayValue": "User User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "0dcff793e680e3a1f8c622a445761207",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000000000LAAQ"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "User User"
+            }
+          },
+          "id": "005xx000000000LAAQ",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "CreatedById": {
+        "displayValue": null,
+        "value": "005xx000000000LAAQ"
+      },
+      "CreatedDate": {
+        "displayValue": "5/3/2018 10:22 PM",
+        "value": "2018-05-04T05:22:30.000Z"
+      },
+      "CurrentGenerators__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "DeliveryInstallationStatus__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Description": {
+        "displayValue": null,
+        "value": null
+      },
+      "ExpectedRevenue": {
+        "displayValue": null,
+        "value": null
+      },
+      "IsPrivate": {
+        "displayValue": null,
+        "value": false
+      },
+      "LastModifiedBy": {
+        "displayValue": "User User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "0dcff793e680e3a1f8c622a445761207",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000000000LAAQ"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "User User"
+            }
+          },
+          "id": "005xx000000000LAAQ",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "LastModifiedById": {
+        "displayValue": null,
+        "value": "005xx000000000LAAQ"
+      },
+      "LastModifiedDate": {
+        "displayValue": "5/3/2018 10:22 PM",
+        "value": "2018-05-04T05:22:30.000Z"
+      },
+      "LeadSource": {
+        "displayValue": null,
+        "value": null
+      },
+      "MainCompetitors__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Name": {
+        "displayValue": null,
+        "value": "ABeam Consulting(Shanghai) Co., Ltd."
+      },
+      "NextStep": {
+        "displayValue": null,
+        "value": null
+      },
+      "OrderNumber__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Owner": {
+        "displayValue": "User User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "0dcff793e680e3a1f8c622a445761207",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx000000000LAAQ"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "User User"
+            }
+          },
+          "id": "005xx000000000LAAQ",
+          "lastModifiedById": null,
+          "lastModifiedDate": null,
+          "recordTypeInfo": null,
+          "systemModstamp": null
+        }
+      },
+      "OwnerId": {
+        "displayValue": null,
+        "value": "005xx000000000LAAQ"
+      },
+      "Probability": {
+        "displayValue": null,
+        "value": 10
+      },
+      "StageName": {
+        "displayValue": "Prospecting",
+        "value": "Prospecting"
+      },
+      "TrackingNumber__c": {
+        "displayValue": null,
+        "value": null
+      },
+      "Type": {
+        "displayValue": null,
+        "value": null
+      }
+    },
+    "id": "006xx000000004gAAA",
+    "lastModifiedById": "005xx000000000LAAQ",
+    "lastModifiedDate": "2018-05-04T05:22:30.000Z",
+    "recordTypeInfo": null,
+    "systemModstamp": "2018-05-04T05:22:31.000Z"
+  }
+}

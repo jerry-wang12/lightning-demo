@@ -1,0 +1,69 @@
+<template>
+    <span
+        class={computedClass}
+        tabindex={internalTabIndex}
+        style={columnStyles}
+    >
+        <a href="javascript:void(0);"
+           class={computedSortClass}
+           role={headerRole}
+           tabindex={internalTabIndex}
+           data-navigation="enable"
+           onclick={handleSortingClick}
+           onkeydown={handleSortingKeyDown}
+           style={columnStyles}>
+
+            <span class="slds-assistive-text">{i18n.sort}</span>
+
+            <template if:true={def.iconName}>
+                <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                    <lightning-icon icon-name={def.iconName} size="x-small" class="slds-icon_container slds-m-right_xx-small"></lightning-icon>
+                    <span class="slds-truncate" title={def.label}>{def.label}</span>
+
+                    <lightning-primitive-icon
+                         class="slds-icon_container"
+                         svg-class="slds-icon slds-icon-text-default slds-is-sortable__icon"
+                         icon-name="utility:arrowdown"
+                         size="x-small">
+                    </lightning-primitive-icon>
+
+                </div>
+            </template>
+            <template if:false={def.iconName}>
+                <span class="slds-truncate" title={def.label}>{def.label}</span>
+                    <lightning-primitive-icon
+                         class="slds-icon_container"
+                         svg-class="slds-icon slds-icon-text-default slds-is-sortable__icon"
+                         icon-name="utility:arrowdown"
+                         size="x-small">
+                    </lightning-primitive-icon>
+            </template>
+        </a>
+
+        <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true">{sortedOrderLabel}</span>
+
+        <template if:true={hasActions}>
+            <lightning-primitive-header-actions
+                col-key-value={def.colKeyValue}
+                actions={actions}
+                tabindex={state.internalTabIndex}
+                data-navigation="enable"
+            ></lightning-primitive-header-actions>
+        </template>
+
+        <template if:true={isResizable}>
+            <lightning-primitive-resize-handler
+                 value={columnWidth}
+                 min-width={def.minWidth}
+                 max-width={def.maxWidth}
+                 internal-tab-index={internalTabIndex}
+                 label={def.label}
+                 tabindex={internalTabIndex}
+                 col-index={colIndex}
+                 class="slds-resizable"
+                 data-navigation="enable"
+                 step={resizeStep}>
+            </lightning-primitive-resize-handler>
+        </template>
+    </span>
+</template>

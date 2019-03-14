@@ -1,0 +1,14 @@
+<template>
+    <lightning-primitive-datatable-tooltip
+            data-navigation="enable"
+            data-action-triggers="enter,space"
+            class={rowNumberErrorClass}
+            size="xx-small"
+            header={typeAttribute0.title}
+            content={typeAttribute0.messages}
+            variant='error'
+            internal-tab-index={internalTabIndex}
+            alternative-text={typeAttribute0.alternativeText}
+    ></lightning-primitive-datatable-tooltip>
+    <span class="slds-row-number slds-text-body_small slds-text-color_weak"></span>
+</template>

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-colorpicker-button renders 1`] = `
+<lightning-primitive-colorpicker-button>
+  #shadow-root(open)
+    <button
+      class="slds-button slds-color-picker__summary-button slds-button_icon slds-button_icon-more"
+    >
+      <span
+        class="slds-swatch"
+        data-id="thumbnail"
+        style="background: rgb(86, 121, 192);"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Choose a color. Current color: 
+        </span>
+      </span>
+      <lightning-primitive-icon>
+        #shadow-root(open)
+          <svg
+            aria-hidden="true"
+            class="slds-button__icon slds-button__icon_small"
+            data-key="down"
+            focusable="false"
+          >
+            <use
+              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+            />
+          </svg>
+      </lightning-primitive-icon>
+      <span
+        class="slds-assistive-text a11y-color-value"
+      >
+        
+      </span>
+    </button>
+</lightning-primitive-colorpicker-button>
+`;

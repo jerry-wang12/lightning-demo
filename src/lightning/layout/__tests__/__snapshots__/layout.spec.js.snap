@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-layout-item align 1`] = `
+<lightning-layout
+  class="slds-grid slds-grid_align-center slds-grid_vertical-align-end"
+>
+  #shadow-root(open)
+    <slot
+      class="slds-slot"
+    />
+</lightning-layout>
+`;
+
+exports[`lightning-layout-item default 1`] = `
+<lightning-layout
+  class="slds-grid"
+>
+  #shadow-root(open)
+    <slot
+      class="slds-slot"
+    />
+</lightning-layout>
+`;
+
+exports[`lightning-layout-item multiRows 1`] = `
+<lightning-layout
+  class="slds-grid slds-grid_align-center slds-grid_vertical-align-end"
+>
+  #shadow-root(open)
+    <slot
+      class="slds-slot"
+    />
+</lightning-layout>
+`;
+
+exports[`lightning-layout-item pullToBoundary 1`] = `
+<lightning-layout
+  class="slds-grid slds-grid_align-center slds-grid_vertical-align-end slds-grid_pull-padded"
+>
+  #shadow-root(open)
+    <slot
+      class="slds-slot"
+    />
+</lightning-layout>
+`;

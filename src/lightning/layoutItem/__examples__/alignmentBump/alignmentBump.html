@@ -1,0 +1,22 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Layout Items with alignment-bump</h1>
+        <p class="slds-text-body_regular">The third layout items specify alignment-bump="left" to create a margin on its left. The margin is the width of the unused horizontal space.</p>
+    </div>
+    <div class="slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none slds-box slds-p-around_none">
+        <lightning-layout>
+            <lightning-layout-item>
+                <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">1</div>
+            </lightning-layout-item>
+            <lightning-layout-item>
+                <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">2</div>
+            </lightning-layout-item>
+            <lightning-layout-item alignment-bump="left">
+                <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">3</div>
+            </lightning-layout-item>
+            <lightning-layout-item>
+                <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">4</div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

@@ -1,0 +1,22 @@
+<template>
+    <span class="slds-form-element__label">
+        <template if:true={required}>
+            <abbr class="slds-required" title={i18n.required}>*</abbr>
+        </template>
+        {label}
+    </span>
+    <lightning-helptext if:true={fieldLevelHelp} content={fieldLevelHelp}></lightning-helptext>
+
+    <lightning-input-rich-text
+        value={_displayValue}
+        formats={formats}
+        message-when-bad-input={_helpMessage}
+        valid={_noErrors}
+        disabled={disabled}
+        disabled-categories={disabledCategories}
+        custom-buttons={customButtons}
+        onchange={handleChange}
+        onfocus={handleFocus}
+        onblur={handleBlur}></lightning-input-rich-text>
+
+</template>

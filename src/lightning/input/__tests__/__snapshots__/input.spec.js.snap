@@ -1,0 +1,1588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-input type=checkbox correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-checkbox"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        <input
+          disabled=""
+          id="checkbox-22"
+          name="input"
+          readonly=""
+          required=""
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="slds-checkbox__label"
+          for="checkbox-22"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-form-element__label"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-checkbox"
+      >
+        <input
+          id="checkbox-21"
+          name="input"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="slds-checkbox__label"
+          for="checkbox-21"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-form-element__label"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox renders help text 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <pre>
+      help
+       
+      utility:info
+    </pre>
+</lightning-helptext>
+`;
+
+exports[`lightning-input type=checkbox shows * when required=true with no value 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-checkbox"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        <input
+          id="checkbox-23"
+          name="input"
+          required=""
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="slds-checkbox__label"
+          for="checkbox-23"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-form-element__label"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox turns label into assistive text when variant=label-hidden 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-checkbox"
+      >
+        <input
+          id="checkbox-24"
+          name="input"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="slds-checkbox__label"
+          for="checkbox-24"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-form-element__label slds-assistive-text"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox-button correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-checkbox_add-button"
+    >
+      <input
+        class="slds-assistive-text"
+        disabled=""
+        id="checkbox-button-28"
+        name="input"
+        readonly=""
+        required=""
+        type="checkbox"
+        value=""
+      />
+      <label
+        class="slds-checkbox_faux"
+        for="checkbox-button-28"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          input
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox-button default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-checkbox_add-button"
+    >
+      <input
+        class="slds-assistive-text"
+        id="checkbox-button-27"
+        name="input"
+        type="checkbox"
+        value=""
+      />
+      <label
+        class="slds-checkbox_faux"
+        for="checkbox-button-27"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          input
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=checkbox-button turns label into assistive text when variant=label-hidden 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-checkbox_add-button"
+    >
+      <input
+        class="slds-assistive-text"
+        id="checkbox-button-29"
+        name="input"
+        type="checkbox"
+        value=""
+      />
+      <label
+        class="slds-checkbox_faux"
+        for="checkbox-button-29"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          input
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=color default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-color-picker"
+    >
+      <div
+        class="slds-color-picker__summary"
+      >
+        <label
+          class="slds-color-picker__summary-label"
+          for="color-42"
+        >
+          input
+        </label>
+        <lightning-primitive-colorpicker-button>
+          #shadow-root(open)
+            <button
+              class="slds-button slds-color-picker__summary-button slds-button_icon slds-button_icon-more"
+            >
+              <span
+                class="slds-swatch"
+                data-id="thumbnail"
+                style="background: rgb(86, 121, 192);"
+              >
+                <span
+                  class="slds-assistive-text"
+                >
+                  Choose a color. Current color: 
+                </span>
+              </span>
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon slds-button__icon_small"
+                    data-key="down"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              <span
+                class="slds-assistive-text a11y-color-value"
+              >
+                
+              </span>
+            </button>
+        </lightning-primitive-colorpicker-button>
+        <div
+          class="slds-form-element slds-color-picker__summary-input"
+        >
+          <div
+            class="slds-form-element__control"
+          >
+            <input
+              class="slds-input"
+              id="color-42"
+              maxlength="7"
+              minlength="4"
+              pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=date correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-57"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        disabled=""
+        id="input-57"
+        max="2017-10-10"
+        min="2017-10-20"
+        name="input"
+        placeholder="placeholder"
+        readonly=""
+        required=""
+        type="date"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=date default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-56"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-56"
+        max=""
+        min=""
+        name="input"
+        type="date"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=date renders help text 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <pre>
+      help
+       
+      utility:info
+    </pre>
+</lightning-helptext>
+`;
+
+exports[`lightning-input type=date shows * when required=true 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-58"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-58"
+        max=""
+        min=""
+        name="input"
+        required=""
+        type="date"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=datetime correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-65"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        disabled=""
+        id="input-65"
+        max="2017-10-10T19:18:00.000"
+        min="2017-10-20T19:18:00.000"
+        name="input"
+        placeholder="placeholder"
+        readonly=""
+        required=""
+        step="any"
+        type="datetime-local"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=datetime default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-64"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-64"
+        max=""
+        min=""
+        name="input"
+        step="any"
+        type="datetime-local"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=datetime renders help text 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <pre>
+      help
+       
+      utility:info
+    </pre>
+</lightning-helptext>
+`;
+
+exports[`lightning-input type=datetime shows * when required=true 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-66"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-66"
+        max=""
+        min=""
+        name="input"
+        required=""
+        step="any"
+        type="datetime-local"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=file correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <span
+      class="slds-form-element__label"
+      data-form-label="true"
+      id="form-label-36"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-file-selector slds-file-selector_files"
+      >
+        <lightning-primitive-file-droppable-zone
+          class="slds-file-selector__dropzone"
+        >
+          #shadow-root(open)
+            <slot />
+          <input
+            accept="image/jpg"
+            aria-labelledby="form-label-36 file-selector-label-36"
+            class="slds-file-selector__input slds-assistive-text"
+            disabled=""
+            id="input-file-36"
+            multiple=""
+            name="input"
+            readonly=""
+            required=""
+            type="file"
+          />
+          <label
+            class="slds-file-selector__body"
+            data-file-selector-label="true"
+            for="input-file-36"
+            id="file-selector-label-36"
+          >
+            <span
+              class="slds-file-selector__button slds-button slds-button_neutral"
+            >
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon slds-button__icon_left"
+                    data-key="upload"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              Upload Files
+            </span>
+            <span
+              class="slds-file-selector__text slds-medium-show"
+            >
+              Or drop files
+            </span>
+          </label>
+        </lightning-primitive-file-droppable-zone>
+      </div>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=file default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <span
+      class="slds-form-element__label"
+      data-form-label="true"
+      id="form-label-33"
+    >
+      input
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-file-selector slds-file-selector_files"
+      >
+        <lightning-primitive-file-droppable-zone
+          class="slds-file-selector__dropzone"
+        >
+          #shadow-root(open)
+            <slot />
+          <input
+            aria-labelledby="form-label-33 file-selector-label-33"
+            class="slds-file-selector__input slds-assistive-text"
+            id="input-file-33"
+            name="input"
+            type="file"
+          />
+          <label
+            class="slds-file-selector__body"
+            data-file-selector-label="true"
+            for="input-file-33"
+            id="file-selector-label-33"
+          >
+            <span
+              class="slds-file-selector__button slds-button slds-button_neutral"
+            >
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon slds-button__icon_left"
+                    data-key="upload"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              Upload Files
+            </span>
+            <span
+              class="slds-file-selector__text slds-medium-show"
+            >
+              Or drop files
+            </span>
+          </label>
+        </lightning-primitive-file-droppable-zone>
+      </div>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=file shows * when required=true with no value 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <span
+      class="slds-form-element__label"
+      data-form-label="true"
+      id="form-label-39"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-file-selector slds-file-selector_files"
+      >
+        <lightning-primitive-file-droppable-zone
+          class="slds-file-selector__dropzone"
+        >
+          #shadow-root(open)
+            <slot />
+          <input
+            aria-labelledby="form-label-39 file-selector-label-39"
+            class="slds-file-selector__input slds-assistive-text"
+            id="input-file-39"
+            name="input"
+            required=""
+            type="file"
+          />
+          <label
+            class="slds-file-selector__body"
+            data-file-selector-label="true"
+            for="input-file-39"
+            id="file-selector-label-39"
+          >
+            <span
+              class="slds-file-selector__button slds-button slds-button_neutral"
+            >
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon slds-button__icon_left"
+                    data-key="upload"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              Upload Files
+            </span>
+            <span
+              class="slds-file-selector__text slds-medium-show"
+            >
+              Or drop files
+            </span>
+          </label>
+        </lightning-primitive-file-droppable-zone>
+      </div>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=number default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-48"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-48"
+        name="input"
+        type="text"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=number renders help text 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <pre>
+      help
+       
+      utility:info
+    </pre>
+</lightning-helptext>
+`;
+
+exports[`lightning-input type=radio correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-radio"
+      >
+        <input
+          disabled=""
+          id="radio-31"
+          name="input"
+          readonly=""
+          required=""
+          type="radio"
+          value=""
+        />
+        <label
+          class="slds-radio__label"
+          for="radio-31"
+        >
+          <span
+            class="slds-radio_faux"
+          />
+          <span
+            class="slds-form-element__label"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=radio default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-radio"
+      >
+        <input
+          id="radio-30"
+          name="input"
+          type="radio"
+          value=""
+        />
+        <label
+          class="slds-radio__label"
+          for="radio-30"
+        >
+          <span
+            class="slds-radio_faux"
+          />
+          <span
+            class="slds-form-element__label"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=radio turns label into assistive text when variant=label-hidden 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <span
+        class="slds-radio"
+      >
+        <input
+          id="radio-32"
+          name="input"
+          type="radio"
+          value=""
+        />
+        <label
+          class="slds-radio__label"
+          for="radio-32"
+        >
+          <span
+            class="slds-radio_faux"
+          />
+          <span
+            class="slds-form-element__label slds-assistive-text"
+          >
+            input
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=search shows loading icon when isLoading=true 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-11"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right"
+    >
+      <input
+        class="slds-input"
+        id="input-11"
+        name="input"
+        type="search"
+      />
+      <lightning-primitive-icon>
+        #shadow-root(open)
+          <svg
+            aria-hidden="true"
+            class="slds-input__icon slds-input__icon_left slds-icon-text-default"
+            data-key="search"
+            focusable="false"
+          >
+            <use
+              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"
+            />
+          </svg>
+      </lightning-primitive-icon>
+      <div
+        class="slds-input__icon-group slds-input__icon-group_right"
+      >
+        <div
+          class="slds-spinner slds-spinner_brand slds-spinner_x-small slds-input__spinner"
+          role="status"
+        >
+          <span
+            class="slds-assistive-text"
+          >
+            Loading
+          </span>
+          <div
+            class="slds-spinner__dot-a"
+          />
+          <div
+            class="slds-spinner__dot-b"
+          />
+        </div>
+      </div>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=text correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-2"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        disabled=""
+        id="input-2"
+        max="100"
+        maxlength="3"
+        min="0"
+        minlength="2"
+        name="input"
+        pattern="\\\\d+"
+        placeholder="placeholder"
+        readonly=""
+        required=""
+        step="1"
+        type="text"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=text default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-1"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-1"
+        name="input"
+        type="text"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=text renders help text 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <pre>
+      help
+       
+      utility:info
+    </pre>
+</lightning-helptext>
+`;
+
+exports[`lightning-input type=text shows * when required=true with no value 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-4"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-4"
+        name="input"
+        required=""
+        type="text"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=text turns label into assistive text when variant=label-hidden 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex slds-assistive-text"
+      for="input-5"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-5"
+        name="input"
+        type="text"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=time correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-62"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        disabled=""
+        id="input-62"
+        max="10:18:00.000"
+        min="23:18:00.000"
+        name="input"
+        placeholder="placeholder"
+        readonly=""
+        required=""
+        step="any"
+        type="time"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=time default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-61"
+    >
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-61"
+        max=""
+        min=""
+        name="input"
+        step="any"
+        type="time"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=time shows * when required=true 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <label
+      class="slds-form-element__label slds-no-flex"
+      for="input-63"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      input
+    </label>
+    <div
+      class="slds-form-element__control slds-grow"
+    >
+      <input
+        class="slds-input"
+        id="input-63"
+        max=""
+        min=""
+        name="input"
+        required=""
+        step="any"
+        type="time"
+      />
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=toggle changes default toggle text 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <label
+        class="slds-checkbox_toggle slds-grid"
+        for="checkbox-toggle-20"
+      >
+        <span
+          class="slds-form-element__label"
+        >
+          input
+        </span>
+        <input
+          aria-describedby="toggle-description-20"
+          id="checkbox-toggle-20"
+          name="input"
+          type="checkbox"
+          value=""
+        />
+        <span
+          aria-live="assertive"
+          class="slds-checkbox_faux_container"
+          data-toggle-description="true"
+          id="toggle-description-20"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-checkbox_on"
+          >
+            On
+          </span>
+          <span
+            class="slds-checkbox_off"
+          >
+            Off
+          </span>
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=toggle correctly passes dom attributes to input element 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <label
+        class="slds-checkbox_toggle slds-grid"
+        for="checkbox-toggle-17"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        <span
+          class="slds-form-element__label"
+        >
+          input
+        </span>
+        <input
+          aria-describedby="toggle-description-17"
+          disabled=""
+          id="checkbox-toggle-17"
+          name="input"
+          readonly=""
+          required=""
+          type="checkbox"
+          value=""
+        />
+        <span
+          aria-live="assertive"
+          class="slds-checkbox_faux_container"
+          data-toggle-description="true"
+          id="toggle-description-17"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-checkbox_on"
+          >
+            Active
+          </span>
+          <span
+            class="slds-checkbox_off"
+          >
+            Inactive
+          </span>
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=toggle default 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <label
+        class="slds-checkbox_toggle slds-grid"
+        for="checkbox-toggle-16"
+      >
+        <span
+          class="slds-form-element__label"
+        >
+          input
+        </span>
+        <input
+          aria-describedby="toggle-description-16"
+          id="checkbox-toggle-16"
+          name="input"
+          type="checkbox"
+          value=""
+        />
+        <span
+          aria-live="assertive"
+          class="slds-checkbox_faux_container"
+          data-toggle-description="true"
+          id="toggle-description-16"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-checkbox_on"
+          >
+            Active
+          </span>
+          <span
+            class="slds-checkbox_off"
+          >
+            Inactive
+          </span>
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=toggle shows * when required=true with no value 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <label
+        class="slds-checkbox_toggle slds-grid"
+        for="checkbox-toggle-18"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        <span
+          class="slds-form-element__label"
+        >
+          input
+        </span>
+        <input
+          aria-describedby="toggle-description-18"
+          id="checkbox-toggle-18"
+          name="input"
+          required=""
+          type="checkbox"
+          value=""
+        />
+        <span
+          aria-live="assertive"
+          class="slds-checkbox_faux_container"
+          data-toggle-description="true"
+          id="toggle-description-18"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-checkbox_on"
+          >
+            Active
+          </span>
+          <span
+            class="slds-checkbox_off"
+          >
+            Inactive
+          </span>
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;
+
+exports[`lightning-input type=toggle turns label into assistive text when variant=label-hidden 1`] = `
+<lightning-input
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-assistive-text"
+      data-aria="true"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <label
+        class="slds-checkbox_toggle slds-grid"
+        for="checkbox-toggle-19"
+      >
+        <span
+          class="slds-form-element__label slds-assistive-text"
+        >
+          input
+        </span>
+        <input
+          aria-describedby="toggle-description-19"
+          id="checkbox-toggle-19"
+          name="input"
+          type="checkbox"
+          value=""
+        />
+        <span
+          aria-live="assertive"
+          class="slds-checkbox_faux_container"
+          data-toggle-description="true"
+          id="toggle-description-19"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-checkbox_on"
+          >
+            Active
+          </span>
+          <span
+            class="slds-checkbox_off"
+          >
+            Inactive
+          </span>
+        </span>
+      </label>
+    </div>
+</lightning-input>
+`;

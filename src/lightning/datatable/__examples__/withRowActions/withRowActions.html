@@ -1,0 +1,36 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            A data table with row level actions.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            Click the menu at the end of a row to select an action to perform on that row.
+        </p>
+
+        <!-- Row actions -->
+        <div class="slds-p-around_medium lgc-bg" style="height: 300px;">
+            <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    onrowaction={handleRowAction}
+                    is-loading={tableLoadingState}>
+            </lightning-datatable>
+        </div>
+        <div class="slds-p-around_medium slds-m-top_large" style="width: 30rem;">
+            <article class="slds-tile">
+                <h3 class="slds-text-heading_small slds-tile__title slds-truncate" title="Record details">Record details</h3>
+                <div class="slds-tile__detail">
+                    <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Name">Name:</dt>
+                        <dd class="slds-item_detail slds-truncate">{record.name}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Balance">Balance:</dt>
+                        <dd class="slds-item_detail slds-truncate">
+                            <lightning-formatted-number value={record.amount} format-style="currency"></lightning-formatted-number>
+                        </dd>
+                    </dl>
+                </div>
+            </article>
+        </div>
+    </div>
+</template>

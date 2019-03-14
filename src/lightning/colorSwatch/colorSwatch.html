@@ -1,0 +1,19 @@
+<template>
+    <ul class="slds-color-picker__swatches" role="listbox">
+        <template for:each={swatches} for:item="swatch">
+            <li key={swatch.color} class="slds-color-picker__swatch" role="presentation">
+                <a
+                    href="javascript:void(0)"
+                    role="option"
+                    class="slds-color-picker__swatch-trigger"
+                    data-color={swatch.color}
+                    onclick={swatch.clickHandler}
+                >
+                    <span class="slds-swatch" style={swatch.style}>
+                        <span class="slds-assistive-text">{swatch.color}</span>
+                    </span>
+                </a>
+            </li>
+        </template>
+    </ul>
+</template>

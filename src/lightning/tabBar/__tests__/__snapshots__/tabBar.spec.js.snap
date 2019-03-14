@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-tab-bar matches the snapshot 1`] = `
+<lightning-tab-bar>
+  #shadow-root(open)
+    <ul
+      class="slds-tabs_default__nav"
+      role="tablist"
+    >
+      <li
+        class="slds-tabs_default__item slds-is-active"
+        data-label="Tab One"
+        data-tab="true"
+        data-tab-value="uniqueIdTab1"
+        role="presentation"
+        title="Tab One"
+      >
+        <a
+          aria-controls="domIdTab1-1"
+          aria-selected="true"
+          class="slds-tabs_default__link"
+          data-label="Tab One"
+          data-tab-value="uniqueIdTab1"
+          href="javascript:void(0)"
+          id="uniqueIdTab1__item-1"
+          role="tab"
+          tabindex="0"
+        >
+          Tab One
+        </a>
+      </li>
+      <li
+        class="slds-tabs_default__item"
+        data-label="Tab Two"
+        data-tab="true"
+        data-tab-value="uniqueIdTab2"
+        role="presentation"
+        title="Tab Two Title"
+      >
+        <a
+          aria-controls="domIdTab2-1"
+          aria-selected="false"
+          class="slds-tabs_default__link"
+          data-label="Tab Two"
+          data-tab-value="uniqueIdTab2"
+          href="javascript:void(0)"
+          id="uniqueIdTab2__item-1"
+          role="tab"
+          tabindex="-1"
+        >
+          <span
+            class="slds-tabs__left-icon"
+          >
+            <lightning-icon
+              class="slds-icon-utility-arrow slds-icon_container"
+              data-tab-value="uniqueIdTab2"
+            >
+              #shadow-root(open)
+                <lightning-primitive-icon>
+                  #shadow-root(open)
+                    <svg
+                      aria-hidden="true"
+                      class="slds-icon slds-icon-text-default slds-icon_small"
+                      data-key="arrow"
+                      focusable="false"
+                    >
+                      <use
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrow"
+                      />
+                    </svg>
+                </lightning-primitive-icon>
+                <span
+                  class="slds-assistive-text"
+                >
+                  Arrow
+                </span>
+            </lightning-icon>
+          </span>
+          Tab Two
+          <span
+            class="slds-tabs__right-icon"
+          >
+            <lightning-icon
+              class="slds-icon-utility-error slds-icon_container"
+              data-tab-value="uniqueIdTab2"
+            >
+              #shadow-root(open)
+                <lightning-primitive-icon>
+                  #shadow-root(open)
+                    <svg
+                      aria-hidden="true"
+                      class="slds-icon slds-icon-text-error slds-icon_small"
+                      data-key="error"
+                      focusable="false"
+                    >
+                      <use
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#error"
+                      />
+                    </svg>
+                </lightning-primitive-icon>
+                <span
+                  class="slds-assistive-text"
+                >
+                  This item has an error
+                </span>
+            </lightning-icon>
+          </span>
+        </a>
+      </li>
+      <li
+        class="slds-tabs_default__item slds-tabs_default__overflow-button"
+        data-overflow="true"
+        style="visibility: hidden;"
+      >
+        <lightning-button-menu
+          class="slds-dropdown-trigger slds-dropdown-trigger_click"
+        >
+          #shadow-root(open)
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="slds-button"
+              tabindex="0"
+              title="More Tabs"
+              value=""
+            >
+              More
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon"
+                    data-key="chevrondown"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              <span
+                class="slds-assistive-text"
+              >
+                Tabs
+              </span>
+            </button>
+        </lightning-button-menu>
+      </li>
+    </ul>
+</lightning-tab-bar>
+`;

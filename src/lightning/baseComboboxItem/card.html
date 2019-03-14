@@ -1,0 +1,24 @@
+<template>
+    <span class="slds-media__figure">
+        <lightning-icon size={iconSize} alternative-text={item.iconAlternativeText} icon-name={item.iconName}></lightning-icon>
+    </span>
+    <span class="slds-media__body">
+        <span class="slds-listbox__option-text slds-listbox__option-text_entity" title={text}>
+            <span class="slds-truncate">
+                <lightning-base-combobox-formatted-text text={item.text}></lightning-base-combobox-formatted-text></span>
+            </span>
+        <template if:true={hasSubText}>
+            <span class="slds-listbox__option-meta slds-listbox__option-meta_entity" title={subText}>
+                <span class="slds-truncate">
+                    <lightning-base-combobox-formatted-text text={item.subText}></lightning-base-combobox-formatted-text>
+                </span>
+            </span>
+        </template>
+    </span>
+
+    <template if:true={item.rightIconName}>
+        <span class="slds-media__figure slds-media__figure_reverse">
+            <lightning-icon size={rightIconSize} alternative-text={item.rightIconAlternativeText} icon-name={item.rightIconName}></lightning-icon>
+        </span>
+    </template>
+</template>

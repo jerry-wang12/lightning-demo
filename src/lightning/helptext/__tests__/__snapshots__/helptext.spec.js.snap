@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helptext component should render the correct markup with SLDS styles 1`] = `
+<lightning-helptext>
+  #shadow-root(open)
+    <div
+      class="slds-form-element__icon"
+    >
+      <button
+        aria-describedby="salesforce-lightning-helptext-bubble_[unique-string]-2"
+        class="slds-button slds-button_icon"
+        type="button"
+      >
+        <lightning-primitive-icon>
+          #shadow-root(open)
+            <svg
+              aria-hidden="true"
+              class="slds-button__icon"
+              data-key="info"
+              focusable="false"
+            >
+              <use
+                xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#info"
+              />
+            </svg>
+        </lightning-primitive-icon>
+        <span
+          class="slds-assistive-text"
+        >
+          Help
+        </span>
+      </button>
+    </div>
+</lightning-helptext>
+`;

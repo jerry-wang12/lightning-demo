@@ -1,0 +1,11 @@
+<template>
+    <span class="slds-media__figure">
+        <!-- TODO: We need to support a use-case where iconName is not specified but we want to reserve the space equivalent
+        to the default icon size. For now this works, lightning-icon only gives a warning that icon name undefined
+        is invalid, we should however refactor this properly. -->
+        <lightning-icon alternative-text={item.iconAlternativeText} icon-name={item.iconName} size="x-small"></lightning-icon>
+    </span>
+    <span class="slds-media__body">
+        <lightning-base-combobox-formatted-text text={item.text} class="slds-truncate" title={text}></lightning-base-combobox-formatted-text>
+    </span>
+</template>

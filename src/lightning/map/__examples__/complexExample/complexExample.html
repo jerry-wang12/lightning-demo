@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Complex Example</h1>
+        <p class="slds-text-body_regular">All available attributes on map are used here. Apart from markers the center and zoom level are set manually. Also the footer is explicitly shown.</p>
+    </div>
+    <!-- the map component -->
+    <lightning-map
+        map-markers = {mapMarkers}
+        center = {center}
+        zoom-level = {zoomLevel}
+        markers-title = {markersTitle}
+        show-footer = {showFooter}>
+    </lightning-map>
+</template>

@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-checkbox-group default 1`] = `
+<lightning-checkbox-group
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <fieldset>
+      <legend
+        class="slds-form-element__legend slds-form-element__label"
+      >
+        testGroup
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-0-1"
+            name="testGroup"
+            type="checkbox"
+            value="option1"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-0-1"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Ross
+            </span>
+          </label>
+        </span>
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-1-1"
+            name="testGroup"
+            type="checkbox"
+            value="option2"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-1-1"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Rachel
+            </span>
+          </label>
+        </span>
+      </div>
+    </fieldset>
+</lightning-checkbox-group>
+`;
+
+exports[`lightning-checkbox-group disabled 1`] = `
+<lightning-checkbox-group
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <fieldset>
+      <legend
+        class="slds-form-element__legend slds-form-element__label"
+      >
+        testGroup
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            disabled=""
+            id="checkbox-0-4"
+            name="testGroup"
+            type="checkbox"
+            value="option1"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-0-4"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Ross
+            </span>
+          </label>
+        </span>
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            disabled=""
+            id="checkbox-1-4"
+            name="testGroup"
+            type="checkbox"
+            value="option2"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-1-4"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Rachel
+            </span>
+          </label>
+        </span>
+      </div>
+    </fieldset>
+</lightning-checkbox-group>
+`;
+
+exports[`lightning-checkbox-group one selected option 1`] = `
+<lightning-checkbox-group
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <fieldset>
+      <legend
+        class="slds-form-element__legend slds-form-element__label"
+      >
+        testGroup
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-0-2"
+            name="testGroup"
+            type="checkbox"
+            value="option1"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-0-2"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Ross
+            </span>
+          </label>
+        </span>
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-1-2"
+            name="testGroup"
+            type="checkbox"
+            value="option2"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-1-2"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Rachel
+            </span>
+          </label>
+        </span>
+      </div>
+    </fieldset>
+</lightning-checkbox-group>
+`;
+
+exports[`lightning-checkbox-group required 1`] = `
+<lightning-checkbox-group
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <fieldset>
+      <legend
+        class="slds-form-element__legend slds-form-element__label"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        testGroup
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-0-3"
+            name="testGroup"
+            required=""
+            type="checkbox"
+            value="option1"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-0-3"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Ross
+            </span>
+          </label>
+        </span>
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            id="checkbox-1-3"
+            name="testGroup"
+            required=""
+            type="checkbox"
+            value="option2"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-1-3"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Rachel
+            </span>
+          </label>
+        </span>
+      </div>
+    </fieldset>
+</lightning-checkbox-group>
+`;
+
+exports[`lightning-checkbox-group required and disabled 1`] = `
+<lightning-checkbox-group
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <fieldset>
+      <legend
+        class="slds-form-element__legend slds-form-element__label"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        testGroup
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            disabled=""
+            id="checkbox-0-5"
+            name="testGroup"
+            required=""
+            type="checkbox"
+            value="option1"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-0-5"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Ross
+            </span>
+          </label>
+        </span>
+        <span
+          class="slds-checkbox"
+        >
+          <input
+            disabled=""
+            id="checkbox-1-5"
+            name="testGroup"
+            required=""
+            type="checkbox"
+            value="option2"
+          />
+          <label
+            class="slds-checkbox__label"
+            for="checkbox-1-5"
+          >
+            <span
+              class="slds-checkbox_faux"
+            />
+            <span
+              class="slds-form-element__label"
+            >
+              Rachel
+            </span>
+          </label>
+        </span>
+      </div>
+    </fieldset>
+</lightning-checkbox-group>
+`;

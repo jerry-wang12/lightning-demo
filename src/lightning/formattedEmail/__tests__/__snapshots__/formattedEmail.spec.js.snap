@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-email default 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email hides the icon when hideIcon is set 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:1234567890"
+    >
+       
+      1234567890
+    </a>
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email shows label 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:abc@email.com"
+    >
+      <lightning-icon
+        class="slds-icon-utility-email slds-icon_container"
+      >
+        #shadow-root(open)
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                data-key="email"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Email
+          </span>
+      </lightning-icon>
+       
+      my email
+    </a>
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email shows nothing when value has nothing 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email shows value as label when label is empty string 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:abc@email.com"
+    >
+      <lightning-icon
+        class="slds-icon-utility-email slds-icon_container"
+      >
+        #shadow-root(open)
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                data-key="email"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Email
+          </span>
+      </lightning-icon>
+       
+      abc@email.com
+    </a>
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email shows value as label when no label 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:abc@email.com"
+    >
+      <lightning-icon
+        class="slds-icon-utility-email slds-icon_container"
+      >
+        #shadow-root(open)
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                data-key="email"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Email
+          </span>
+      </lightning-icon>
+       
+      abc@email.com
+    </a>
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email trims label 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:abc@email.com"
+    >
+      <lightning-icon
+        class="slds-icon-utility-email slds-icon_container"
+      >
+        #shadow-root(open)
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                data-key="email"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Email
+          </span>
+      </lightning-icon>
+       
+      my email
+    </a>
+</lightning-formatted-email>
+`;
+
+exports[`lightning-formatted-email trims value 1`] = `
+<lightning-formatted-email>
+  #shadow-root(open)
+    <a
+      href="mailto:abc@email.com"
+    >
+      <lightning-icon
+        class="slds-icon-utility-email slds-icon_container"
+      >
+        #shadow-root(open)
+          <lightning-primitive-icon>
+            #shadow-root(open)
+              <svg
+                aria-hidden="true"
+                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                data-key="email"
+                focusable="false"
+              >
+                <use
+                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                />
+              </svg>
+          </lightning-primitive-icon>
+          <span
+            class="slds-assistive-text"
+          >
+            Email
+          </span>
+      </lightning-icon>
+       
+      abc@email.com
+    </a>
+</lightning-formatted-email>
+`;

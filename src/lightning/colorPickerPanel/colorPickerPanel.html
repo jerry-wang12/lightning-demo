@@ -1,0 +1,43 @@
+<template>
+    <section
+        class="slds-popover slds-color-picker__selector slds-show slds-is-absolute"
+        role="dialog"
+        aria-label="Choose a color"
+        aria-describedby="dialog-body-id"
+        onupdateselectedcolor={handleUpdateSelectedColor}
+        onkeydown={handleKeydown}>
+
+        <div class="slds-popover__body" id="dialog-body-id">
+            <lightning-color-picker-custom current-color={currentColor}></lightning-color-picker-custom>
+            <!-- [a11y] Remove until raptor tabset is supported. -->
+            <!-- <div class="slds-tabs_default">
+                <ul class="slds-tabs_default__nav" role="tablist">
+                    <li class={computedClassDefault} onclick={handleTabChange} title={i18n.defaultTab} role="presentation">
+                        <a class="slds-tabs_default__link" role="tab" tabindex="0" aria-selected={ariaSelectedDefault} aria-controls="color-picker-default" href="javascript:void(0)">{i18n.defaultTab}</a>
+                    </li>
+                    <li class={computedClassCustom} onclick={handleTabChange} title={i18n.customTab} role="presentation">
+                        <a class="slds-tabs_default__link" role="tab" tabindex="0" aria-selected={ariaSelectedCustom} aria-controls="color-picker-custom" href="javascript:void(0)">{i18n.customTab}</a>
+                    </li>
+                </ul>
+                <div class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="color-picker-default__item">
+                    <template if:false={state.isCustomTabActive}>
+                        <lightning-color-swatch></lightning-color-swatch>
+                    </template>
+                    <template if:true={state.isCustomTabActive}>
+                        <lightning-color-picker-custom current-color={state.selectedColor}></lightning-color-picker-custom>
+                    </template>
+                </div>
+            </div> -->
+        </div>
+        <footer class="slds-popover__footer">
+            <div class="slds-color-picker__selector-footer">
+                <button name="cancel" class="slds-button slds-button_neutral" onclick={handleCancelClick}>
+                    {i18n.cancelButton}
+                </button>
+                <button name="done" class="slds-button slds-button_brand" onclick={handleDoneClick}>
+                    {i18n.doneButton}
+                </button>
+            </div>
+        </footer>
+    </section>
+</template>

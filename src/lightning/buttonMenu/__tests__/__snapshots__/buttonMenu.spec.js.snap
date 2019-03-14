@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-button-menu-defaults should default variant=border, size=medium, icon=utility:down, menuAlignment=left 1`] = `
+<lightning-button-menu
+  class="slds-dropdown-trigger slds-dropdown-trigger_click"
+>
+  #shadow-root(open)
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="slds-button slds-button_icon-border"
+      tabindex="0"
+      value=""
+    >
+      <lightning-primitive-icon>
+        #shadow-root(open)
+          <svg
+            aria-hidden="true"
+            class="slds-button__icon"
+            data-key="down"
+            focusable="false"
+          >
+            <use
+              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+            />
+          </svg>
+      </lightning-primitive-icon>
+      <span
+        class="slds-assistive-text"
+      >
+        Show menu
+      </span>
+    </button>
+</lightning-button-menu>
+`;
+
+exports[`lightning-button-menu-icon-name-attr should show two icons when icon-name is not :down 1`] = `
+<lightning-button-menu
+  class="slds-dropdown-trigger slds-dropdown-trigger_click"
+>
+  #shadow-root(open)
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="slds-button slds-button_icon slds-button_icon-more"
+      tabindex="0"
+      value=""
+    >
+      <lightning-primitive-icon>
+        #shadow-root(open)
+          <svg
+            aria-hidden="true"
+            class="slds-button__icon"
+            data-key="settings"
+            focusable="false"
+          >
+            <use
+              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#settings"
+            />
+          </svg>
+      </lightning-primitive-icon>
+      <lightning-primitive-icon>
+        #shadow-root(open)
+          <svg
+            aria-hidden="true"
+            class="slds-button_icon slds-button__icon_x-small slds-m-left_xx-small"
+            data-key="down"
+            focusable="false"
+          >
+            <use
+              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+            />
+          </svg>
+      </lightning-primitive-icon>
+      <span
+        class="slds-assistive-text"
+      >
+        Show menu
+      </span>
+    </button>
+</lightning-button-menu>
+`;
+
+exports[`lightning-button-menu-icon-size-attr Button size = x-small should be medium if variant=bare 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr Button size = x-small should be medium if variant=bare-inverse 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr Button size = xx-small should be medium if variant=bare 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr Button size = xx-small should be medium if variant=bare-inverse 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr button class attribute should reflect size=large 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr button class attribute should reflect size=medium 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-icon-size-attr button class attribute should reflect size=x-small 1`] = `"slds-button slds-button_icon-border slds-button_icon-x-small"`;
+
+exports[`lightning-button-menu-icon-size-attr button class attribute should reflect size=xx-small 1`] = `"slds-button slds-button_icon-border slds-button_icon-xx-small"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=bare 1`] = `"slds-button slds-button_icon-bare"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=bare-inverse 1`] = `"slds-button slds-button_icon-bare slds-button_icon-inverse"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=border 1`] = `"slds-button slds-button_icon-border"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=border-filled 1`] = `"slds-button slds-button_icon-border-filled"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=border-inverse 1`] = `"slds-button slds-button_icon-border-inverse"`;
+
+exports[`lightning-button-menu-variant-attr button class attribute should reflect variant=container 1`] = `"slds-button slds-button_icon-container"`;

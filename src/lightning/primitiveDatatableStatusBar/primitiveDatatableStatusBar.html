@@ -1,0 +1,31 @@
+<template>
+    <div class="slds-docked-form-footer slds-is-absolute">
+        <div class="slds-grid slds-grid_align-center">
+            <template if:true={showError}>
+                <lightning-primitive-datatable-tooltip
+                    class="slds-button"
+                    size="small"
+                    variant="error"
+                    header={error.title}
+                    content={error.messages}
+                    alternative-text={i18n.error}
+                    offset={bubbleOffset}
+                ></lightning-primitive-datatable-tooltip>
+            </template>
+            <button
+                type="button"
+                class="slds-button slds-button_neutral"
+                onclick={handleCancelButtonClick}
+            >
+                {i18n.cancel}
+            </button>
+            <button
+                type="button"
+                class="slds-button slds-button_brand save-btn"
+                onclick={handleSaveButtonClick}
+            >
+                {i18n.save}
+            </button>
+        </div>
+    </div>
+</template>

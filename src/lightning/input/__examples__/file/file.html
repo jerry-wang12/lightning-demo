@@ -1,0 +1,56 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            An input field with a file selector that accepts a single file.
+        </h2>
+
+        <!-- Single file -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachment"></lightning-input>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            An input field with a file selector that accepts multiple files.
+        </h2>
+
+        <!-- Multiple files -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachments"></lightning-input>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            A required input field with a file selector that accepts a single file.
+        </h2>
+
+        <!-- Required -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachment" required message-when-value-missing="Please upload a file"></lightning-input>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            A disabled input field with a file selector. You cannot interact with a disabled field.
+        </h2>
+
+        <!-- Disabled -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachment" disabled></lightning-input>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            An input field with a file selector that accepts a single PNG, JPG, or ZIP file.
+        </h2>
+
+        <!-- Single file of restricted type -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="file" label="Attachment" accept="image/png, image/jpg, .zip"></lightning-input>
+        </div>
+    </div>
+</template>

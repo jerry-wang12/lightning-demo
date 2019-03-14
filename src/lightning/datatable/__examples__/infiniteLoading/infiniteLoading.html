@@ -1,0 +1,32 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            A data table with infinite loading enabled.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            Scroll down to automatically load more rows. Ten(10) additional rows will load at a time with a maximum of 100 rows total.
+        </p>
+
+        <div class="slds-m-vertical_large">
+            <p>The table contains {data.length} rows.</p>
+            <template if:true={loadMoreStatus}>
+                <p>{loadMoreStatus}</p>
+            </template>
+        </div>
+
+        <!-- Simple -->
+        <div class="slds-p-around_medium lgc-bg" style="height: 300px;">
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                show-row-number-column
+                hide-checkbox-column
+                enable-infinite-loading={enableInfiniteLoading}
+                load-more-offset="10"
+                is-loading={tableLoadingState}
+                onloadmore={handleLoadMore}>
+            </lightning-datatable>
+        </div>
+    </div>
+</template>

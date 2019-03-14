@@ -1,0 +1,13 @@
+<template>
+    <p>
+        The file uploader enables multiple file uploads to a record. It provides the drag-and-drop functionality and filtering by file types.
+    </p>
+    <lightning-file-upload  name="fileUploader"
+        label = "Demo Upload"
+        multiple = {multiple}
+        accept = {accept}
+        disabled = {disabled}
+        record-id = "abcd"
+        onuploadfinished = {handleUploadFinished}>
+    </lightning-file-upload>
+</template>

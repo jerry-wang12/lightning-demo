@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatted-address disabled formatted-address has no link 1`] = `
+<lightning-formatted-address>
+  #shadow-root(open)
+    <div
+      class="slds-truncate"
+    >
+      US
+    </div>
+    <div
+      class="slds-truncate"
+    >
+      CA, San Francisco
+    </div>
+    <div
+      class="slds-truncate"
+    >
+      121 Spear St., 94105
+    </div>
+</lightning-formatted-address>
+`;
+
+exports[`formatted-address does not use latitude and longitude for title and url if latitude does not exist 1`] = `
+<lightning-formatted-address>
+  #shadow-root(open)
+    <a
+      href="https://www.google.com/maps/?q=US%0ACA,%20San%20Francisco%0A121%20Spear%20St.,%2094105"
+      rel="noopener"
+      target="_blank"
+      title="US
+CA, San Francisco
+121 Spear St., 94105"
+    >
+      <div
+        class="slds-truncate"
+      >
+        US
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        CA, San Francisco
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        121 Spear St., 94105
+      </div>
+    </a>
+</lightning-formatted-address>
+`;
+
+exports[`formatted-address does not use latitude and longitude for title and url if longitude does not exist 1`] = `
+<lightning-formatted-address>
+  #shadow-root(open)
+    <a
+      href="https://www.google.com/maps/?q=US%0ACA,%20San%20Francisco%0A121%20Spear%20St.,%2094105"
+      rel="noopener"
+      target="_blank"
+      title="US
+CA, San Francisco
+121 Spear St., 94105"
+    >
+      <div
+        class="slds-truncate"
+      >
+        US
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        CA, San Francisco
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        121 Spear St., 94105
+      </div>
+    </a>
+</lightning-formatted-address>
+`;
+
+exports[`formatted-address format address based on locale 1`] = `
+<lightning-formatted-address>
+  #shadow-root(open)
+    <a
+      href="https://www.google.com/maps/?q=US%0ACA,%20San%20Francisco%0A121%20Spear%20St.,%2094105"
+      rel="noopener"
+      target="_blank"
+      title="US
+CA, San Francisco
+121 Spear St., 94105"
+    >
+      <div
+        class="slds-truncate"
+      >
+        US
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        CA, San Francisco
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        121 Spear St., 94105
+      </div>
+    </a>
+</lightning-formatted-address>
+`;
+
+exports[`formatted-address uses latitude and longitude for title and url if both exist 1`] = `
+<lightning-formatted-address>
+  #shadow-root(open)
+    <a
+      href="https://www.google.com/maps/?q=123,456"
+      rel="noopener"
+      target="_blank"
+      title="123,456"
+    >
+      <div
+        class="slds-truncate"
+      >
+        US
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        CA, San Francisco
+      </div>
+      <div
+        class="slds-truncate"
+      >
+        121 Spear St., 94105
+      </div>
+    </a>
+</lightning-formatted-address>
+`;

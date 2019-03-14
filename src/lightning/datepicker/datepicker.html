@@ -1,0 +1,45 @@
+<template>
+    <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-size_1-of-1" tabindex="-1">
+        <label class={computedLabelClass} for="input">
+            <template if:true={required}>
+                <abbr class="slds-required" title={i18n.required}>*</abbr>
+            </template>
+            {label}
+        </label>
+        <lightning-helptext if:true={fieldLevelHelp} content={fieldLevelHelp}></lightning-helptext>
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+            <input type="text" id="input" class="slds-input"
+                   name={name}
+                   value={displayValue}
+                   placeholder={placeholder}
+                   aria-label={ariaLabel}
+                   required={required}
+                   readonly={readOnly}
+                   disabled={disabled}
+                   oninput={handleInput}
+                   onchange={handleInputChange}
+                   onfocus={handleInputFocus}
+                   onblur={handleInputBlur}
+                   onkeydown={handleInputKeydown}
+                   onclick={handleInputClick}>
+            <lightning-button-icon icon-name="utility:event"
+                                   class="slds-input__icon slds-input__icon_right"
+                                   variant="bare"
+                                   onclick={handleDatePickerIconClick}
+                                   onkeydown={handleDatePickerIconKeyDown}
+                                   onfocus={handleIconFocus}
+                                   onblur={handleIconBlur}
+                                   disabled={computedIconDisabledState}
+                                   title={i18n.selectDate}
+                                   alternative-text={i18n.selectDate}>
+            </lightning-button-icon>
+            <template if:true={isCalendarVisible}>
+                <lightning-calendar value={value} min={min} max={max} onkeydown={handleCalendarKeyDown} onselect={handleDateSelect}></lightning-calendar>
+            </template>
+        </div>
+    </div>
+
+    <template if:true={errorMessage}>
+        <div id="error-message" data-error-message class="slds-form-element__help" aria-live="assertive">{errorMessage}</div>
+    </template>
+</template>

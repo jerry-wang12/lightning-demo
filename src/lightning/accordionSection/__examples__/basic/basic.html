@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Basic accordion-section</h1>
+        <p class="slds-text-body_regular">A lightning-accordion-section component is a single section that’s nested in a lightning-accordion component. You can't use this component on its own. This example creates a basic accordion with one section.</p>
+    </div>
+    <lightning-accordion active-section-name="A">
+        <lightning-accordion-section name="A" label="Accordion Title A">
+                <lightning-button-menu slot="actions" alternative-text="Show menu" icon-size="x-small" menu-alignment="auto">
+                    <lightning-menu-item value="New" label="Menu Item One"></lightning-menu-item>
+                    <lightning-menu-item value="Edit" label="Menu Item Two"></lightning-menu-item>
+                </lightning-button-menu>
+                <p>This is the content area for section A.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>The section height expands to fit your content.</p>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>

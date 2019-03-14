@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testFileUpload accepts label parameter 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-6"
+        >
+          Attachments
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                aria-labelledby="form-label-6 file-selector-label-6"
+                class="slds-file-selector__input slds-assistive-text"
+                id="input-file-6"
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-6"
+                id="file-selector-label-6"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;
+
+exports[`testFileUpload accepts record Id parameter 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-22"
+        >
+          required label
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                aria-labelledby="form-label-22 file-selector-label-22"
+                class="slds-file-selector__input slds-assistive-text"
+                id="input-file-22"
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-22"
+                id="file-selector-label-22"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;
+
+exports[`testFileUpload can accept multiple files 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-10"
+        >
+          required label
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                aria-labelledby="form-label-10 file-selector-label-10"
+                class="slds-file-selector__input slds-assistive-text"
+                id="input-file-10"
+                multiple=""
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-10"
+                id="file-selector-label-10"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;
+
+exports[`testFileUpload can be disabled 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-14"
+        >
+          required label
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                aria-labelledby="form-label-14 file-selector-label-14"
+                class="slds-file-selector__input slds-assistive-text"
+                disabled=""
+                id="input-file-14"
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-14"
+                id="file-selector-label-14"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;
+
+exports[`testFileUpload can take accept parameter to filter files 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-18"
+        >
+          required label
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                accept=".jpg,.jpeg"
+                aria-labelledby="form-label-18 file-selector-label-18"
+                class="slds-file-selector__input slds-assistive-text"
+                id="input-file-18"
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-18"
+                id="file-selector-label-18"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;
+
+exports[`testFileUpload default rendering 1`] = `
+<lightning-file-upload>
+  #shadow-root(open)
+    <lightning-input
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <span
+          class="slds-assistive-text"
+          data-aria="true"
+        />
+        <span
+          class="slds-form-element__label"
+          data-form-label="true"
+          id="form-label-2"
+        >
+          required label
+        </span>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-file-selector slds-file-selector_files"
+          >
+            <lightning-primitive-file-droppable-zone
+              class="slds-file-selector__dropzone"
+            >
+              #shadow-root(open)
+                <slot />
+              <input
+                aria-labelledby="form-label-2 file-selector-label-2"
+                class="slds-file-selector__input slds-assistive-text"
+                id="input-file-2"
+                name="required name"
+                type="file"
+              />
+              <label
+                class="slds-file-selector__body"
+                data-file-selector-label="true"
+                for="input-file-2"
+                id="file-selector-label-2"
+              >
+                <span
+                  class="slds-file-selector__button slds-button slds-button_neutral"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon slds-button__icon_left"
+                        data-key="upload"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#upload"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  Upload Files
+                </span>
+                <span
+                  class="slds-file-selector__text slds-medium-show"
+                >
+                  Or drop files
+                </span>
+              </label>
+            </lightning-primitive-file-droppable-zone>
+          </div>
+        </div>
+    </lightning-input>
+</lightning-file-upload>
+`;

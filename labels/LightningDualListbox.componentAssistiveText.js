@@ -1,0 +1,1 @@
+export default 'Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.';

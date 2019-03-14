@@ -1,0 +1,72 @@
+<template>
+    <label data-main-label class={computedLabelClass}>
+        <template if:true={required}>
+            <abbr class="slds-required" title={i18n.required}>*</abbr>
+        </template>
+        {label}
+    </label>
+    <lightning-helptext if:true={fieldLevelHelp} content={fieldLevelHelp}></lightning-helptext>
+
+    <div class="slds-form-element__control">
+        <div class={computedComboboxGroupClass}>
+            <template if:true={computedHasFilter}>
+                <label data-filter-label class="slds-form-element__label slds-assistive-text">{filterLabel}</label>
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <div class="slds-combobox_object-switcher slds-combobox-addon_start">
+                            <lightning-base-combobox
+                                data-filter
+                                onready={handleFilterReady}
+                                disabled={disabled}
+                                items={filterItems}
+                                input-text={filterInputText}
+                                input-icon-name="utility:down"
+                                input-icon-size="xx-small"
+                                dropdown-alignment="auto"
+                                onfocus={handleFocus}
+                                onblur={handleBlur}
+                                onselect={handleSelectFilter}></lightning-base-combobox>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <lightning-base-combobox
+                data-lookup
+                onready={handleLookupReady}
+                class={computedLookupComboboxClass}
+                variant="lookup"
+                items={_items}
+                name={name}
+                disabled={disabled}
+                dropdown-alignment="auto"
+                placeholder={placeholder}
+                input-text={inputText}
+                input-pill={inputPill}
+                input-maxlength={inputMaxlength}
+                input-icon-name={inputIconName}
+                input-icon-size={inputIconSize}
+                input-icon-alternative-text={inputIconAlternativeText}
+                show-input-activity-indicator={showActivityIndicator}
+                show-dropdown-activity-indicator={showDropdownActivityIndicator}
+                ontextchange={handleTextChange}
+                ontextinput={handleTextInput}
+                onfocus={handleFocus}
+                onblur={handleBlur}
+                onpillremove={handlePillRemove}
+                onendreached={handleEndReached}
+                ondropdownopenrequest={handleDropdownOpenRequest}
+                onselect={handleSelect}>
+            </lightning-base-combobox>
+        </div>
+        <template if:true={_hasPills}>
+            <lightning-pill-container class="slds-listbox_selection-group" variant="bare" items={pills} is-collapsible is-expanded={_expandPillContainer}
+                onblur={handlePillsBlur} onfocus={handlePillsFocus} onitemremove={handlePillRemove}></lightning-pill-container>
+        </template>
+    </div>
+
+    <template if:true={_helpMessage}>
+        <div data-help-message id="help-message" class="slds-form-element__help" aria-live="assertive">{_helpMessage}</div>
+    </template>
+
+</template>

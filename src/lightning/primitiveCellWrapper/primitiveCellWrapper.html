@@ -1,0 +1,44 @@
+<template>
+    <div class={computedCellDivClass}>
+        <!-- left icon -->
+        <template if:true={hasLeftIcon}>
+            <lightning-icon icon-name={iconName} size="x-small" alternative-text={iconAlternativeText}></lightning-icon>
+            &nbsp;
+            {iconLabel}
+            &nbsp;
+        </template>
+
+        <!-- tree toggle -->
+        <template if:true={hasTreeData}>
+            <lightning-primitive-treegrid-cell-toggle row-key-value={rowKeyValue}
+                                                      col-key-value={colKeyValue}
+                                                      value={value}
+                                                      has-children={hasChildren}
+                                                      is-expanded={isExpanded}>
+            </lightning-primitive-treegrid-cell-toggle>
+        </template>
+
+        <!-- default slot -->
+        <slot></slot>
+
+        <!-- right icon -->
+        <template if:true={hasRightIcon}>
+            &nbsp;
+            <lightning-icon icon-name={iconName} size="x-small" alternative-text={iconAlternativeText}></lightning-icon>
+            &nbsp;
+            {iconLabel}
+        </template>
+
+    </div>
+    <template if:true={editable}>
+        <lightning-primitive-cell-editable-button
+                onclick={handleEditButtonClick}
+                column-label={columnLabel}
+                has-error={hasError}
+                data-navigation="enable"
+                data-action-triggers="enter,space"
+                data-action-edit="true"
+                tabindex={internalTabIndex}>
+        </lightning-primitive-cell-editable-button>
+    </template>
+</template>

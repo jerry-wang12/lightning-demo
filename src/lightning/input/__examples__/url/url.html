@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Input URL Example</h1>
+        <p class="slds-text-body_regular">The following examples show various ways to create an input URL component.</p>
+    </div>
+    <div>
+        <h2>Basic Input URL</h2>
+        <lightning-input type="url" label="Enter a URL" name="input1" ></lightning-input>
+        <lightning-input type="url" label="URL field with a predefined value" name="input2" value="http://www.google.com" ></lightning-input>
+        <lightning-input type="url" label="URL field with a placeholder" name="input3" placeholder="Enter valid URL here..." ></lightning-input>
+    </div>
+
+    <div>
+        <h2>Advanced Input URL</h2>
+        <lightning-input type="url" label="Read-only URL field" name="input4" readonly value="file://someFile" ></lightning-input>
+        <lightning-input type="url" label="Disabled URL field" name="input5" disabled value="www.google.com" ></lightning-input>
+        <lightning-input type="url" label="Required URL field with a predefined value" name="input6" required value="www.google.com" ></lightning-input>
+        <lightning-input type="url" label="Required URL field with pattern matching" name="input6" pattern="^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$" required value="www.google.com" ></lightning-input>
+    </div>
+</template>

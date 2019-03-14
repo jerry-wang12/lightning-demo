@@ -1,0 +1,39 @@
+<template>
+    <label class={computedLabelClass} for="select">
+        <template if:true={required}>
+            <abbr class="slds-required" title={i18n.required}>*</abbr>
+        </template>
+        {label}
+    </label>
+    <lightning-helptext if:true={fieldLevelHelp} content={fieldLevelHelp}></lightning-helptext>
+
+    <div class="slds-form-element__control">
+        <div class="slds-select_container">
+            <select id="select"
+                    name={name}
+                    class="slds-select"
+                    disabled={disabled}
+                    size={size}
+                    multiple={multiple}
+                    onfocus={handleFocus}
+                    onblur={handleBlur}
+                    onchange={handleChange}
+                    accesskey={accessKey}
+                    tabindex={tabIndex}>
+                <!-- this hidden and disabled optgroup is added to fix a mobile safari bug -->
+                <!-- see https://stackoverflow.com/questions/34660500/mobile-safari-multi-select-bug -->
+                <template if:true={multiple}>
+                    <optgroup disabled hidden></optgroup>
+                </template>
+
+                <template for:each={options} for:item="option">
+                    <option key={option.value} value={option.value}>{option.label}</option>
+                </template>
+            </select>
+        </div>
+    </div>
+
+    <template if:true={errorMessage}>
+        <div id="help-message" data-help-message class="slds-form-element__help" aria-live="assertive">{errorMessage}</div>
+    </template>
+</template>

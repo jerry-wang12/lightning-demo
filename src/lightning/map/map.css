@@ -1,0 +1,4 @@
+/* patch height 100% on slds-map until SDS team fixes W-5352580 (https://gus.lightning.force.com/lightning/r/a07B0000005R24sIAC/view) */
+.slds-map {
+    height: 100%;
+}

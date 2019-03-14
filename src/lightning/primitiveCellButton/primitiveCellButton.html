@@ -1,0 +1,30 @@
+<template>
+    <template if:true={isButtonIconType}>
+        <lightning-button-icon
+            variant={variant}
+            alternative-text={alternativeText}
+            icon-name={iconName}
+            icon-class={iconClass}
+            disabled={disabled}
+            class={buttonClass}
+            name={buttonName}
+            title={computedTitle}
+            tabindex={internalTabIndex}
+            onclick={handleButtonClick}>
+        </lightning-button-icon>
+    </template>
+    <template if:false={isButtonIconType}>
+        <lightning-button
+            variant={variant}
+            label={label}
+            icon-name={iconName}
+            icon-position={iconPosition}
+            disabled={disabled}
+            class={buttonClass}
+            name={buttonName}
+            title={computedTitle}
+            tabindex={internalTabIndex}
+            onclick={handleButtonClick}>
+        </lightning-button>
+    </template>
+</template>

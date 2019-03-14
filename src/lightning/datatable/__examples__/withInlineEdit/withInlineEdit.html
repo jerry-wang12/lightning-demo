@@ -1,0 +1,23 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            A data table with inline edit enabled.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            Focus on a cell and click on the pencil icon to edit its content.
+        </p>
+
+        <!-- Inline edit -->
+        <div class="slds-p-around_medium lgc-bg" style="height: 300px;">
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                show-row-number-column
+                row-number-offset={rowOffset}
+                suppress-bottom-bar
+                columns={columns}
+                is-loading={tableLoadingState}>
+            </lightning-datatable>
+        </div>
+    </div>
+</template>

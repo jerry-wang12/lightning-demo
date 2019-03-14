@@ -1,0 +1,37 @@
+<template>
+    <div style="min-width: 225px; border-right: 1px solid #e7e7e7;">
+        <lightning-layout>
+            <lightning-layout-item>
+                <lightning-vertical-navigation selected-item={selectedItem} onselect={handleSelect} class="navigation">
+                    <lightning-vertical-navigation-section label="Reports">
+                        <lightning-vertical-navigation-item label="Recently Viewed" name="reports_recent"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Private Reports" name="reports_private"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Public Reports" name="reports_public"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="All Reports" name="reports_all"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item-badge label="Recently Updated" name="reports_updated" badge-count={updatedCount}></lightning-vertical-navigation-item-badge>
+                    </lightning-vertical-navigation-section>
+                    <lightning-vertical-navigation-section label="Folders">
+                        <lightning-vertical-navigation-item-icon label="Created by Me" name="folders_created" icon-name="utility:open_folder"></lightning-vertical-navigation-item-icon>
+                        <lightning-vertical-navigation-item-icon label="Shared with Me" name="folders_shared" icon-name="utility:open_folder"></lightning-vertical-navigation-item-icon>
+                        <lightning-vertical-navigation-item label="All Folders" name="folders_all"></lightning-vertical-navigation-item>
+                    </lightning-vertical-navigation-section>
+                    <lightning-vertical-navigation-overflow>
+                        <lightning-vertical-navigation-item label="Extra Report 1" name="reports_extra1"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Report 2" name="reports_extra2"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Report 3" name="reports_extra3"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Report 4" name="reports_extra4"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Report 5" name="reports_extra5"></lightning-vertical-navigation-item>
+                    </lightning-vertical-navigation-overflow>
+                    <lightning-vertical-navigation-overflow>
+                        <lightning-vertical-navigation-item label="Extra Folder 1" name="folders_extra1"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Folder 2" name="folders_extra2"></lightning-vertical-navigation-item>
+                        <lightning-vertical-navigation-item label="Extra Folder 3" name="folders_extra3"></lightning-vertical-navigation-item>
+                    </lightning-vertical-navigation-overflow>
+                </lightning-vertical-navigation>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-medium">
+                <p>You Are Viewing: {currentContent} </p>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

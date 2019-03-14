@@ -1,0 +1,13 @@
+<template>
+    <template if:true={hasValue}>
+        <a href={href} tabindex={tabIndex}>
+            <template if:false={hideIcon}>
+                <lightning-icon
+                    icon-name="utility:email"
+                    size="x-small"
+                    alternative-text={i18n.emailLabel}
+                ></lightning-icon>
+            </template> {computedLabel}
+        </a>
+    </template>
+</template>

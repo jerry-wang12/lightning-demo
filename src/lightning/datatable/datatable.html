@@ -1,0 +1,223 @@
+<template>
+    <div lwc:dom="manual" class="dt-width-observer" style="width: 100%; height: 0px;"></div>
+    <div style="height: 100%; position: relative;">
+    <lightning-primitive-datatable-iedit-panel
+        data-iedit-panel="true"
+        visible={state.inlineEdit.isPanelVisible}
+        row-key-value={state.inlineEdit.rowKeyValue}
+        col-key-value={state.inlineEdit.colKeyValue}
+        edited-value={state.inlineEdit.editedValue}
+        column-def={state.inlineEdit.columnDef}
+        is-mass-edit-enabled={state.inlineEdit.massEditEnabled}
+        number-of-selected-rows={state.inlineEdit.massEditSelectedRows}
+        onieditfinished={handleInlineEditFinish}
+        onmasscheckboxchange={handleMassCheckboxChange}
+    ></lightning-primitive-datatable-iedit-panel>
+    <div class="slds-table_header-fixed_container slds-scrollable_x" onscroll={handleHorizontalScroll} style={scrollerXStyles}>
+        <div class="slds-scrollable_y" onscroll={handleVerticalScroll} style={computedScrollerStyle}>
+            <div>
+            <table class={computedTableClass} role={computedTableRole} style={computedTableStyle} tabindex={state.tabindex} onfocus={handleTableFocus}
+                onkeydown={handleTableKeydown}
+                onclick={handleCellClick}
+                onfocusin={handleTableFocusIn}
+                onfocusout={handleTableFocusOut}>
+                <template if:false={hasValidKeyField}>
+                    <!-- empty since keyField wasn't provided -->
+                </template>
+                <template if:true={hasValidKeyField}>
+                <thead class={computedTableHeaderClass}>
+                <tr class="slds-line-height_reset">
+                    <template for:each={state.columns} for:item="def" for:index="colIndex">
+                        <th
+                            style={def.style}
+                            scope="col"
+                            tabindex={def.tabIndex}
+                            aria-label={def.label}
+                            aria-sort={def.sortAriaLabel}
+                            key={def.colKeyValue}>
+
+                            <template if:true={def.fixedWidth}>
+                                <lightning-primitive-header-factory
+                                    style={def.style}
+                                    def={def}
+                                    dt-context-id={privateDatatableId}
+                                    key={def.colKeyValue}
+                                    row-key-value="HEADER"
+                                    col-key-value={def.colKeyValue}
+                                    tabindex={def.tabIndex}
+                                    has-focus={def.hasFocus}
+                                    column-width={def.columnWidth}
+                                    col-index={colIndex}
+                                    show-checkbox={showSelectAllCheckbox}
+                                    actions={def.actions}>
+                                </lightning-primitive-header-factory>
+                            </template>
+                            <template if:false={def.fixedWidth}>
+                                <lightning-primitive-header-factory
+                                    style={def.style}
+                                    def={def}
+                                    dt-context-id={privateDatatableId}
+                                    key={def.colKeyValue}
+                                    row-key-value="HEADER"
+                                    col-key-value={def.colKeyValue}
+                                    col-index={colIndex}
+                                    resizable={hasResizebleColumns}
+                                    sortable={def.sortable}
+                                    sorted={def.sorted}
+                                    sorted-direction={def.sortedDirection}
+                                    tabindex={def.tabIndex}
+                                    has-focus={def.hasFocus}
+                                    column-width={def.columnWidth}
+                                    resizestep={state.resizeStep}
+                                    actions={def.actions}>
+                                </lightning-primitive-header-factory>
+                            </template>
+
+                        </th>
+                    </template>
+                </tr>
+                </thead>
+                <tbody style={computedTbodyStyle}>
+                    <template for:each={state.rows} for:item="row" for:index="rowIndex">
+                        <tr class={row.classnames}
+                            onkeydown={handleTrRowKeyDown}
+                            key={row.key}
+                            data-row-key-value={row.key}
+                            aria-selected={row.ariaSelected}
+                            aria-level={row.level}
+                            aria-expanded={row.isExpanded}
+                            aria-setsize={row.setSize}
+                            aria-posinset={row.posInSet}
+                            tabindex={row.tabIndex}>
+                            <template for:each={row.cells} for:item="cell">
+                                <template if:true={cell.isCheckbox}>
+                                    <td class={cell.class} role="gridcell" tabindex={cell.tabIndex} data-label={cell.dataLabel} key={cell.colKeyValue}>
+                                        <lightning-primitive-cell-checkbox
+                                            dt-context-id={privateDatatableId}
+                                            has-focus={cell.hasFocus}
+                                            data-label={cell.dataLabel}
+                                            key={cell.key}
+                                            row-key-value={row.key}
+                                            col-key-value={cell.colKeyValue}
+                                            row-index={rowIndex}
+                                            type={row.inputType}
+                                            is-selected={row.isSelected}
+                                            is-disabled={row.isDisabled}>
+                                        </lightning-primitive-cell-checkbox>
+                                    </td>
+                                </template>
+                                <template if:true={cell.isDataTypeScope}>
+                                    <th class={cell.class}
+                                        style={cell.style}
+                                        aria-selected={cell.ariaSelected}
+                                        scope="row"
+                                        tabindex={cell.tabIndex}
+                                        data-label={cell.dataLabel}
+                                        key={cell.colKeyValue}>
+                                        <lightning-primitive-cell-factory
+                                            types={privateTypes}
+                                            aria-selected={cell.ariaSelected}
+                                            data-label={cell.dataLabel}
+                                            alignment={cell.alignment}
+                                            has-error={cell.hasError}
+                                            has-focus={cell.hasFocus}
+                                            column-label={cell.dataLabel}
+                                            column-type={cell.columnType}
+                                            column-sub-type={cell.columnSubType}
+                                            wrap-text={cell.wrapText}
+                                            key={cell.columnType}
+                                            row-key-value={row.key}
+                                            col-key-value={cell.colKeyValue}
+                                            value={cell.value}
+                                            icon-name={cell.iconName}
+                                            icon-label={cell.iconLabel}
+                                            icon-position={cell.iconPosition}
+                                            icon-alternative-text={cell.iconAlternativeText}
+                                            editable={cell.editable}
+                                            type-attribute-0={cell.typeAttribute0}
+                                            type-attribute-1={cell.typeAttribute1}
+                                            type-attribute-2={cell.typeAttribute2}
+                                            type-attribute-3={cell.typeAttribute3}
+                                            type-attribute-4={cell.typeAttribute4}
+                                            type-attribute-5={cell.typeAttribute5}
+                                            type-attribute-6={cell.typeAttribute6}
+                                            type-attribute-7={cell.typeAttribute7}
+                                            type-attribute-8={cell.typeAttribute8}
+                                            type-attribute-9={cell.typeAttribute9}
+                                            type-attribute-10={cell.typeAttribute10}
+                                            type-attribute-21={cell.typeAttribute21}
+                                            type-attribute-22={cell.typeAttribute22}>
+                                        </lightning-primitive-cell-factory>
+                                    </th>
+                                </template>
+                                <template if:true={cell.isDataType}>
+                                    <td
+                                        class={cell.class}
+                                        style={cell.style}
+                                        aria-selected={cell.ariaSelected}
+                                        role="gridcell"
+                                        tabindex={cell.tabIndex}
+                                        data-label={cell.dataLabel}
+                                        key={cell.colKeyValue}>
+                                        <lightning-primitive-cell-factory
+                                            types={privateTypes}
+                                            aria-selected={cell.ariaSelected}
+                                            role="gridcell"
+                                            data-label={cell.dataLabel}
+                                            alignment={cell.alignment}
+                                            has-focus={cell.hasFocus}
+                                            has-error={cell.hasError}
+                                            column-label={cell.dataLabel}
+                                            column-type={cell.columnType}
+                                            column-sub-type={cell.columnSubType}
+                                            wrap-text={cell.wrapText}
+                                            key={cell.columnType}
+                                            row-key-value={row.key}
+                                            col-key-value={cell.colKeyValue}
+                                            value={cell.value}
+                                            icon-name={cell.iconName}
+                                            icon-label={cell.iconLabel}
+                                            icon-position={cell.iconPosition}
+                                            icon-alternative-text={cell.iconAlternativeText}
+                                            editable={cell.editable}
+                                            type-attribute-0={cell.typeAttribute0}
+                                            type-attribute-1={cell.typeAttribute1}
+                                            type-attribute-2={cell.typeAttribute2}
+                                            type-attribute-3={cell.typeAttribute3}
+                                            type-attribute-4={cell.typeAttribute4}
+                                            type-attribute-5={cell.typeAttribute5}
+                                            type-attribute-6={cell.typeAttribute6}
+                                            type-attribute-7={cell.typeAttribute7}
+                                            type-attribute-8={cell.typeAttribute8}
+                                            type-attribute-9={cell.typeAttribute9}
+                                            type-attribute-10={cell.typeAttribute10}
+                                            type-attribute-21={cell.typeAttribute21}
+                                            type-attribute-22={cell.typeAttribute22}>
+                                        </lightning-primitive-cell-factory>
+                                    </td>
+                                </template>
+                            </template>
+                        </tr>
+                    </template>
+                    <template if:true={isLoading}>
+                        <tr>
+                            <td colspan={numberOfColumns} class="slds-is-relative">
+                                <lightning-primitive-datatable-loading-indicator></lightning-primitive-datatable-loading-indicator>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+                </template>
+            </table>
+            </div>
+        </div>
+    </div>
+    <template if:true={showStatusBar}>
+        <lightning-primitive-datatable-status-bar
+            error={tableError}
+            onprivatesave={handleInlineEditSave}
+            onprivatecancel={handleInlineEditCancel}
+        ></lightning-primitive-datatable-status-bar>
+    </template>
+    </div>
+</template>

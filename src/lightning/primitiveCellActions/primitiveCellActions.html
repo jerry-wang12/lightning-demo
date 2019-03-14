@@ -1,0 +1,22 @@
+<template>
+    <lightning-button-menu
+        icon-size="x-small"
+        alternative-text={buttonAlternateText}
+        menu-alignment={computedMenuAlignment}
+        onselect={handleActionSelect}
+        onopen={handleMenuOpen}
+        is-loading={state.isLoadingActions}
+        loading-state-alternative-text={spinnerAlternateText}
+        tabindex={state.internalTabIndex}
+    >
+        <template for:each={state.actions} for:item="action">
+            <lightning-menu-item
+                key={action.label}
+                value={action}
+                label={action.label}
+                icon-name={action.iconName}
+                disabled={action.disabled}
+            ></lightning-menu-item>
+        </template>
+    </lightning-button-menu>
+</template>

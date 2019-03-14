@@ -1,0 +1,28 @@
+<template>
+    <template if:true={isDesktop}>
+        <lightning-lookup-desktop
+            disabled={disabled}
+            field-name={fieldName}
+            label={label}
+            max-values={maxValues}
+            object-infos={objectInfos}
+            record={record}
+            show-create-new={showCreateNew}
+            values={values}
+        >
+        </lightning-lookup-desktop>
+    </template>
+    <template if:false={isDesktop}>
+        <lightning-lookup-mobile
+            disabled={disabled}
+            field-name={fieldName}
+            label={label}
+            max-values={maxValues}
+            object-infos={objectInfos}
+            record={record}
+            show-create-new={showCreateNew}      
+            values={values}
+        >
+        </lightning-lookup-mobile>
+    </template>
+</template>

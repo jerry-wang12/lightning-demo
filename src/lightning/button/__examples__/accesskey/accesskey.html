@@ -1,0 +1,33 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">
+            Buttons with customized access key values.
+        </h2>
+        <div class="slds-m-bottom_medium slds-p-bottom_medium slds-border_bottom">
+            To activate the buttons using the access key, use the following keys:
+            <ul class="slds-list_dotted">
+                <li class="slds-m-vertical_x-small">Mac: <kbd>Control</kbd>&nbsp;+&nbsp;<kbd>Alt</kbd>&nbsp;+&nbsp;<kbd><em>key</em></kbd></li>
+                <li class="slds-m-vertical_x-small">Windows: <kbd>Alt</kbd>&nbsp;+&nbsp;<kbd><em>key</em></kbd></li>
+                <li class="slds-m-vertical_x-small">Firefox on Windows: <kbd>Alt</kbd>&nbsp;+&nbsp;<kbd>Shift</kbd>&nbsp;+&nbsp;<kbd><em>key</em></kbd></li>
+            </ul>
+        </div>
+        <ul class="slds-list_dotted slds-m-bottom_medium">
+            <li><code>accesskey</code> attribute has a value (specified in the button's label text)</li>
+        </ul>
+
+        <div class="slds-p-vertical_x-large">
+            <!-- Basic button -->
+            <lightning-button label="With accesskey 'x'" title="Download action" accesskey="x" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+            <!-- Button with icon before the label text -->
+            <lightning-button label="With accesskey 'y'" title="Download action" accesskey="y" onclick={handleClick} icon-name="utility:download" class="slds-m-left_x-small"></lightning-button>
+
+            <!-- Button with icon after the label text -->
+            <lightning-button label="With accesskey 'z'" title="Download action" accesskey="z" onclick={handleClick} icon-name="utility:download" icon-position="right" class="slds-m-left_x-small"></lightning-button>
+        </div>
+
+        <div class="slds-m-vertical_medium slds-p-vertical_medium slds-border_bottom slds-border_top">
+            <p>The label of the button that was activated is: <span class="slds-text-heading_small">{clickedButtonLabel}</span></p>
+        </div>
+    </div>
+</template>

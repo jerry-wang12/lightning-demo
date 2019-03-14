@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-map_container">
+        <div class="slds-map">
+            <lightning-primitive-iframe id="mapContainer" src={mapSrc} domain={mapDomain} oniframeload={handleIframeLoad}></lightning-primitive-iframe>
+        </div>
+        <template if:true={showFooter}>
+            <div class="slds-p-around_medium">
+                <a class="slds-button slds-button_brand" href={mapHref} target="_blank">{i18n.openInGoogleMapsString}</a>
+            </div>
+        </template>
+    </div>
+    <template if:true={multipleCoordinates}>
+        <div class="slds-coordinates">
+            <div class="slds-coordinates__header">
+                <h2 class="slds-coordinates__title">{markersTitle} ({state.coordinates.length})</h2>
+            </div>
+            <ul class="slds-coordinates__list" key={computeGuid} onprivatecoordinateregister={handleCoordinateRegister}>
+                <template for:each={state.coordinates} for:item="coordinate">
+                    <li class="slds-coordinates__item" key={coordinate.key}>
+                        <lightning-primitive-coordinate-item key={coordinate.key} item-title={coordinate.title} item-address={coordinate.formattedAddress}
+                            oncoordinateclick={handleCoordinateClick} oncoordinatesmouseover={handleCoordinateHover} icon-name={coordinate.icon}
+                            guid={coordinate.key}>
+                        </lightning-primitive-coordinate-item>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </template>
+</template>

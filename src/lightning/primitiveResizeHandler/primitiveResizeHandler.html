@@ -1,0 +1,16 @@
+<template>
+    <input type="range"
+           value={value}
+           min={minWidth}
+           max={maxWidth}
+           aria-label={resizerLabel}
+           class="slds-resizable__input slds-assistive-text"
+           tabindex={internalTabIndex}
+           onkeydown={handleKeydown}>
+    <span class="slds-resizable__handle"
+          onmousedown={onStart}
+          onclick={onClick}
+          style="will-change: transform;">
+        <span class="slds-resizable__divider"></span>
+    </span>
+</template>

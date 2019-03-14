@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-output-field boolean 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Checkbox label
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-input
+        class="slds-form-element__static slds-form-element"
+      >
+        #shadow-root(open)
+          <span
+            class="slds-assistive-text"
+            data-aria="true"
+          />
+          <div
+            class="slds-form-element__control"
+          >
+            <span
+              class="slds-checkbox"
+            >
+              <input
+                disabled=""
+                id="checkbox-11"
+                name="Boolean"
+                type="checkbox"
+                value=""
+              />
+              <label
+                class="slds-checkbox__label"
+                for="checkbox-11"
+              >
+                <span
+                  class="slds-checkbox_faux"
+                />
+                <span
+                  class="slds-form-element__label slds-assistive-text"
+                >
+                  Checkbox label
+                </span>
+              </label>
+            </span>
+          </div>
+      </lightning-input>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field email 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Email
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-email
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          <a
+            href="mailto:the@email.something"
+          >
+            <lightning-icon
+              class="slds-icon-utility-email slds-icon_container"
+            >
+              #shadow-root(open)
+                <lightning-primitive-icon>
+                  #shadow-root(open)
+                    <svg
+                      aria-hidden="true"
+                      class="slds-icon slds-icon-text-default slds-icon_x-small"
+                      data-key="email"
+                      focusable="false"
+                    >
+                      <use
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#email"
+                      />
+                    </svg>
+                </lightning-primitive-icon>
+                <span
+                  class="slds-assistive-text"
+                >
+                  Email
+                </span>
+            </lightning-icon>
+             
+            the@email.something
+          </a>
+      </lightning-formatted-email>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field formatted-address Default Address 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Address
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-address
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          <a
+            href="https://www.google.com/maps/?q=11%20Farm%20Avenue%0AHartford,%20AK%0AUS,%206156"
+            rel="noopener"
+            target="_blank"
+            title="11 Farm Avenue
+Hartford, AK
+US, 6156"
+          >
+            <div
+              class="slds-truncate"
+            >
+              11 Farm Avenue
+            </div>
+            <div
+              class="slds-truncate"
+            >
+              Hartford, AK
+            </div>
+            <div
+              class="slds-truncate"
+            >
+              US, 6156
+            </div>
+          </a>
+      </lightning-formatted-address>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field formatted-address format address based on locale 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Address
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-address
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          <a
+            href="https://www.google.com/maps/?q=US%0AAK,%20Hartford%0A11%20Farm%20Avenue,%206156"
+            rel="noopener"
+            target="_blank"
+            title="US
+AK, Hartford
+11 Farm Avenue, 6156"
+          >
+            <div
+              class="slds-truncate"
+            >
+              US
+            </div>
+            <div
+              class="slds-truncate"
+            >
+              AK, Hartford
+            </div>
+            <div
+              class="slds-truncate"
+            >
+              11 Farm Avenue, 6156
+            </div>
+          </a>
+      </lightning-formatted-address>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field formatted-name Default Name 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Full Name
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-name
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          Mr. Jim  Steele  
+      </lightning-formatted-name>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field formatted-name Name based on locale 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Full Name
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-name
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          Steele  Jim  
+      </lightning-formatted-name>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field noLabel 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-text
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          Some Plain Text
+      </lightning-formatted-text>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field nonexistent 1`] = `
+<lightning-output-field
+  class="slds-form-element slds-hide"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    />
+    <div
+      class="slds-form-element__control"
+    >
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field phone 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Phone Number
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-phone
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          <a
+            href="tel:403-203-1048"
+          >
+            403-203-1048
+          </a>
+      </lightning-formatted-phone>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field picklist 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Picklist
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-text
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          PicklistDisplayValue
+      </lightning-formatted-text>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field richtext fallback 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Rich Text
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-rich-text
+        class="slds-form-element__static slds-rich-text-editor__output"
+      >
+        #shadow-root(open)
+          <span>
+            &lt;img src="/servlet/servlet.FileDownload?file=01570000000Q6Ep" alt="Red" border="0"/&gt;
+          </span>
+      </lightning-formatted-rich-text>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field text 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Plain Text
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-text
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          Some Plain Text
+      </lightning-formatted-text>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field text with field reference 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Plain Text
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-text
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          Some Plain Text
+      </lightning-formatted-text>
+      <slot />
+    </div>
+</lightning-output-field>
+`;
+
+exports[`lightning-output-field throws an error on objectApiName mismatch 1`] = `"objectApiName (notEntity) for field Text does not match the objectApiName provided for the form (entity)."`;
+
+exports[`lightning-output-field url 1`] = `
+<lightning-output-field
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <span
+      class="slds-form-element__label"
+    >
+      Url
+    </span>
+    <div
+      class="slds-form-element__control"
+    >
+      <lightning-formatted-url
+        class="slds-form-element__static"
+      >
+        #shadow-root(open)
+          <a
+            href="http://www.google.com"
+          >
+            http://www.google.com
+          </a>
+      </lightning-formatted-url>
+      <slot />
+    </div>
+</lightning-output-field>
+`;

@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Simulate Phone System Management</h1>
+        <p class="slds-text-body_regular">This example lets you simulate enabling and disabling a phone system using Open CTI. You can also add an onClickToDial handler to call a function when a user clicks an enabled phone number. Click each button below to change the state of component.</p>
+    </div>
+    <lightning-button label="enableClickToDial" onclick={enableClickToDial}></lightning-button>
+    <lightning-button label="disableClickToDial" onclick={disableClickToDial}></lightning-button>
+    <lightning-button label="onClickToDial" onclick={onClickToDial}></lightning-button>
+    <p><lightning-click-to-dial value="14155555554"></lightning-click-to-dial></p>
+    <p><lightning-click-to-dial value="14155555555" record-id="5003000000D8cuI" params="accountSid=xxx, sourceId=xxx, apiVersion=123"></lightning-click-to-dial></p>
+</template>

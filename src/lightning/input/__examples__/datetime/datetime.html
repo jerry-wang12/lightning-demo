@@ -1,0 +1,18 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Input DateTime Example</h1>
+        <p class="slds-text-body_regular">The following examples show various ways to create an input date/time component.</p>
+    </div>
+    <div>
+        <h2>Basic Input Date Time</h2>
+        <lightning-input type="datetime" name="input1" label="Enter a date/time value" ></lightning-input>
+        <lightning-input type="datetime" name="input2" label="Date Time field with a predefined value" value="2017-09-12T18:13:41Z"></lightning-input>
+    </div>
+
+    <div>
+        <h2>Advanced Input Date Time</h2>
+        <lightning-input type="datetime" name="input3" label="Required Date Time field" required value="2017-09-12T18:13:41Z" ></lightning-input>
+        <lightning-input type="datetime" name="input4" label="Disabled Date Time field" disabled value="2017-09-12T18:13:41Z" ></lightning-input>
+        <lightning-input type="datetime" name="input5" label="Date Time field with min and max values" value="2017-09-12T18:13:41Z" min="2017-08-03T08:20:44Z" max="2017-09-25T22:33:44Z" ></lightning-input>
+    </div>
+</template>

@@ -1,0 +1,26 @@
+<template>
+    <span
+        class="slds-checkbox"
+        onclick={handleCheckboxContainerClick}
+        onmousedown={handleCheckboxContainerMouseDown}
+    >
+        <input type="checkbox"
+               name={computedOptionName}
+               id="primitive-cell-checkbox-id"
+               tabindex={internalTabIndex}
+               data-navigation="enable"
+               data-action-triggers="space"
+               onclick={handleCheckboxClick}
+               disabled={isDisabled}
+               checked={isSelected}>
+        <label
+            class="slds-checkbox__label"
+            for="primitive-cell-checkbox-id"
+        >
+            <span class="slds-checkbox_faux"></span>
+            <span class="slds-form-element__label slds-assistive-text">
+                {selectItemAssistiveText}
+            </span>
+        </label>
+    </span>
+</template>

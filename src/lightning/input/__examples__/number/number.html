@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Input Number Example</h1>
+        <p class="slds-text-body_regular">The following examples show various ways to create an input number component.</p>
+    </div>
+    <div>
+        <h2>Basic Input Number</h2>
+        <lightning-input type="number" name="input1" label="Enter a number" ></lightning-input>
+        <lightning-input type="number" name="input2" label="Number field with a predefined value" value="12345"></lightning-input>
+        <lightning-input type="number" name="input3" label="Number field with placeholder" placeholder="type here..."></lightning-input>
+    </div>
+
+    <div>
+        <h2>Advanced Input Number</h2>
+        <lightning-input type="number" name="input4" readonly value="123" label="Read-only number field" ></lightning-input>
+        <lightning-input type="number" name="input5" disabled value="12345" label="Disabled number field" ></lightning-input>
+        <lightning-input type="number" name="input6" label="Number field with percentage formatter" value="0.5" formatter="percent" step="0.01"></lightning-input>
+        <lightning-input type="number" name="input7" label="Number field with currency formatter" value="123.45" formatter="currency" step="0.01"></lightning-input>
+        <lightning-input type="number" name="input8" required value="12345" label="Required number field with a maximum length of 10" maxlength="10" ></lightning-input>
+    </div>
+
+    <div>
+        <h2>Live Input Number</h2>
+        <lightning-input type="number" name="seven" value={amount} placeholder="type the number of items..." label="Enter a number" ></lightning-input>
+        <p>
+            Number of Items: {amount}
+        </p>
+    </div>
+</template>

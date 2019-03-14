@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-menu-divider default state 1`] = `
+<lightning-menu-divider
+  class="slds-has-divider_top-space"
+  role="separator"
+>
+  #shadow-root(open)
+</lightning-menu-divider>
+`;

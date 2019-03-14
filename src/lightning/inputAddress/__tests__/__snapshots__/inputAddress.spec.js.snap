@@ -1,0 +1,1722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input-address arranging fields displays fields in the right order with correct labels 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address arranging fields distribute field widths correctly when default widths do not fill up the rows 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_3-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  CN
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_3-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address basic adds slds-assistive-text class to legend when variant=label-hidden 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend slds-assistive-text"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address basic disables all fields when disabled=true 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address basic sets certain fields required based on globalization format if required=true 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address basic sets readonly to all fields when readonly=true 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  true
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address basic sets values correctly 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  121 Spear St.
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  San Francisco
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  CA
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  94105
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-input
+              class="slds-form-element slds-show slds-size_2-of-6 mock-input"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  US
+                   [ maxlength ] 
+                  80
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address province and country picklist passes values to picklist 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_6-of-6 mock-picklist"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  US
+                   [ options ] 
+                  [{"label":"United States","value":"US"},{"label":"Japan","value":"JP"},{"label":"China","value":"CN"}]
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  121 Spear St.
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  San Francisco
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_2-of-6 mock-picklist"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  CA
+                   [ options ] 
+                  [{"label":"California","value":"CA"},{"label":"Texas","value":"TX"},{"label":"Washington","value":"WA"}]
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  94105
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address province and country picklist sets disabled=true correctly on picklists 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_6-of-6 mock-picklist"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"United States","value":"US"},{"label":"Japan","value":"JP"},{"label":"China","value":"CN"}]
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_2-of-6 mock-picklist"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"California","value":"CA"},{"label":"Texas","value":"TX"},{"label":"Washington","value":"WA"}]
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  true
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address province and country picklist sets required=true correctly on picklists 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_6-of-6 mock-picklist"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"United States","value":"US"},{"label":"Japan","value":"JP"},{"label":"China","value":"CN"}]
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_2-of-6 mock-picklist"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"California","value":"CA"},{"label":"Texas","value":"TX"},{"label":"Washington","value":"WA"}]
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  true
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;
+
+exports[`input-address province and country picklist shows picklists when options are available 1`] = `
+<lightning-input-address
+  class="slds-form_compound"
+>
+  #shadow-root(open)
+    <fieldset
+      class="slds-form-element"
+    >
+      <legend
+        class="slds-form-element__label slds-form-element__legend"
+      >
+        Address
+      </legend>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-form-element__group"
+        >
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_6-of-6 mock-picklist"
+              data-field="country"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Country
+                   [ name ] 
+                  country
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"United States","value":"US"},{"label":"Japan","value":"JP"},{"label":"China","value":"CN"}]
+                   [ placeholder ] 
+                  Country
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-textarea
+              class="slds-form-element slds-show slds-size_6-of-6 mock-textarea"
+              data-field="street"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Street
+                   [ name ] 
+                  street
+                   [ value ] 
+                  
+                   [ placeholder ] 
+                  Street
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-textarea>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_4-of-6 mock-input"
+              data-field="city"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  City
+                   [ name ] 
+                  city
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  40
+                   [ placeholder ] 
+                  City
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+            <lightning-picklist
+              class="slds-form-element slds-show slds-size_2-of-6 mock-picklist"
+              data-field="province"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Province/State
+                   [ name ] 
+                  province
+                   [ value ] 
+                  
+                   [ options ] 
+                  [{"label":"California","value":"CA"},{"label":"Texas","value":"TX"},{"label":"Washington","value":"WA"}]
+                   [ placeholder ] 
+                  Province/State
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                </pre>
+            </lightning-picklist>
+          </div>
+          <div
+            class="slds-form-element__row"
+          >
+            <lightning-input
+              class="slds-form-element slds-show slds-size_6-of-6 mock-input"
+              data-field="postalCode"
+            >
+              #shadow-root(open)
+                <pre>
+                  [ label ] 
+                  Zip/Postal Code
+                   [ name ] 
+                  postalCode
+                   [ value ] 
+                  
+                   [ maxlength ] 
+                  20
+                   [ placeholder ] 
+                  Zip/Postal Code
+                   [ required ] 
+                  false
+                   [ disabled ] 
+                  false
+                   [ readonly ] 
+                  false
+                </pre>
+            </lightning-input>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+</lightning-input-address>
+`;

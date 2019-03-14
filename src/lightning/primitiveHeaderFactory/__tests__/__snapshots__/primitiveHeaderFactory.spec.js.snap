@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-header-factory should render checkbox when selectable column and showCheckbox true 1`] = `
+<lightning-primitive-header-actions
+  class="slds-text-title_caps"
+>
+  #shadow-root(open)
+    <div
+      class="slds-th__action slds-th__action_form slds-cell-fixed"
+      style="outline: none;"
+    >
+      <span
+        class="slds-checkbox"
+      >
+        <input
+          class="datatable-select-all"
+          data-navigation="enable"
+          id="lgt-dt-header-factory-id-4"
+          name="abc-options"
+          tabindex="-1"
+          type="checkbox"
+        />
+        <label
+          class="slds-checkbox__label"
+          for="lgt-dt-header-factory-id-4"
+        >
+          <span
+            class="slds-checkbox_faux"
+          />
+          <span
+            class="slds-form-element__label slds-assistive-text"
+          >
+            Select All
+          </span>
+        </label>
+      </span>
+    </div>
+</lightning-primitive-header-actions>
+`;
+
+exports[`lightning-primitive-header-factory should render non-sortable column header when not selectable column 1`] = `
+<lightning-primitive-header-actions
+  class="slds-text-title_caps"
+>
+  #shadow-root(open)
+    <div
+      class="slds-cell-fixed slds-has-button-menu"
+      style="outline: none;"
+      tabindex="-1"
+    >
+      <span
+        class="slds-th__action"
+      >
+        <span
+          class="slds-truncate"
+        />
+        <lightning-primitive-header-actions
+          data-navigation="enable"
+          tabindex="-1"
+        >
+          #shadow-root(open)
+            <lightning-button-menu
+              class="slds-th__action-button slds-dropdown-trigger slds-dropdown-trigger_click"
+              id="primitive-header-action-button-menu-id-11"
+              style="z-index: 1;"
+              tabindex="-1"
+            >
+              #shadow-root(open)
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="slds-button slds-button_icon-bare"
+                  tabindex="-1"
+                  value=""
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="chevrondown"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Show actions
+                  </span>
+                </button>
+            </lightning-button-menu>
+        </lightning-primitive-header-actions>
+      </span>
+    </div>
+</lightning-primitive-header-actions>
+`;
+
+exports[`lightning-primitive-header-factory should render only assistive text when selectable column and showCheckbox false 1`] = `
+<lightning-primitive-header-actions
+  class="slds-text-title_caps"
+>
+  #shadow-root(open)
+    <div
+      class="slds-th__action slds-th__action_form slds-cell-fixed"
+      style="outline: none;"
+    >
+      <span
+        class="slds-assistive-text"
+      >
+        Choose a Row to Select
+      </span>
+    </div>
+</lightning-primitive-header-actions>
+`;
+
+exports[`lightning-primitive-header-factory should render sortable column header when not selectable column 1`] = `
+<lightning-primitive-header-actions
+  class="slds-text-title_caps slds-is-sortable"
+>
+  #shadow-root(open)
+    <span
+      class="slds-cell-fixed slds-has-button-menu"
+      style=""
+      tabindex="-1"
+    >
+      <a
+        class="slds-th__action slds-text-link_reset"
+        data-navigation="enable"
+        href="javascript:void(0);"
+        role="button"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Sort by:
+        </span>
+        <span
+          class="slds-truncate"
+        />
+        <lightning-primitive-icon
+          class="slds-icon_container"
+        >
+          #shadow-root(open)
+            <svg
+              aria-hidden="true"
+              class="slds-icon slds-icon-text-default slds-is-sortable__icon slds-icon_x-small"
+              data-key="arrowdown"
+              focusable="false"
+            >
+              <use
+                xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"
+              />
+            </svg>
+        </lightning-primitive-icon>
+      </a>
+      <span
+        aria-atomic="true"
+        aria-live="assertive"
+        class="slds-assistive-text"
+      >
+        Sorted: None
+      </span>
+      <lightning-primitive-header-actions
+        data-navigation="enable"
+        tabindex="-1"
+      >
+        #shadow-root(open)
+          <lightning-button-menu
+            class="slds-th__action-button slds-dropdown-trigger slds-dropdown-trigger_click"
+            id="primitive-header-action-button-menu-id-7"
+            style="z-index: 1;"
+            tabindex="-1"
+          >
+            #shadow-root(open)
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="slds-button slds-button_icon-bare"
+                tabindex="-1"
+                value=""
+              >
+                <lightning-primitive-icon>
+                  #shadow-root(open)
+                    <svg
+                      aria-hidden="true"
+                      class="slds-button__icon"
+                      data-key="chevrondown"
+                      focusable="false"
+                    >
+                      <use
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"
+                      />
+                    </svg>
+                </lightning-primitive-icon>
+                <span
+                  class="slds-assistive-text"
+                >
+                  Show actions
+                </span>
+              </button>
+          </lightning-button-menu>
+      </lightning-primitive-header-actions>
+    </span>
+</lightning-primitive-header-actions>
+`;

@@ -1,0 +1,2723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-dual-listbox default and required options 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-29"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-29"
+      >
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-29"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-29"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-29"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-29"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-29"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-29"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="source-list-29"
+                    data-value="1"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 1"
+                      >
+                        Option 1
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="source-list-29"
+                    data-value="3"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 3"
+                      >
+                        Option 3
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="source-list-29"
+                    data-value="4"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 4"
+                      >
+                        Option 4
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="source-list-29"
+                    data-value="8"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 8"
+                      >
+                        Option 8
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-29"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-29"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-29"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-29"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="selected-list-29"
+                    data-value="6"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 6"
+                      >
+                        Option 6
+                      </span>
+                    </span>
+                    <span
+                      class="slds-media__figure slds-media__figure_reverse"
+                    >
+                      <lightning-icon
+                        class="slds-icon-utility-lock slds-icon_container"
+                      >
+                        #shadow-root(open)
+                          <lightning-primitive-icon>
+                            #shadow-root(open)
+                              <svg
+                                aria-hidden="true"
+                                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                                data-key="lock"
+                                focusable="false"
+                              >
+                                <use
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#lock"
+                                />
+                              </svg>
+                          </lightning-primitive-icon>
+                          <span
+                            class="slds-assistive-text"
+                          >
+                            : item cannot be removed from selected list
+                          </span>
+                      </lightning-icon>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="selected-list-29"
+                    data-value="7"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 7"
+                      >
+                        Option 7
+                      </span>
+                    </span>
+                    <span
+                      class="slds-media__figure slds-media__figure_reverse"
+                    >
+                      <lightning-icon
+                        class="slds-icon-utility-lock slds-icon_container"
+                      >
+                        #shadow-root(open)
+                          <lightning-primitive-icon>
+                            #shadow-root(open)
+                              <svg
+                                aria-hidden="true"
+                                class="slds-icon slds-icon-text-default slds-icon_x-small"
+                                data-key="lock"
+                                focusable="false"
+                              >
+                                <use
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#lock"
+                                />
+                              </svg>
+                          </lightning-primitive-icon>
+                          <span
+                            class="slds-assistive-text"
+                          >
+                            : item cannot be removed from selected list
+                          </span>
+                      </lightning-icon>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="selected-list-29"
+                    data-value="2"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 2"
+                      >
+                        Option 2
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="selected-list-29"
+                    data-value="5"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 5"
+                      >
+                        Option 5
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox default no options 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-2"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-2"
+      >
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-2"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-2"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-2"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-2"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-2"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-2"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-2"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-2"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-2"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-2"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox default override button labels 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-79"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-79"
+      >
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-79"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-79"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-79"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-79"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-79"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-79"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Add item"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Add item
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Remove item"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Remove item
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-79"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-79"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-79"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-79"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move item up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move item up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move item down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move item down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox default selected options 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-20"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-20"
+      >
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-20"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-20"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-20"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-20"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-20"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-20"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="source-list-20"
+                    data-value="1"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 1"
+                      >
+                        Option 1
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="source-list-20"
+                    data-value="3"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 3"
+                      >
+                        Option 3
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="source-list-20"
+                    data-value="4"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 4"
+                      >
+                        Option 4
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="source-list-20"
+                    data-value="7"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 7"
+                      >
+                        Option 7
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="4"
+                    data-type="source-list-20"
+                    data-value="8"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 8"
+                      >
+                        Option 8
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-20"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-20"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-20"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-20"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="selected-list-20"
+                    data-value="2"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 2"
+                      >
+                        Option 2
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="selected-list-20"
+                    data-value="6"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 6"
+                      >
+                        Option 6
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="selected-list-20"
+                    data-value="5"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 5"
+                      >
+                        Option 5
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox default with options and size 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-11"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-11"
+      >
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-11"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-11"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-11"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+              style="height: 12.25rem;"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-11"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-11"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-11"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="source-list-11"
+                    data-value="1"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 1"
+                      >
+                        Option 1
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="source-list-11"
+                    data-value="2"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 2"
+                      >
+                        Option 2
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="source-list-11"
+                    data-value="3"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 3"
+                      >
+                        Option 3
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="source-list-11"
+                    data-value="4"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 4"
+                      >
+                        Option 4
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="4"
+                    data-type="source-list-11"
+                    data-value="5"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 5"
+                      >
+                        Option 5
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="5"
+                    data-type="source-list-11"
+                    data-value="6"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 6"
+                      >
+                        Option 6
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="6"
+                    data-type="source-list-11"
+                    data-value="7"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 7"
+                      >
+                        Option 7
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="7"
+                    data-type="source-list-11"
+                    data-value="8"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 8"
+                      >
+                        Option 8
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-11"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+              style="height: 12.25rem;"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-11"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-11"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-11"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox has spinner with show-loading-indicator 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-60"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-60"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-60"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-60"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive slds-is-relative"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-60"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-60"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-60"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-60"
+                role="listbox"
+              />
+            </div>
+            <div>
+              <lightning-spinner
+                class="slds-spinner_container"
+              >
+                #shadow-root(open)
+                  <div
+                    class="slds-spinner slds-spinner_brand slds-spinner_small"
+                    role="status"
+                  >
+                    <span
+                      class="slds-assistive-text"
+                    >
+                      Loading
+                    </span>
+                    <div
+                      class="slds-spinner__dot-a"
+                    />
+                    <div
+                      class="slds-spinner__dot-b"
+                    />
+                  </div>
+              </lightning-spinner>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  disabled=""
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  disabled=""
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-60"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-60"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-60"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-60"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox required field 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-42"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-42"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-42"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-42"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-42"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-42"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-42"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-42"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="source-list-42"
+                    data-value="1"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 1"
+                      >
+                        Option 1
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="source-list-42"
+                    data-value="2"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 2"
+                      >
+                        Option 2
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="source-list-42"
+                    data-value="3"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 3"
+                      >
+                        Option 3
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="source-list-42"
+                    data-value="4"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 4"
+                      >
+                        Option 4
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="4"
+                    data-type="source-list-42"
+                    data-value="5"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 5"
+                      >
+                        Option 5
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="5"
+                    data-type="source-list-42"
+                    data-value="6"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 6"
+                      >
+                        Option 6
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="6"
+                    data-type="source-list-42"
+                    data-value="7"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 7"
+                      >
+                        Option 7
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="7"
+                    data-type="source-list-42"
+                    data-value="8"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 8"
+                      >
+                        Option 8
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-42"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-42"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-42"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-42"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;
+
+exports[`lightning-dual-listbox required field variant hidden-label 1`] = `
+<lightning-dual-listbox
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <div
+      aria-labelledby="group-label-51"
+      role="group"
+    >
+      <div
+        class="slds-form-element__label slds-form-element__legend"
+        id="group-label-51"
+      >
+        <abbr
+          class="slds-required"
+          title="required"
+        >
+          *
+        </abbr>
+        dual listbox label
+      </div>
+      <div
+        class="slds-form-element__control"
+      >
+        <div
+          class="slds-dueling-list"
+        >
+          <div
+            aria-live="assertive"
+            class="slds-assistive-text"
+            id="assertive-thing-51"
+          />
+          <div
+            class="slds-assistive-text"
+            id="keyboard-interacton-51"
+          >
+            Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="source-list-label-51"
+            >
+              source list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-51"
+                aria-disabled="false"
+                aria-labelledby="source-list-label-51"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-source-list="true"
+                id="source-list-51"
+                role="listbox"
+              >
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="0"
+                    data-type="source-list-51"
+                    data-value="1"
+                    role="option"
+                    tabindex="0"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 1"
+                      >
+                        Option 1
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="1"
+                    data-type="source-list-51"
+                    data-value="2"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 2"
+                      >
+                        Option 2
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="2"
+                    data-type="source-list-51"
+                    data-value="3"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 3"
+                      >
+                        Option 3
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="3"
+                    data-type="source-list-51"
+                    data-value="4"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 4"
+                      >
+                        Option 4
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="4"
+                    data-type="source-list-51"
+                    data-value="5"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 5"
+                      >
+                        Option 5
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="5"
+                    data-type="source-list-51"
+                    data-value="6"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 6"
+                      >
+                        Option 6
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="6"
+                    data-type="source-list-51"
+                    data-value="7"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 7"
+                      >
+                        Option 7
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li
+                  class="slds-listbox__item"
+                  role="presentation"
+                >
+                  <div
+                    aria-selected="false"
+                    class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                    data-index="7"
+                    data-type="source-list-51"
+                    data-value="8"
+                    role="option"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="slds-media__body"
+                    >
+                      <span
+                        class="slds-truncate"
+                        title="Option 8"
+                      >
+                        Option 8
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to selected list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="right"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to selected list
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection to source list"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="left"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection to source list
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+          <div
+            class="slds-dueling-list__column slds-dueling-list__column_responsive"
+          >
+            <span
+              class="slds-form-element__label"
+              id="selected-list-label-51"
+            >
+              selected list
+            </span>
+            <div
+              class="slds-dueling-list__options"
+            >
+              <ul
+                aria-describedby="keyboard-interacton-51"
+                aria-disabled="false"
+                aria-labelledby="selected-list-label-51"
+                aria-multiselectable="true"
+                class="slds-listbox slds-listbox_vertical"
+                data-selected-list="true"
+                id="selected-list-51"
+                role="listbox"
+              />
+            </div>
+          </div>
+          <div
+            class="slds-dueling-list__column"
+          >
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection up"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="up"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#up"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection up
+                  </span>
+                </button>
+            </lightning-button-icon>
+            <lightning-button-icon>
+              #shadow-root(open)
+                <button
+                  class="slds-button slds-button_icon-container"
+                  title="Move selection down"
+                  type="button"
+                >
+                  <lightning-primitive-icon>
+                    #shadow-root(open)
+                      <svg
+                        aria-hidden="true"
+                        class="slds-button__icon"
+                        data-key="down"
+                        focusable="false"
+                      >
+                        <use
+                          xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                        />
+                      </svg>
+                  </lightning-primitive-icon>
+                  <span
+                    class="slds-assistive-text"
+                  >
+                    Move selection down
+                  </span>
+                </button>
+            </lightning-button-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+</lightning-dual-listbox>
+`;

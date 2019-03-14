@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primitive-cell-checkbox when type "radio" should match slds markup 1`] = `
+<lightning-primitive-cell-checkbox>
+  #shadow-root(open)
+    <span
+      class="slds-radio"
+    >
+      <input
+        aria-labelledby="radio-button-label-1 radio-group-header-1"
+        data-action-triggers="space"
+        data-navigation="enable"
+        id="primitive-checkbox-radio-id-1"
+        name="dt-id-options"
+        tabindex="-1"
+        type="radio"
+      />
+      <label
+        class="slds-radio__label"
+        for="primitive-checkbox-radio-id-1"
+      >
+        <span
+          class="slds-radio_faux"
+        />
+        <span
+          class="slds-form-element__label slds-assistive-text"
+        >
+          Select Item 1
+        </span>
+      </label>
+    </span>
+</lightning-primitive-cell-checkbox>
+`;

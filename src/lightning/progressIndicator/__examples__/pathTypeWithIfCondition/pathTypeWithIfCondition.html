@@ -1,0 +1,12 @@
+<template>
+    <lightning-progress-indicator current-step="step-3" type="path" variant="base">
+        <lightning-progress-step label="Contacted" value="step-1"></lightning-progress-step>
+        <lightning-progress-step label="Open" value="step-2"></lightning-progress-step>
+        <lightning-progress-step label="Unqualified" value="step-3"></lightning-progress-step>
+        <template if:true={showStep4}>
+            <lightning-progress-step label="Nurturing" value="step-4"></lightning-progress-step>
+        </template>
+        <lightning-progress-step label="Closed" value="step-5"></lightning-progress-step>
+    </lightning-progress-indicator>
+    <lightning-button label="Hide/Show Step 4" onclick={toggleStep4}></lightning-button>
+</template>

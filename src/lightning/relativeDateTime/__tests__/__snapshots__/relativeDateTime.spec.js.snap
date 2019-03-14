@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-relative-date-time should change formattedValue with time 1`] = `
+<lightning-relative-date-time>
+  #shadow-root(open)
+    seconds
+</lightning-relative-date-time>
+`;
+
+exports[`lightning-relative-date-time should change formattedValue with time 2`] = `
+<lightning-relative-date-time>
+  #shadow-root(open)
+    minutes
+</lightning-relative-date-time>
+`;
+
+exports[`lightning-relative-date-time should change formattedValue with time 3`] = `
+<lightning-relative-date-time>
+  #shadow-root(open)
+    hours
+</lightning-relative-date-time>
+`;

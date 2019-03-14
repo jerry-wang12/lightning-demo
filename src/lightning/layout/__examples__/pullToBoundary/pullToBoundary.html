@@ -1,0 +1,22 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Layout with pull-to-boundary attribute</h1>
+        <p class="slds-text-body_regular">You can use the pull-to-boundary attribute on the layout element to pull the items from each side of the container. In the following example, element 1 and 4 don't have any padding on the edges and go all the way to the edges of the container.</p>
+    </div>
+    <div class="c-container">
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+                <div class="custom-box">1</div>
+            </lightning-layout-item>
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+                <div class="custom-box">2</div>
+            </lightning-layout-item>
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+                <div class="custom-box">3</div>
+            </lightning-layout-item>
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+                <div class="custom-box">4</div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

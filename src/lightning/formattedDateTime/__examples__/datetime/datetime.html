@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-box">
+        <h2 class="header">Date and Time Formatting</h2>
+        <p><lightning-formatted-date-time value="1547250828000" year="2-digit" month="short" day="2-digit" hour="numeric"
+                                       weekday="long" era="short"></lightning-formatted-date-time></p>
+        <p><lightning-formatted-date-time value="1547250828000" year="numeric" month="numeric" day="numeric" hour="2-digit"
+                                        minute="2-digit" time-zone-name="short" hour12="true"></lightning-formatted-date-time></p>
+        <p><lightning-formatted-date-time value="1547250828000" year="numeric" month="numeric" day="numeric" hour="2-digit"
+                                        minute="2-digit" time-zone="UTC" time-zone-name="short" hour12="false"></lightning-formatted-date-time></p>
+    </div>
+</template>

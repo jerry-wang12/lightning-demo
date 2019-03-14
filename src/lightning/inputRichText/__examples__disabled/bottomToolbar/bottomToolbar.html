@@ -1,0 +1,7 @@
+<template>
+    <lightning-input-rich-text value={myVal} variant="bottom-toolbar" onchange={changeHandler} placeholder="Type something interesting"></lightning-input-rich-text>
+    <h1 class="slds-m-top_large slds-text-heading_medium">Output</h1>
+    <div class="slds-box editor slds-text-longform">
+        <lightning-formatted-rich-text value={myVal}></lightning-formatted-rich-text>
+    </div>
+</template>

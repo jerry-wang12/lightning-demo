@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-text default 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text edge cases empty text 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text edge cases empty value 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text edge cases newline only 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    
+    <br />
+    
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text edge cases url and newline 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    www.salesforce.com
+    <br />
+    
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text edge cases url only 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    <a
+      href="http://www.salesforce.com"
+      rel="noopener"
+      target="_blank"
+    >
+      www.salesforce.com
+    </a>
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text parses multiple new lines into multiple BRs 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    First line 
+    <br />
+    <br />
+     Fourth line 
+    <br />
+    <br />
+    <br />
+     Eighth line
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text parses url after ? 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    First 
+    <a
+      href="http://www.some-business.com?a=1&b=2"
+      rel="noopener"
+      target="_blank"
+    >
+      http://www.some-business.com?a=1&b=2
+    </a>
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text with linkified text 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    I love 
+    <a
+      href="http://www.salesforce.com"
+      rel="noopener"
+      target="_blank"
+    >
+      www.salesforce.com
+    </a>
+     
+    <br />
+     And I like 
+    <a
+      href="mailto:cats@salesforce.com"
+      rel="noopener"
+      target="_blank"
+    >
+      cats@salesforce.com
+    </a>
+</lightning-formatted-text>
+`;
+
+exports[`lightning-formatted-text without linkified text 1`] = `
+<lightning-formatted-text>
+  #shadow-root(open)
+    I love www.salesforce.com 
+    <br />
+     And I like cats@salesforce.com
+</lightning-formatted-text>
+`;

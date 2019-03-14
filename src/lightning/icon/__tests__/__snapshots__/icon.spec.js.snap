@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-icon default 1`] = `
+<lightning-icon
+  class="slds-icon_container"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key=""
+          focusable="false"
+        >
+          <use
+            xlink:href=""
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon iconName value change from utility:salesforce1 to standard:account 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-standard-account"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key="account"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon iconName value utility:salesforce1 (has number) 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon iconName value utility:text_background_color (has underscores) 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-text-background-color"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default"
+          data-key="text_background_color"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#text_background_color"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon invalid iconName, size, and variant 1`] = `
+<lightning-icon
+  class="slds-icon_container"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key=""
+          focusable="false"
+        >
+          <use
+            xlink:href=""
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon non-utility variant value error (variant only works for utility) 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-standard-account"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key="account"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon sets the icon URL to a custom uri when a iconRef is present 1`] = `
+<lightning-icon
+  class="slds-icon_container"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key=""
+          focusable="false"
+        >
+          <use
+            xlink:href="/my/url/my.svg#custom-icon"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size change from small to large 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default slds-icon_large"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size value large 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default slds-icon_large"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size value medium 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size value small 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default slds-icon_small"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size value x-small 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default slds-icon_x-small"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon size value xx-small 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-default slds-icon_xx-small"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon variant change from inverse to error 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-error"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon variant value bare (same effect as inverse but supported until fully deprecated) 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon variant value error 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-error"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon variant value inverse 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;
+
+exports[`lightning-icon variant value warning 1`] = `
+<lightning-icon
+  class="slds-icon_container slds-icon-utility-salesforce1"
+>
+  #shadow-root(open)
+    <lightning-primitive-icon>
+      #shadow-root(open)
+        <svg
+          aria-hidden="true"
+          class="slds-icon slds-icon-text-warning"
+          data-key="salesforce1"
+          focusable="false"
+        >
+          <use
+            xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#salesforce1"
+          />
+        </svg>
+    </lightning-primitive-icon>
+</lightning-icon>
+`;

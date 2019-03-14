@@ -1,0 +1,1518 @@
+{
+  "objectInfo": {
+    "apiName": "entity",
+    "fields": {
+      "Address": {
+        "apiName": "Address",
+        "compound": true,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "dataType": "Address",
+        "label": "Address",
+        "updateable": false
+      },
+      "City": {
+        "apiName": "City",
+        "compound": false,
+        "compoundComponentName": "City",
+        "compoundFieldName": "Address",
+        "dataType": "String",
+        "label": "City",
+        "updateable": true
+      },
+      "Country": {
+        "apiName": "Country",
+        "compound": false,
+        "compoundComponentName": "Country",
+        "compoundFieldName": "Address",
+        "dataType": "String",
+        "label": "Country",
+        "updateable": true
+      },
+      "CountryCode": {
+        "apiName": "CountryCode",
+        "compound": false,
+        "compoundComponentName": "Country",
+        "compoundFieldName": "Address",
+        "dataType": "Picklist",
+        "label": "Country Code",
+        "updateable": true
+      },
+      "PostalCode": {
+        "apiName": "PostalCode",
+        "compound": false,
+        "compoundComponentName": "PostalCode",
+        "compoundFieldName": "Address",
+        "dataType": "String",
+        "label": "Zip/Postal Code",
+        "updateable": true
+      },
+      "State": {
+        "apiName": "State",
+        "compound": false,
+        "compoundComponentName": "State",
+        "compoundFieldName": "Address",
+        "dataType": "String",
+        "label": "State/Province",
+        "updateable": true
+      },
+      "StateCode": {
+        "apiName": "StateCode",
+        "compound": false,
+        "compoundComponentName": "State",
+        "compoundFieldName": "Address",
+        "dataType": "Picklist",
+        "label": "State/Province Code",
+        "updateable": true
+      },
+      "Street": {
+        "apiName": "Street",
+        "compound": false,
+        "compoundComponentName": "Street",
+        "compoundFieldName": "Address",
+        "dataType": "TextArea",
+        "label": "Street",
+        "updateable": true
+      },
+      "BillingAddress": {
+        "apiName": "BillingAddress",
+        "calculated": false,
+        "compound": true,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": false,
+        "custom": false,
+        "dataType": "Address",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Address",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": false,
+        "unique": false,
+        "updateable": false
+      },
+      "BillingCity": {
+        "apiName": "BillingCity",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "City",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing City",
+        "length": 40,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingCountry": {
+        "apiName": "BillingCountry",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Country",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Country",
+        "length": 80,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingGeocodeAccuracy": {
+        "apiName": "BillingGeocodeAccuracy",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "GeocodeAccuracy",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Picklist",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Geocode Accuracy",
+        "length": 40,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingLatitude": {
+        "apiName": "BillingLatitude",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Latitude",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Latitude",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 18,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 15,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingLongitude": {
+        "apiName": "BillingLongitude",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Longitude",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Longitude",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 18,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 15,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingPostalCode": {
+        "apiName": "BillingPostalCode",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "PostalCode",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Zip/Postal Code",
+        "length": 20,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingState": {
+        "apiName": "BillingState",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "State",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing State/Province",
+        "length": 80,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "BillingStreet": {
+        "apiName": "BillingStreet",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Street",
+        "compoundFieldName": "BillingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "TextArea",
+        "extraTypeInfo": "PlainTextArea",
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Billing Street",
+        "length": 255,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "Text": {
+        "dataType": "String",
+        "label": "Plain Text",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Boolean": {
+        "dataType": "Boolean",
+        "label": "Checkbox label",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "FalseBoolean": {
+        "dataType": "Boolean",
+        "label": "Checkbox label",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Email": {
+        "dataType": "Email",
+        "label": "Email",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Geo__c": {
+        "apiName": "Geo__c",
+        "calculated": false,
+        "compound": true,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": false,
+        "custom": true,
+        "dataType": "Location",
+        "extraTypeInfo": null,
+        "filterable": false,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Geo",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": false,
+        "unique": false,
+        "updateable": false
+      },
+      "Geo__Latitude__s": {
+        "apiName": "Geo__Latitude__s",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Latitude",
+        "compoundFieldName": "Geo__c",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": true,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Geo (Latitude)",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 5,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 2,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "Geo__Longitude__s": {
+        "apiName": "Geo__Longitude__s",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Longitude",
+        "compoundFieldName": "Geo__c",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": true,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Geo (Longitude)",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 5,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 2,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "OwnerId": {
+        "apiName": "OwnerId",
+        "calculated": false,
+        "compound": false,
+        "createable": true,
+        "custom": false,
+        "dataType": "Reference",
+        "label": "Owner ID",
+        "length": 18,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": true,
+        "referenceTargetField": null,
+        "referenceToInfos": [
+          {
+            "apiName": "User",
+            "nameFields": ["FirstName", "LastName", "Name"]
+          }
+        ],
+        "relationshipName": "Owner",
+        "required": true,
+        "unique": false,
+        "updateable": true
+      },
+      "CreatedById": {
+        "apiName": "CreatedById",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "createable": false,
+        "custom": false,
+        "dataType": "Reference",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "label": "Created By ID",
+        "length": 18,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": true,
+        "referenceTargetField": null,
+        "referenceToInfos": [
+          {
+            "apiName": "User",
+            "nameFields": ["FirstName", "LastName", "Name"]
+          }
+        ],
+        "relationshipName": "CreatedBy",
+        "required": true,
+        "sortable": true,
+        "unique": false,
+        "updateable": false
+      },
+      "LastModifiedById": {
+        "apiName": "LastModifiedById",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": false,
+        "custom": false,
+        "dataType": "Reference",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "label": "Last Modified By ID",
+        "length": 18,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": true,
+        "referenceTargetField": null,
+        "referenceToInfos": [
+          {
+            "apiName": "User",
+            "nameFields": ["FirstName", "LastName", "Name"]
+          }
+        ],
+        "relationshipName": "LastModifiedBy",
+        "required": true,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": false
+      },
+      "LookupId": {
+        "apiName": "LookupId",
+        "compound": false,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "dataType": "Reference",
+        "label": "Lookup",
+        "relationshipName": "Lookup",
+        "reference": true,
+        "referenceToInfos": [
+          {
+            "apiName": "Lookup",
+            "nameFields": ["Name"]
+          }
+        ]
+      },
+      "Percent": {
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "createable": true,
+        "custom": true,
+        "dataType": "Percent",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Percent",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 18,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "PercentScale": {
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "createable": true,
+        "custom": true,
+        "dataType": "Percent",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Percent",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 16,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 2,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "Phone": {
+        "dataType": "Phone",
+        "label": "Phone Number",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Currency": {
+        "dataType": "Currency",
+        "label": "Currency",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Picklist": {
+        "dataType": "Picklist",
+        "label": "Single Select Picklist",
+        "inlineHelpText": "Some help text",
+        "apiName": "Picklist",
+        "updateable": true
+      },
+      "MultiPicklist": {
+        "dataType": "MultiPicklist",
+        "label": "Multi Select Picklist",
+        "inlineHelpText": "Some help text",
+        "apiName": "MultiPicklist",
+        "updateable": true
+      },
+      "DependentPicklist": {
+        "dataType": "Picklist",
+        "label": "Dependent Picklist",
+        "controllerName": "ControllingPicklist",
+        "apiName": "DependentPicklist",
+        "updateable": true
+      },
+      "ControllingPicklistMissing": {
+        "dataType": "Picklist",
+        "label": "Controlling Picklist (Not in form)",
+        "apiName": "ControllingPicklistMissing",
+        "updateable": true
+      },
+      "ControllingPicklist": {
+        "dataType": "Picklist",
+        "label": "Controlling Picklist",
+        "apiName": "ControllingPicklist",
+        "updateable": true
+      },
+      "DependentPicklistNoController": {
+        "dataType": "Picklist",
+        "label": "Dependent Picklist Without Controller",
+        "controllerName": "ControllingPicklistMissing",
+        "apiName": "DependentPicklistNoController",
+        "updateable": true
+      },
+      "FirstName": {
+        "apiName": "FirstName",
+        "compound": false,
+        "compoundComponentName": "FirstName",
+        "compoundFieldName": "Name",
+        "dataType": "String",
+        "extraTypeInfo": "PersonName",
+        "label": "First Name",
+        "updateable": true
+      },
+      "LastName": {
+        "apiName": "LastName",
+        "compound": false,
+        "compoundComponentName": "LastName",
+        "compoundFieldName": "Name",
+        "dataType": "String",
+        "extraTypeInfo": "PersonName",
+        "label": "Last Name",
+        "updateable": true
+      },
+      "Name": {
+        "apiName": "Name",
+        "compound": true,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "dataType": "String",
+        "extraTypeInfo": "PersonName",
+        "label": "Full Name",
+        "updateable": false
+      },
+      "NameSimple": {
+        "apiName": "NameSimple",
+        "compound": true,
+        "compoundComponentName": "NameSimple",
+        "compoundFieldName": null,
+        "dataType": "String",
+        "extraTypeInfo": "PersonName",
+        "label": "Simple Name",
+        "updateable": true
+      },
+      "RichText": {
+        "dataType": "TextArea",
+        "extraTypeInfo": "RichTextArea",
+        "htmlFormatted": true,
+        "label": "Rich Text",
+        "required": true,
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "Salutation": {
+        "apiName": "Salutation",
+        "compound": false,
+        "compoundComponentName": "Salutation",
+        "compoundFieldName": "Name",
+        "dataType": "Picklist",
+        "label": "Salutation",
+        "updateable": true
+      },
+      "TextArea": {
+        "dataType": "TextArea",
+        "extraTypeInfo": "PlainTextArea",
+        "htmlFormatted": false,
+        "label": "Plain text",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "ReadOnly": {
+        "dataType": "Text",
+        "label": "Plain text",
+        "inlineHelpText": "Some help text",
+        "updateable": false
+      },
+      "NotCreateable": {
+        "dataType": "Text",
+        "label": "Plain text",
+        "inlineHelpText": "Some help text",
+        "updateable": true,
+        "createable": false
+      },
+      "Createable": {
+        "dataType": "Text",
+        "label": "Plain text",
+        "inlineHelpText": "Some help text",
+        "updateable": false,
+        "createable": true
+      },
+      "Url": {
+        "dataType": "Url",
+        "label": "url",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "RequiredNumber": {
+        "dataType": "Double",
+        "label": "Required Number",
+        "required": true,
+        "precision": 18,
+        "scale": 0,
+        "highScaleNumber": false,
+        "updateable": true
+      },
+      "DoubleNumber": {
+        "dataType": "Double",
+        "label": "Double Number",
+        "required": true,
+        "precision": 14,
+        "scale": 4,
+        "highScaleNumber": false,
+        "updateable": true
+      },
+      "DecimalNumber": {
+        "dataType": "Decimal",
+        "label": "Decimal Number",
+        "required": true,
+        "precision": 14,
+        "scale": 4,
+        "highScaleNumber": false,
+        "updateable": true
+      },
+      "ShippingAddress": {
+        "apiName": "ShippingAddress",
+        "calculated": false,
+        "compound": true,
+        "compoundComponentName": null,
+        "compoundFieldName": null,
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": false,
+        "custom": false,
+        "dataType": "Address",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Address",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": false,
+        "unique": false,
+        "updateable": false
+      },
+      "ShippingCity": {
+        "apiName": "ShippingCity",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "City",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping City",
+        "length": 40,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingCountry": {
+        "apiName": "ShippingCountry",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Country",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Country",
+        "length": 80,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingCountryCode": {
+        "apiName": "ShippingCountryCode",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Country",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Picklist",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Country Code",
+        "length": 10,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingGeocodeAccuracy": {
+        "apiName": "ShippingGeocodeAccuracy",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "GeocodeAccuracy",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Picklist",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Geocode Accuracy",
+        "length": 40,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingLatitude": {
+        "apiName": "ShippingLatitude",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Latitude",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Latitude",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 18,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 15,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingLongitude": {
+        "apiName": "ShippingLongitude",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Longitude",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "Double",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Longitude",
+        "length": 0,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 18,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 15,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingPostalCode": {
+        "apiName": "ShippingPostalCode",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "PostalCode",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Zip/Postal Code",
+        "length": 20,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingState": {
+        "apiName": "ShippingState",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "State",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "String",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping State/Province",
+        "length": 80,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingStateCode": {
+        "apiName": "ShippingStateCode",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "State",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": "ShippingCountryCode",
+        "controllingFields": ["ShippingCountryCode"],
+        "createable": true,
+        "custom": false,
+        "dataType": "Picklist",
+        "extraTypeInfo": null,
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping State/Province Code",
+        "length": 10,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "ShippingStreet": {
+        "apiName": "ShippingStreet",
+        "calculated": false,
+        "compound": false,
+        "compoundComponentName": "Street",
+        "compoundFieldName": "ShippingAddress",
+        "controllerName": null,
+        "controllingFields": [],
+        "createable": true,
+        "custom": false,
+        "dataType": "TextArea",
+        "extraTypeInfo": "PlainTextArea",
+        "filterable": true,
+        "filteredLookupInfo": null,
+        "highScaleNumber": false,
+        "htmlFormatted": false,
+        "inlineHelpText": null,
+        "label": "Shipping Street",
+        "length": 255,
+        "nameField": false,
+        "polymorphicForeignKey": false,
+        "precision": 0,
+        "reference": false,
+        "referenceTargetField": null,
+        "referenceToInfos": [],
+        "relationshipName": null,
+        "required": false,
+        "scale": 0,
+        "searchPrefilterable": false,
+        "sortable": true,
+        "unique": false,
+        "updateable": true
+      },
+      "Date": {
+        "dataType": "Date",
+        "label": "date",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      },
+      "DateTime": {
+        "dataType": "DateTime",
+        "label": "date time",
+        "inlineHelpText": "Some help text",
+        "updateable": true
+      }
+    },
+    "dependentFields": {
+      "ControllingPicklist": {
+        "DependentPicklist": {}
+      }
+    }
+  },
+  "record": {
+    "apiName": "entity",
+    "fields": {
+      "Text": {
+        "displayValue": null,
+        "value": "Some Plain Text"
+      },
+      "BillingCity": {
+        "displayValue": null,
+        "value": null
+      },
+      "BillingCountry": {
+        "displayValue": null,
+        "value": null
+      },
+      "BillingPostalCode": {
+        "displayValue": null,
+        "value": null
+      },
+      "BillingState": {
+        "displayValue": null,
+        "value": null
+      },
+      "BillingStreet": {
+        "displayValue": null,
+        "value": null
+      },
+      "Currency": {
+        "displayValue": "$10.00",
+        "value": 10.05
+      },
+      "Boolean": {
+        "displayValue": null,
+        "value": true
+      },
+      "FalseBoolean": {
+        "displayValue": null,
+        "value": false
+      },
+      "Email": {
+        "displayValue": null,
+        "value": "the@email.something"
+      },
+      "Picklist": {
+        "displayValue": "Californie",
+        "value": "California"
+      },
+      "DependentPicklist": {
+        "displayValue": "États-Unis",
+        "value": "United States"
+      },
+      "City": {
+        "displayValue": null,
+        "value": "Hartford"
+      },
+      "ControllingPicklist": {
+        "displayValue": "États-Unis",
+        "value": "United States"
+      },
+      "DependentPicklistNoController": {
+        "displayValue": null,
+        "value": null
+      },
+      "MultiPicklist": {
+        "displayValue": "Californie;État de New York",
+        "value": "California;New York"
+      },
+      "Lookup": {
+        "displayValue": "Test User",
+        "value": {
+          "apiName": "Name",
+          "childRelationships": {},
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005R0000000F9tkIAC"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Test User"
+            }
+          },
+          "id": "005R0000000F9tkIAC",
+          "recordTypeInfo": null
+        }
+      },
+      "LookupId": {
+        "displayValue": null,
+        "value": "005R0000000F9tkIAC"
+      },
+      "Percent": {
+        "displayValue": null,
+        "value": 100
+      },
+      "PercentScale": {
+        "displayValue": null,
+        "value": 90.02
+      },
+      "Name": {
+        "displayValue": null,
+        "value": "Jim Steele"
+      },
+      "CreatedBy": {
+        "displayValue": "Test User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "9f1413dec5bfc14edf706eabb6be454b",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx0000000001AAA"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Test User"
+            },
+            "SystemModstamp": {
+              "displayValue": "5/14/2018 10:33 AM",
+              "value": "2018-05-14T17:33:03.000Z"
+            }
+          },
+          "id": "005xx0000000001AAA",
+          "recordTypeInfo": null
+        }
+      },
+      "CreatedById": {
+        "displayValue": null,
+        "value": "005xx0000000001AAA"
+      },
+      "Owner": {
+        "displayValue": "Test User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "9f1413dec5bfc14edf706eabb6be454b",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx0000000001AAA"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Test User"
+            },
+            "SystemModstamp": {
+              "displayValue": "5/14/2018 10:33 AM",
+              "value": "2018-05-14T17:33:03.000Z"
+            }
+          },
+          "id": "005xx0000000001AAA",
+          "recordTypeInfo": null
+        }
+      },
+      "OwnerId": {
+        "displayValue": null,
+        "value": "005xx0000000001AAA"
+      },
+      "LastModifiedBy": {
+        "displayValue": "Test User",
+        "value": {
+          "apiName": "User",
+          "childRelationships": {},
+          "eTag": "9f1413dec5bfc14edf706eabb6be454b",
+          "fields": {
+            "Id": {
+              "displayValue": null,
+              "value": "005xx0000000001AAA"
+            },
+            "Name": {
+              "displayValue": null,
+              "value": "Test User"
+            },
+            "SystemModstamp": {
+              "displayValue": "5/14/2018 10:33 AM",
+              "value": "2018-05-14T17:33:03.000Z"
+            }
+          },
+          "id": "005xx0000000001AAA",
+          "recordTypeInfo": null
+        }
+      },
+      "LastModifiedById": {
+        "displayValue": null,
+        "value": "005xx0000000001AAA"
+      },
+      "Geo__Latitude__s": {
+        "displayValue": null,
+        "value": 37.794016
+      },
+      "Geo__Longitude__s": {
+        "displayValue": null,
+        "value": -122.395016
+      },
+      "Phone": {
+        "displayValue": null,
+        "value": "403-203-1048"
+      },
+      "PostalCode": {
+        "displayValue": null,
+        "value": "6156"
+      },
+      "RichText": {
+        "displayValue": null,
+        "value": "<b>rich text</b>"
+      },
+      "TextArea": {
+        "displayValue": null,
+        "value": "Hello how are you"
+      },
+      "ReadOnly": {
+        "displayValue": null,
+        "value": "read only stuff"
+      },
+      "NotCreateable": {
+        "displayValue": null,
+        "value": "read only stuff"
+      },
+      "Createable": {
+        "displayValue": null,
+        "value": "read only stuff"
+      },
+      "Salutation": {
+        "displayValue": null,
+        "value": null
+      },
+      "Url": {
+        "displayValue": null,
+        "value": "www.google.com"
+      },
+      "RequiredNumber": {
+        "displayValue": "10",
+        "value": 10
+      },
+      "DoubleNumber": {
+        "displayValue": "10.2233",
+        "value": 10.2233
+      },
+      "DecimalNumber": {
+        "displayValue": "10.2233",
+        "value": 10.2233
+      },
+      "Street": {
+        "displayValue": null,
+        "value": "11 Farm Avenue"
+      },
+      "StateCode": {
+        "displayValue": "Alaska",
+        "value": "AK"
+      },
+      "CountryCode": {
+        "displayValue": "United States",
+        "value": "US"
+      },
+      "ShippingCity": {
+        "displayValue": null,
+        "value": null
+      },
+      "ShippingCountryCode": {
+        "displayValue": null,
+        "value": "US"
+      },
+      "ShippingPostalCode": {
+        "displayValue": null,
+        "value": null
+      },
+      "ShippingStateCode": {
+        "displayValue": null,
+        "value": null
+      },
+      "ShippingStreet": {
+        "displayValue": null,
+        "value": null
+      },
+      "FirstName": {
+        "displayValue": null,
+        "value": "Jim"
+      },
+      "LastName": {
+        "displayValue": null,
+        "value": "Steele"
+      },
+      "NameSimple": {
+        "displayValue": null,
+        "value": "Simple Name"
+      },
+      "Date": {
+        "displayValue": "1902-02-02",
+        "value": "1902-02-02"
+      },
+      "DateTime": {
+        "displayValue": "11 am 8/31/17",
+        "value": "2017-08-31T21:11:00.000Z"
+      }
+    },
+    "id": "12345"
+  }
+}

@@ -1,0 +1,19 @@
+<template>
+    <div style="width: 320px;">
+        <lightning-vertical-navigation selected-item={initiallySelected}>
+            <template for:each={navigationData} for:item="section">
+                <lightning-vertical-navigation-section key={section.label} label={section.label}>
+                    <template for:each={section.items} for:item="item">
+                        <template if:true={item.icon}>
+                            <lightning-vertical-navigation-item-icon key={item.name} label={item.label} name={item.name} icon-name={item.icon}></lightning-vertical-navigation-item-icon>
+                        </template>
+                        <template if:false={item.icon}>
+                            <lightning-vertical-navigation-item key={item.name} label={item.label} name={item.name}></lightning-vertical-navigation-item>
+                        </template>
+                    </template>
+
+                </lightning-vertical-navigation-section>
+            </template>
+        </lightning-vertical-navigation>
+    </div>
+</template>

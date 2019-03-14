@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-form-element__icon">
+        <button type="button"
+                class="slds-button slds-button_icon slds-button slds-button_icon"
+                aria-describedby={computedBubbleUniqueId}>
+            <lightning-primitive-icon
+                    svg-class={computedSvgClass}
+                    icon-name={computedIconName}
+                    variant="bare">
+            </lightning-primitive-icon>
+            <span class="slds-assistive-text">{i18n.buttonAlternativeText}</span>
+        </button>
+    </div>
+</template>

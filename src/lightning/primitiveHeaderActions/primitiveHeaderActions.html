@@ -1,0 +1,41 @@
+<template>
+    <template if:true={hasActions}>
+        <lightning-button-menu
+            id="primitive-header-action-button-menu-id"
+            icon-size="x-small"
+            menu-alignment={computedMenuAlignment}
+            alternative-text={i18n.showActions}
+            variant="bare"
+            onopen={handleMenuOpen}
+            icon-name="utility:chevrondown"
+            onselect={handleActionSelect}
+            tabindex={state.internalTabIndex}
+            class="slds-th__action-button"
+            style="z-index: 1;"
+        >
+            <template for:each={state.internalActions} for:item="action" for:index="actionIndex">
+                <lightning-menu-item
+                    key={action.label}
+                    value={action}
+                    label={action.label}
+                    icon-name={action.iconName}
+                    disabled={action.disabled}
+                    checked={action.checked}
+                ></lightning-menu-item>
+            </template>
+            <template if:true={hasActionsDivider}>
+                <lightning-menu-divider></lightning-menu-divider>
+            </template>
+            <template for:each={state.customerActions} for:item="action" for:index="actionIndex">
+                <lightning-menu-item
+                    key={action.label}
+                    value={action}
+                    label={action.label}
+                    icon-name={action.iconName}
+                    disabled={action.disabled}
+                    checked={action.checked}
+                ></lightning-menu-item>
+            </template>
+        </lightning-button-menu>
+    </template>
+</template>

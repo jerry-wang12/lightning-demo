@@ -1,0 +1,48 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            Button menu with items added from a simple data source during initialization. Click the button to view its menu.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            The <code>key</code> attribute on <code>lightning-menu-item</code> is required for iterations.
+        </p>
+
+        <!-- Simple -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button-menu alternative-text="Show menu" variant="border-filled" menu-alignment="auto">
+                <template for:each={myMenuItems} for:item="menuItem">
+                    <lightning-menu-item
+                        key={menuItem.id}
+                        value={menuItem.value}
+                        label={menuItem.label}>
+                    </lightning-menu-item>
+                </template>
+            </lightning-button-menu>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium">
+            Button menu with items added from a more complex data source during initialization.
+        </h2>
+        <p class="slds-text-heading_small slds-m-bottom_medium">
+            Data source includes <code>icon-name</code>, <code>prefix-icon-name</code>, and <code>disabled</code> values.
+        </p>
+
+        <!-- Simple -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button-menu alternative-text="Show menu" variant="border-filled" menu-alignment="auto">
+                <template for:each={myComplexMenuItems} for:item="menuItem">
+                    <lightning-menu-item
+                        key={menuItem.id}
+                        value={menuItem.value}
+                        label={menuItem.label}
+                        disabled={menuItem.disabled}
+                        icon-name={menuItem.iconName}
+                        prefix-icon-name={menuItem.prefixIconName}>
+                    </lightning-menu-item>
+                </template>
+            </lightning-button-menu>
+        </div>
+    </div>
+</template>

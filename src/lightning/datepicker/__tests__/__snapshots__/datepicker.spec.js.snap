@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-datepicker default 1`] = `
+<lightning-datepicker>
+  #shadow-root(open)
+    <div
+      class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-size_1-of-1"
+      tabindex="-1"
+    >
+      <label
+        class="slds-form-element__label"
+        for="input-1"
+      />
+      <div
+        class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right"
+      >
+        <input
+          class="slds-input"
+          id="input-1"
+          type="text"
+        />
+        <lightning-button-icon
+          class="slds-input__icon slds-input__icon_right"
+        >
+          #shadow-root(open)
+            <button
+              class="slds-button slds-button_icon-bare"
+              title="Select a date"
+              type="button"
+            >
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon"
+                    data-key="event"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#event"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              <span
+                class="slds-assistive-text"
+              >
+                Select a date
+              </span>
+            </button>
+        </lightning-button-icon>
+      </div>
+    </div>
+</lightning-datepicker>
+`;
+
+exports[`lightning-datepicker renders help text 1`] = `
+<lightning-datepicker>
+  #shadow-root(open)
+    <div
+      class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-size_1-of-1"
+      tabindex="-1"
+    >
+      <label
+        class="slds-form-element__label"
+        for="input-4"
+      />
+      <lightning-helptext>
+        #shadow-root(open)
+          <pre>
+            Hello hello
+             
+            utility:info
+          </pre>
+      </lightning-helptext>
+      <div
+        class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right"
+      >
+        <input
+          class="slds-input"
+          id="input-4"
+          type="text"
+        />
+        <lightning-button-icon
+          class="slds-input__icon slds-input__icon_right"
+        >
+          #shadow-root(open)
+            <button
+              class="slds-button slds-button_icon-bare"
+              title="Select a date"
+              type="button"
+            >
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-button__icon"
+                    data-key="event"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#event"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              <span
+                class="slds-assistive-text"
+              >
+                Select a date
+              </span>
+            </button>
+        </lightning-button-icon>
+      </div>
+    </div>
+</lightning-datepicker>
+`;

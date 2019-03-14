@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-rich-text Plain text, no formatting 1`] = `
+<lightning-formatted-rich-text
+  class="slds-rich-text-editor__output"
+>
+  #shadow-root(open)
+    <span>
+      This is plain text
+    </span>
+</lightning-formatted-rich-text>
+`;
+
+exports[`lightning-formatted-rich-text Rich text with hyperlink 1`] = `
+<lightning-formatted-rich-text
+  class="slds-rich-text-editor__output"
+>
+  #shadow-root(open)
+    <span>
+      This is a link to &lt;a href="www.salesforce.com"&gt;Salesforce&lt;/a&gt;
+    </span>
+</lightning-formatted-rich-text>
+`;
+
+exports[`lightning-formatted-rich-text Rich text with links 1`] = `
+<lightning-formatted-rich-text
+  class="slds-rich-text-editor__output"
+>
+  #shadow-root(open)
+    <span>
+      &lt;ul&gt;&lt;li&gt;&lt;a href="http://www.google.com"&gt;www.google.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.salesforce.com" target="_blank" rel="noopener"&gt;www.salesforce.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.google.com" target="_blank" rel="noopener"&gt;http://www.google.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://salesforce.com" target="_blank" rel="noopener"&gt;salesforce.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="mailto:email@richtext.com"&gt;email@richtext.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+    </span>
+</lightning-formatted-rich-text>
+`;
+
+exports[`lightning-formatted-rich-text Simple rich text 1`] = `
+<lightning-formatted-rich-text
+  class="slds-rich-text-editor__output"
+>
+  #shadow-root(open)
+    <span>
+      &lt;h2&gt;This&lt;/h2&gt; &lt;p&gt;is &lt;i&gt;some&lt;/i&gt; simple &lt;b&gt;rich&lt;/b&gt; text&lt;/p&gt;
+    </span>
+</lightning-formatted-rich-text>
+`;
+
+exports[`lightning-formatted-rich-text default 1`] = `
+<lightning-formatted-rich-text
+  class="slds-rich-text-editor__output"
+>
+  #shadow-root(open)
+    <span>
+      
+    </span>
+</lightning-formatted-rich-text>
+`;

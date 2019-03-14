@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Button group with simple disabled buttons.
+        </h2>
+
+        <!-- Button group: simple buttons -->
+        <lightning-button-group>
+            <lightning-button label="Refresh" disabled></lightning-button>
+            <lightning-button label="Edit" disabled></lightning-button>
+            <lightning-button label="Save" disabled></lightning-button>
+        </lightning-button-group>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Button group with several disabled button variations.
+        </h2>
+
+        <!-- Button group: simple buttons -->
+        <lightning-button-group>
+            <lightning-button label="Refresh" disabled></lightning-button>
+            <lightning-button label="Edit" disabled></lightning-button>
+            <lightning-button label="Save" icon-name="utility:save" disabled></lightning-button>
+            <lightning-button label="Delete" variant="destructive" icon-name="utility:delete" disabled></lightning-button>
+        </lightning-button-group>
+    </div>
+</template>

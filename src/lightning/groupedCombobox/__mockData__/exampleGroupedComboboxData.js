@@ -1,0 +1,60 @@
+const exampleData = {};
+
+exampleData.exampleInlineOption = {
+    type: 'option-inline',
+    iconName: 'utility:search',
+    text: 'Advanced Search...',
+    value: 'actionSearchAdvanced',
+};
+exampleData.exampleCardOption = {
+    type: 'option-card',
+    text: 'Global Media',
+    iconName: 'standard:account',
+    subText: '(905) 555-1212',
+    value: 'accountGlobalMedia',
+};
+exampleData.exampleCardOptionHighlighted = {
+    type: 'option-card',
+    text: 'Global Media',
+    highlight: true,
+    iconName: 'standard:account',
+    subText: '(905) 555-1212',
+    value: 'accountGlobalMedia',
+};
+exampleData.exampleDataWithHighlightedCard = [
+    exampleData.exampleInlineOption,
+    exampleData.exampleCardOptionHighlighted,
+    exampleData.exampleCardOption,
+];
+exampleData.exampleGroups = [
+    exampleData.exampleInlineOption,
+    {
+        items: [Object.assign({}, exampleData.exampleInlineOption)],
+    },
+    {
+        label: 'Group 1',
+        items: [
+            exampleData.exampleCardOptionHighlighted,
+            exampleData.exampleCardOption,
+            exampleData.exampleCardOption,
+        ],
+    },
+    {
+        label: 'Group 2',
+        items: [
+            exampleData.exampleCardOptionHighlighted,
+            exampleData.exampleInlineOption,
+            exampleData.exampleCardOption,
+            exampleData.exampleCardOption,
+        ],
+    },
+];
+exampleData.exampleItems = [
+    exampleData.exampleInlineOption,
+    exampleData.exampleCardOption,
+];
+exampleData.exampleItemsManyRecords = [...new Array(50)].map(
+    () => exampleData.exampleCardOption
+);
+
+export default exampleData;

@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-progress-bar default 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar invalid variant and size 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar size change from small to large 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_large"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar size value large 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_large"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar size value medium 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar size value small 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_small"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar size value x-small 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_x-small"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar value at -10 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar value at 50 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-busy="true"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="50"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 50%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 50%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar value at 200 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="100"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 100%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 100%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar value change from 25 to 75 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-busy="true"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 75%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 75%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar variant change from circular to base 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar variant value base 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;
+
+exports[`lightning-progress-bar variant value circular 1`] = `
+<lightning-progress-bar>
+  #shadow-root(open)
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="slds-progress-bar slds-progress-bar_medium slds-progress-bar_circular"
+      role="progressbar"
+    >
+      <span
+        class="slds-progress-bar__value"
+        style="width: 0%;"
+      >
+        <span
+          class="slds-assistive-text"
+        >
+          Progress 0%
+        </span>
+      </span>
+    </div>
+</lightning-progress-bar>
+`;

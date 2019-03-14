@@ -1,0 +1,252 @@
+{
+  "Picklist": {
+    "defaultValue": "Ontario",
+    "values": [
+      {
+        "label": "New York",
+        "validFor": [],
+        "value": "New York"
+      },
+      {
+        "label": "California",
+        "validFor": [],
+        "value": "California"
+      },
+      {
+        "label": "Ontario",
+        "validFor": [],
+        "value": "Ontario"
+      },
+      {
+        "label": "British Columbia",
+        "validFor": [],
+        "value": "British Columbia"
+      }
+    ]
+  },
+  "DependentPicklist": {
+    "controllerValues": {
+      "United States": 0,
+      "Canada": 1,
+      "United Kingdom": 2
+    },
+    "defaultValue": "Ontario",
+    "values": [
+      {
+        "label": "New York",
+        "validFor": [0],
+        "value": "New York"
+      },
+      {
+        "label": "California",
+        "validFor": [0],
+        "value": "California"
+      },
+      {
+        "label": "Ontario",
+        "validFor": [1],
+        "value": "Ontario"
+      },
+      {
+        "label": "British Columbia",
+        "validFor": [1],
+        "value": "British Columbia"
+      }
+    ]
+  },
+  "ControllingPicklist": {
+    "defaultValue": "Canada",
+    "values": [
+      {
+        "label": "Canada",
+        "validFor": [],
+        "value": "Canada"
+      },
+      {
+        "label": "United States",
+        "validFor": [],
+        "value": "United States"
+      },
+      {
+        "label": "United Kingdom",
+        "validFor": [],
+        "value": "United Kingdom"
+      }
+    ]
+  },
+  "DependentPicklistNoController": {
+    "controllerValues": {
+      "United States": 0,
+      "Canada": 1
+    },
+    "defaultValue": "Ontario",
+    "values": [
+      {
+        "label": "New York",
+        "validFor": [0],
+        "value": "New York"
+      },
+      {
+        "label": "California",
+        "validFor": [0],
+        "value": "California"
+      }
+    ]
+  },
+  "MultiPicklist": {
+    "defaultValue": "Ontario;California",
+    "values": [
+      {
+        "label": "New York",
+        "validFor": [0],
+        "value": "New York"
+      },
+      {
+        "label": "California",
+        "validFor": [0],
+        "value": "California"
+      },
+      {
+        "label": "Ontario",
+        "validFor": [1],
+        "value": "Ontario"
+      },
+      {
+        "label": "British Columbia",
+        "validFor": [1],
+        "value": "British Columbia"
+      }
+    ]
+  },
+  "Salutation": {
+    "controllerValues": {},
+    "defaultValue": null,
+    "values": [
+      {
+        "label": "Mr.",
+        "validFor": [],
+        "value": "Mr."
+      },
+      {
+        "label": "Ms.",
+        "validFor": [],
+        "value": "Ms."
+      },
+      {
+        "label": "Mrs.",
+        "validFor": [],
+        "value": "Mrs."
+      },
+      {
+        "label": "Dr.",
+        "validFor": [],
+        "value": "Dr."
+      },
+      {
+        "label": "Prof.",
+        "validFor": [],
+        "value": "Prof."
+      }
+    ]
+  },
+  "CountryCode": {
+    "controllerValues": {},
+    "defaultValue": null,
+    "values": [
+      {
+        "label": "Canada",
+        "validFor": [],
+        "value": "CA"
+      },
+      {
+        "label": "United States",
+        "validFor": [],
+        "value": "US"
+      }
+    ]
+  },
+  "ShippingCountryCode": {
+    "controllerValues": {},
+    "defaultValue": null,
+    "values": [
+      {
+        "label": "Canada",
+        "validFor": [],
+        "value": "CA"
+      },
+      {
+        "label": "United States",
+        "validFor": [],
+        "value": "US"
+      }
+    ]
+  },
+  "StateCode": {
+    "controllerValues": {
+      "CA": 0,
+      "US": 1
+    },
+    "defaultValue": null,
+    "values": [
+      {
+        "label": "Ontario",
+        "validFor": [0],
+        "value": "ON"
+      },
+      {
+        "label": "Quebec",
+        "validFor": [0],
+        "value": "QC"
+      },
+      {
+        "label": "British Columbia",
+        "validFor": [0],
+        "value": "BC"
+      },
+      {
+        "label": "California",
+        "validFor": [1],
+        "value": "CA"
+      },
+      {
+        "label": "New York",
+        "validFor": [1],
+        "value": "NY"
+      }
+    ]
+  },
+  "ShippingStateCode": {
+    "controllerValues": {
+      "CA": 0,
+      "US": 1
+    },
+    "defaultValue": null,
+    "values": [
+      {
+        "label": "Ontario",
+        "validFor": [0],
+        "value": "ON"
+      },
+      {
+        "label": "Quebec",
+        "validFor": [0],
+        "value": "QC"
+      },
+      {
+        "label": "British Columbia",
+        "validFor": [0],
+        "value": "BC"
+      },
+      {
+        "label": "California",
+        "validFor": [1],
+        "value": "CA"
+      },
+      {
+        "label": "New York",
+        "validFor": [1],
+        "value": "NY"
+      }
+    ]
+  }
+}

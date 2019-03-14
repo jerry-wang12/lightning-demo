@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-breadcrumb breadcrumb with name label href 1`] = `
+<lightning-breadcrumb
+  class="slds-breadcrumb__item slds-text-title_caps"
+  role="listitem"
+>
+  #shadow-root(open)
+    <a
+      href="#"
+    >
+      Test Snapshot Link
+    </a>
+</lightning-breadcrumb>
+`;

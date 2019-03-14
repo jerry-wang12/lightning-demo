@@ -1,0 +1,12 @@
+.slds-iframe-container {
+    position: relative;
+}
+
+.slds-iframe-cover {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+}

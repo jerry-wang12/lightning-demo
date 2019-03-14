@@ -1,0 +1,16 @@
+<template>
+    <div class={computedWrapperClass}>
+        <ol class="slds-progress__list"
+            onstepfocus={handleStepFocus}
+            onstepblur={handleStepBlur}
+            onstepmouseenter={handleStepMouseEnter}
+            onstepmouseleave={handleStepMouseLeave}
+            onprivateregisterstep={handleStepRegister}>
+            <slot></slot>
+        </ol>
+        <lightning-progress-bar value={privateProgressValue} size="small"></lightning-progress-bar>
+        <div class={computedTooltipClass} role="tooltip">
+            <div class="slds-popover__body">{privateTooltipLabel}</div>
+        </div>
+    </div>
+</template>

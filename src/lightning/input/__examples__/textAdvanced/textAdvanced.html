@@ -1,0 +1,26 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            A text input field that becomes highlighted when focused and returns to default when focus is moved away.
+        </h2>
+
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Enter some text" onfocus={handleInputFocus} onblur={handleInputBlur}></lightning-input>
+        </div>
+    </div>
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            A text input field that live updates a variable.
+        </h2>
+
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Enter some text" onchange={handleInputChange}></lightning-input>
+        </div>
+
+        <div class="slds-m-vertical_medium">
+            <p>The value of the input field is: <span class="slds-text-heading_small">{textValue}</span></p>
+        </div>
+    </div>
+
+</template>

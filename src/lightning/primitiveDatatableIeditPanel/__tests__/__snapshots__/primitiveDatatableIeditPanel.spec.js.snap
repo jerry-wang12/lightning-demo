@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-editable-button lightning-primitive-datatable-iedit-panel-type-factory passthrough should delegate to factory the focus 1`] = `
+<span>
+  focus called
+</span>
+`;
+
+exports[`lightning-primitive-editable-button lightning-primitive-datatable-iedit-panel-type-factory passthrough should render type-factory 1`] = `
+<lightning-primitive-datatable-iedit-type-factory
+  class="dt-type-edit-factory slds-col mock-primitive-datatable-iedit-type-factory"
+>
+  #shadow-root(open)
+    <pre>
+      [ editedValue ] 
+      some-value
+       [ columnDef ] 
+      {"type":"text","label":"column-label"}
+    </pre>
+</lightning-primitive-datatable-iedit-type-factory>
+`;
+
+exports[`lightning-primitive-editable-button mass edit should display the popover_footer 1`] = `
+<div
+  class="slds-popover__footer"
+>
+  <div
+    class="slds-grid slds-grid_align-end"
+  >
+    <lightning-button>
+      #shadow-root(open)
+        <button
+          class="slds-button slds-button_neutral"
+          type="button"
+        >
+          Cancel
+        </button>
+    </lightning-button>
+    <lightning-button
+      data-form-last-element="true"
+      style="margin-left: .25rem;"
+    >
+      #shadow-root(open)
+        <button
+          class="slds-button slds-button_brand"
+          type="button"
+        >
+          Apply
+        </button>
+    </lightning-button>
+  </div>
+</div>
+`;

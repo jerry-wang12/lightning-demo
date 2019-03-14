@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-number format currency 1`] = `
+<lightning-formatted-number>
+  #shadow-root(open)
+    $123.00
+</lightning-formatted-number>
+`;
+
+exports[`lightning-formatted-number formats fixed percent 1`] = `
+<lightning-formatted-number>
+  #shadow-root(open)
+    50%
+</lightning-formatted-number>
+`;
+
+exports[`lightning-formatted-number formats percent 1`] = `
+<lightning-formatted-number>
+  #shadow-root(open)
+    50%
+</lightning-formatted-number>
+`;
+
+exports[`lightning-formatted-number returns an empty string for an empty value 1`] = `
+<lightning-formatted-number>
+  #shadow-root(open)
+    
+</lightning-formatted-number>
+`;

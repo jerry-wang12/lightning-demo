@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-formatted-location default 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+</lightning-formatted-location>
+`;
+
+exports[`lightning-formatted-location invalid longitude and latitude 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+</lightning-formatted-location>
+`;
+
+exports[`lightning-formatted-location missing longitude and latitude 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+</lightning-formatted-location>
+`;
+
+exports[`lightning-formatted-location normal longitude and latitude 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+    22.222
+    , 
+    122.222
+</lightning-formatted-location>
+`;
+
+exports[`lightning-formatted-location too big latitude 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+</lightning-formatted-location>
+`;
+
+exports[`lightning-formatted-location too big longitude 1`] = `
+<lightning-formatted-location>
+  #shadow-root(open)
+</lightning-formatted-location>
+`;

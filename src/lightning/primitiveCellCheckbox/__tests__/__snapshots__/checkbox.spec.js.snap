@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primitive-cell-checkbox when type "checkbox" should match slds markup 1`] = `
+<lightning-primitive-cell-checkbox>
+  #shadow-root(open)
+    <span
+      class="slds-checkbox"
+    >
+      <input
+        data-action-triggers="space"
+        data-navigation="enable"
+        id="primitive-cell-checkbox-id-1"
+        name="dt-id-options"
+        tabindex="-1"
+        type="checkbox"
+      />
+      <label
+        class="slds-checkbox__label"
+        for="primitive-cell-checkbox-id-1"
+      >
+        <span
+          class="slds-checkbox_faux"
+        />
+        <span
+          class="slds-form-element__label slds-assistive-text"
+        >
+          Select Item 1
+        </span>
+      </label>
+    </span>
+</lightning-primitive-cell-checkbox>
+`;

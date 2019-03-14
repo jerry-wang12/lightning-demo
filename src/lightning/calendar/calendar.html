@@ -1,0 +1,72 @@
+<template>
+    <div aria-hidden="false" aria-label={computedAriaLabel} class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
+        <div class="slds-datepicker__filter slds-grid">
+            <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
+                <div class="slds-align-middle">
+                    <lightning-button-icon icon-name="utility:left"
+                                           variant="container"
+                                           alternative-text={i18n.previousMonth}
+                                           onclick={goToPreviousMonth}
+                                           onkeydown={handlePrevNavKeyDown}>
+                    </lightning-button-icon>
+                </div>
+                <h2 aria-atomic="true" aria-live="assertive" class="slds-align-middle" id="month-title">{computedMonthTitle}</h2>
+                <div class="slds-align-middle">
+                    <lightning-button-icon icon-name="utility:right"
+                                           variant="container"
+                                           alternative-text={i18n.nextMonth}
+                                           onclick={goToNextMonth}>
+                    </lightning-button-icon>
+                </div>
+            </div>
+            <div class="slds-shrink-none">
+                <!-- replace with lightning-select -->
+                <label class="slds-assistive-text" for="select-element">{i18n.yearSelector}</label>
+                <div class="slds-select_container">
+                    <select class="slds-select" id="select-element" onchange={handleYearChange} onclick={handleYearSelectClick}>
+                        <template for:each={computedYearList} for:item="year">
+                            <option key={year} value={year}>{year}</option>
+                        </template>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <table aria-labelledby="month-title" class="slds-datepicker__month" role="grid">
+            <thead>
+                <tr id="weekdays-element">
+                    <template for:each={computedWeekdayLabels} for:item="weekday">
+                        <th key={weekday.fullName} id={weekday.fullName} scope="col">
+                            <abbr title={weekday.fullName}>{weekday.shortName}</abbr>
+                        </th>
+                    </template>
+                </tr>
+            </thead>
+            <tbody onkeydown={handleCalendarKeyDown}>
+                <template for:each={computedMonth} for:item="week" for:index="index">
+                    <tr key={week.id}>
+                        <template for:each={week.days} for:item="day">
+                            <td role="gridcell"
+                                aria-selected={day.isSelected}
+                                aria-disabled={day.isDisabled}
+                                aria-current={day.ariaCurrent}
+                                class={day.className}
+                                key={day.dateValue}
+                                tabindex={day.tabIndex}
+                                data-value={day.dateValue}>
+
+                                <span class="slds-day" onclick={handleDateClick}>{day.date}</span>
+                            </td>
+                        </template>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+        <button name="today"
+                type="button"
+                class="slds-button slds-align_absolute-center slds-text-link"
+                onclick={handleTodayClick}
+                onkeydown={handleTodayKeyDown}>
+            {i18n.today}
+        </button>
+    </div>
+</template>

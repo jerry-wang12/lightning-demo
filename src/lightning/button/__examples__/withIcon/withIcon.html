@@ -1,0 +1,43 @@
+<template>
+        <div class="slds-m-top_medium slds-m-bottom_x-large">
+            <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">
+                Buttons with an icon before the label text, the default location.
+            </h2>
+            <ul class="slds-list_dotted slds-m-bottom_medium">
+                <li><code>icon-position</code> attribute is omitted or has a value of <code>left</code></li>
+            </ul>
+
+            <!-- Base variant: Makes a button look like a link -->
+            <lightning-button variant="base" label="Download" title="Download action" icon-name="utility:download" class="slds-m-left_x-small"></lightning-button>
+
+            <!-- Neutral variant (default) -->
+            <lightning-button label="Download" title="Download action" icon-name="utility:download" class="slds-m-left_x-small"></lightning-button>
+
+            <!-- Brand variant: Identifies the primary action in a group of buttons -->
+            <lightning-button variant="brand" label="Download" title="Download action" icon-name="utility:download" class="slds-m-left_x-small"></lightning-button>
+
+            <!-- Destructive variant: Identifies a potentially negative action -->
+            <lightning-button variant="destructive" label="Delete" title="Delete action" icon-name="utility:delete" class="slds-m-left_x-small"></lightning-button>
+        </div>
+
+        <div class="slds-m-top_medium slds-m-bottom_x-large">
+                <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">
+                    Buttons with an icon after the label text.
+                </h2>
+                <ul class="slds-list_dotted slds-m-bottom_medium">
+                    <li><code>icon-position</code> attribute has a value of <code>right</code></li>
+                </ul>
+
+                <!-- Base variant: Makes a button look like a link -->
+                <lightning-button variant="base" label="Download" title="Download action" icon-name="utility:download" icon-position="right" class="slds-m-left_x-small"></lightning-button>
+
+                <!-- Neutral variant (default) -->
+                <lightning-button label="Download" title="Download action" icon-name="utility:download" icon-position="right" class="slds-m-left_x-small"></lightning-button>
+
+                <!-- Brand variant: Identifies the primary action in a group of buttons -->
+                <lightning-button variant="brand" label="Download" title="Download action" icon-name="utility:download" icon-position="right" class="slds-m-left_x-small"></lightning-button>
+
+                <!-- Destructive variant: Identifies a potentially negative action -->
+                <lightning-button variant="destructive" label="Delete" title="Delete action" icon-name="utility:delete" icon-position="right" class="slds-m-left_x-small"></lightning-button>
+            </div>
+    </template>

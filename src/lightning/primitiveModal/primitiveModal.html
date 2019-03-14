@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-modal__container">
+        <header class="slds-modal__header">
+            <lightning-button-icon
+                class="slds-modal__close"
+                icon-name="utility:close"
+                variant="bare-inverse"
+                title="close"
+                size="large"
+                alternative-text="Close window">
+            </lightning-button-icon>
+            <slot name="header"></slot>
+        </header>
+        <div class="slds-modal__content">
+            <slot name="content"></slot>
+        </div>
+        <slot name="footer"></slot>
+    </div>
+</template>

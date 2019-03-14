@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on desktop multi-select picklist renders dual-listbox with correct options 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-dual-listbox
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <div
+          aria-labelledby="group-label-135"
+          role="group"
+        >
+          <div
+            class="slds-form-element__label slds-form-element__legend"
+            id="group-label-135"
+          >
+            <abbr
+              class="slds-required"
+              title="required"
+            >
+              *
+            </abbr>
+            Picklist Label
+          </div>
+          <div
+            class="slds-form-element__control"
+          >
+            <div
+              class="slds-dueling-list"
+            >
+              <div
+                aria-live="assertive"
+                class="slds-assistive-text"
+                id="assertive-thing-135"
+              />
+              <div
+                class="slds-assistive-text"
+                id="keyboard-interacton-135"
+              >
+                Press Cmd+Left Arrow or Cmd+Right Arrow to move items between lists.
+              </div>
+              <div
+                class="slds-dueling-list__column slds-dueling-list__column_responsive"
+              >
+                <span
+                  class="slds-form-element__label"
+                  id="source-list-label-135"
+                >
+                  Available
+                </span>
+                <div
+                  class="slds-dueling-list__options"
+                  style="height: 10rem;"
+                >
+                  <ul
+                    aria-describedby="keyboard-interacton-135"
+                    aria-disabled="false"
+                    aria-labelledby="source-list-label-135"
+                    aria-multiselectable="true"
+                    class="slds-listbox slds-listbox_vertical"
+                    data-source-list="true"
+                    id="source-list-135"
+                    role="listbox"
+                  >
+                    <li
+                      class="slds-listbox__item"
+                      role="presentation"
+                    >
+                      <div
+                        aria-selected="false"
+                        class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                        data-index="0"
+                        data-value="United Kingdom"
+                        role="option"
+                        tabindex="0"
+                      >
+                        <span
+                          class="slds-media__body"
+                        >
+                          <span
+                            class="slds-truncate"
+                            title="Royaume-Uni"
+                          >
+                            Royaume-Uni
+                          </span>
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="slds-dueling-list__column"
+              >
+                <lightning-button-icon>
+                  #shadow-root(open)
+                    <button
+                      class="slds-button slds-button_icon-container"
+                      title="Move selection to Chosen"
+                      type="button"
+                    >
+                      <lightning-primitive-icon>
+                        #shadow-root(open)
+                          <svg
+                            aria-hidden="true"
+                            class="slds-button__icon"
+                            data-key="right"
+                            focusable="false"
+                          >
+                            <use
+                              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#right"
+                            />
+                          </svg>
+                      </lightning-primitive-icon>
+                      <span
+                        class="slds-assistive-text"
+                      >
+                        Move selection to Chosen
+                      </span>
+                    </button>
+                </lightning-button-icon>
+                <lightning-button-icon>
+                  #shadow-root(open)
+                    <button
+                      class="slds-button slds-button_icon-container"
+                      title="Move selection to Available"
+                      type="button"
+                    >
+                      <lightning-primitive-icon>
+                        #shadow-root(open)
+                          <svg
+                            aria-hidden="true"
+                            class="slds-button__icon"
+                            data-key="left"
+                            focusable="false"
+                          >
+                            <use
+                              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#left"
+                            />
+                          </svg>
+                      </lightning-primitive-icon>
+                      <span
+                        class="slds-assistive-text"
+                      >
+                        Move selection to Available
+                      </span>
+                    </button>
+                </lightning-button-icon>
+              </div>
+              <div
+                class="slds-dueling-list__column slds-dueling-list__column_responsive"
+              >
+                <span
+                  class="slds-form-element__label"
+                  id="selected-list-label-135"
+                >
+                  Chosen
+                </span>
+                <div
+                  class="slds-dueling-list__options"
+                  style="height: 10rem;"
+                >
+                  <ul
+                    aria-describedby="keyboard-interacton-135"
+                    aria-disabled="false"
+                    aria-labelledby="selected-list-label-135"
+                    aria-multiselectable="true"
+                    class="slds-listbox slds-listbox_vertical"
+                    data-selected-list="true"
+                    id="selected-list-135"
+                    role="listbox"
+                  >
+                    <li
+                      class="slds-listbox__item"
+                      role="presentation"
+                    >
+                      <div
+                        aria-selected="false"
+                        class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                        data-index="0"
+                        data-value="Canada"
+                        role="option"
+                        tabindex="0"
+                      >
+                        <span
+                          class="slds-media__body"
+                        >
+                          <span
+                            class="slds-truncate"
+                            title="Canada"
+                          >
+                            Canada
+                          </span>
+                        </span>
+                      </div>
+                    </li>
+                    <li
+                      class="slds-listbox__item"
+                      role="presentation"
+                    >
+                      <div
+                        aria-selected="false"
+                        class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline"
+                        data-index="1"
+                        data-value="United States"
+                        role="option"
+                        tabindex="-1"
+                      >
+                        <span
+                          class="slds-media__body"
+                        >
+                          <span
+                            class="slds-truncate"
+                            title="États-Unis"
+                          >
+                            États-Unis
+                          </span>
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </lightning-dual-listbox>
+</lightning-picklist>
+`;
+
+exports[`on desktop single-select picklist renders combobox with correct options 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-combobox
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <label
+          class="slds-form-element__label"
+          for="input-4"
+        >
+          <abbr
+            class="slds-required"
+            title="required"
+          >
+            *
+          </abbr>
+          Picklist Label
+        </label>
+        <div
+          class="slds-form-element__control"
+        >
+          <lightning-base-combobox
+            class="slds-combobox_container"
+          >
+            #shadow-root(open)
+              <div
+                aria-expanded="true"
+                aria-haspopup="listbox"
+                class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open"
+                role="combobox"
+              >
+                <div
+                  class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right"
+                  role="none"
+                >
+                  <input
+                    aria-activedescendant="input-4-1-4"
+                    aria-autocomplete="none"
+                    aria-controls="dropdown-element-4"
+                    autocomplete="off"
+                    class="slds-input slds-combobox__input"
+                    id="input-4"
+                    name="Picklist"
+                    placeholder="Please choose an option"
+                    readonly=""
+                    role="textbox"
+                    type="text"
+                  />
+                  <div
+                    class="slds-input__icon-group slds-input__icon-group_right"
+                  >
+                    <lightning-icon
+                      class="slds-icon-utility-down slds-input__icon slds-input__icon_right slds-icon_container"
+                    >
+                      #shadow-root(open)
+                        <lightning-primitive-icon>
+                          #shadow-root(open)
+                            <svg
+                              aria-hidden="true"
+                              class="slds-icon slds-icon-text-default slds-icon_xx-small"
+                              data-key="down"
+                              focusable="false"
+                            >
+                              <use
+                                xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                              />
+                            </svg>
+                        </lightning-primitive-icon>
+                    </lightning-icon>
+                  </div>
+                </div>
+                <div
+                  class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_length-with-icon-10 slds-dropdown_left"
+                  data-dropdown-element="true"
+                  id="dropdown-element-4"
+                  role="listbox"
+                >
+                  <lightning-base-combobox-item
+                    aria-selected="false"
+                    class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain"
+                    data-item-id="input-4-0"
+                    data-value=""
+                    id="input-4-0-4"
+                    role="option"
+                  >
+                    #shadow-root(open)
+                      <span
+                        class="slds-media__figure"
+                      >
+                        <lightning-icon
+                          class="slds-icon_container"
+                        >
+                          #shadow-root(open)
+                            <lightning-primitive-icon>
+                              #shadow-root(open)
+                                <svg
+                                  aria-hidden="true"
+                                  class="slds-icon slds-icon_x-small"
+                                  data-key=""
+                                  focusable="false"
+                                >
+                                  <use
+                                    xlink:href=""
+                                  />
+                                </svg>
+                            </lightning-primitive-icon>
+                        </lightning-icon>
+                      </span>
+                      <span
+                        class="slds-media__body"
+                      >
+                        <lightning-base-combobox-formatted-text
+                          class="slds-truncate"
+                          title="--None--"
+                        >
+                          #shadow-root(open)
+                            --None--
+                        </lightning-base-combobox-formatted-text>
+                      </span>
+                  </lightning-base-combobox-item>
+                  <lightning-base-combobox-item
+                    aria-selected="true"
+                    class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain slds-has-focus"
+                    data-item-id="input-4-1"
+                    data-value="United States"
+                    id="input-4-1-4"
+                    role="option"
+                  >
+                    #shadow-root(open)
+                      <span
+                        class="slds-media__figure"
+                      >
+                        <lightning-icon
+                          class="slds-icon-utility-check slds-icon_container"
+                        >
+                          #shadow-root(open)
+                            <lightning-primitive-icon>
+                              #shadow-root(open)
+                                <svg
+                                  aria-hidden="true"
+                                  class="slds-icon slds-icon-text-default slds-icon_x-small"
+                                  data-key="check"
+                                  focusable="false"
+                                >
+                                  <use
+                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"
+                                  />
+                                </svg>
+                            </lightning-primitive-icon>
+                        </lightning-icon>
+                      </span>
+                      <span
+                        class="slds-media__body"
+                      >
+                        <lightning-base-combobox-formatted-text
+                          class="slds-truncate"
+                          title="États-Unis"
+                        >
+                          #shadow-root(open)
+                            États-Unis
+                        </lightning-base-combobox-formatted-text>
+                      </span>
+                  </lightning-base-combobox-item>
+                  <lightning-base-combobox-item
+                    aria-selected="false"
+                    class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain"
+                    data-item-id="input-4-2"
+                    data-value="Canada"
+                    id="input-4-2-4"
+                    role="option"
+                  >
+                    #shadow-root(open)
+                      <span
+                        class="slds-media__figure"
+                      >
+                        <lightning-icon
+                          class="slds-icon_container"
+                        >
+                          #shadow-root(open)
+                            <lightning-primitive-icon>
+                              #shadow-root(open)
+                                <svg
+                                  aria-hidden="true"
+                                  class="slds-icon slds-icon_x-small"
+                                  data-key=""
+                                  focusable="false"
+                                >
+                                  <use
+                                    xlink:href=""
+                                  />
+                                </svg>
+                            </lightning-primitive-icon>
+                        </lightning-icon>
+                      </span>
+                      <span
+                        class="slds-media__body"
+                      >
+                        <lightning-base-combobox-formatted-text
+                          class="slds-truncate"
+                          title="Canada"
+                        >
+                          #shadow-root(open)
+                            Canada
+                        </lightning-base-combobox-formatted-text>
+                      </span>
+                  </lightning-base-combobox-item>
+                  <lightning-base-combobox-item
+                    aria-selected="false"
+                    class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain"
+                    data-item-id="input-4-3"
+                    data-value="United Kingdom"
+                    id="input-4-3-4"
+                    role="option"
+                  >
+                    #shadow-root(open)
+                      <span
+                        class="slds-media__figure"
+                      >
+                        <lightning-icon
+                          class="slds-icon_container"
+                        >
+                          #shadow-root(open)
+                            <lightning-primitive-icon>
+                              #shadow-root(open)
+                                <svg
+                                  aria-hidden="true"
+                                  class="slds-icon slds-icon_x-small"
+                                  data-key=""
+                                  focusable="false"
+                                >
+                                  <use
+                                    xlink:href=""
+                                  />
+                                </svg>
+                            </lightning-primitive-icon>
+                        </lightning-icon>
+                      </span>
+                      <span
+                        class="slds-media__body"
+                      >
+                        <lightning-base-combobox-formatted-text
+                          class="slds-truncate"
+                          title="Royaume-Uni"
+                        >
+                          #shadow-root(open)
+                            Royaume-Uni
+                        </lightning-base-combobox-formatted-text>
+                      </span>
+                  </lightning-base-combobox-item>
+                </div>
+              </div>
+          </lightning-base-combobox>
+        </div>
+    </lightning-combobox>
+</lightning-picklist>
+`;
+
+exports[`on desktop single-select picklist renders without -none- option when required and has only one option 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-combobox
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <label
+          class="slds-form-element__label"
+          for="input-25"
+        >
+          <abbr
+            class="slds-required"
+            title="required"
+          >
+            *
+          </abbr>
+          Picklist Label
+        </label>
+        <div
+          class="slds-form-element__control"
+        >
+          <lightning-base-combobox
+            class="slds-combobox_container"
+          >
+            #shadow-root(open)
+              <div
+                aria-expanded="true"
+                aria-haspopup="listbox"
+                class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open"
+                role="combobox"
+              >
+                <div
+                  class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right"
+                  role="none"
+                >
+                  <input
+                    aria-activedescendant="input-25-0-25"
+                    aria-autocomplete="none"
+                    aria-controls="dropdown-element-25"
+                    autocomplete="off"
+                    class="slds-input slds-combobox__input"
+                    id="input-25"
+                    name="Picklist"
+                    placeholder="Please choose an option"
+                    readonly=""
+                    role="textbox"
+                    type="text"
+                  />
+                  <div
+                    class="slds-input__icon-group slds-input__icon-group_right"
+                  >
+                    <lightning-icon
+                      class="slds-icon-utility-down slds-input__icon slds-input__icon_right slds-icon_container"
+                    >
+                      #shadow-root(open)
+                        <lightning-primitive-icon>
+                          #shadow-root(open)
+                            <svg
+                              aria-hidden="true"
+                              class="slds-icon slds-icon-text-default slds-icon_xx-small"
+                              data-key="down"
+                              focusable="false"
+                            >
+                              <use
+                                xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"
+                              />
+                            </svg>
+                        </lightning-primitive-icon>
+                    </lightning-icon>
+                  </div>
+                </div>
+                <div
+                  class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_length-with-icon-10 slds-dropdown_left"
+                  data-dropdown-element="true"
+                  id="dropdown-element-25"
+                  role="listbox"
+                >
+                  <lightning-base-combobox-item
+                    aria-selected="true"
+                    class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain slds-has-focus"
+                    data-item-id="input-25-0"
+                    data-value="United States"
+                    id="input-25-0-25"
+                    role="option"
+                  >
+                    #shadow-root(open)
+                      <span
+                        class="slds-media__figure"
+                      >
+                        <lightning-icon
+                          class="slds-icon-utility-check slds-icon_container"
+                        >
+                          #shadow-root(open)
+                            <lightning-primitive-icon>
+                              #shadow-root(open)
+                                <svg
+                                  aria-hidden="true"
+                                  class="slds-icon slds-icon-text-default slds-icon_x-small"
+                                  data-key="check"
+                                  focusable="false"
+                                >
+                                  <use
+                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"
+                                  />
+                                </svg>
+                            </lightning-primitive-icon>
+                        </lightning-icon>
+                      </span>
+                      <span
+                        class="slds-media__body"
+                      >
+                        <lightning-base-combobox-formatted-text
+                          class="slds-truncate"
+                          title="États-Unis"
+                        >
+                          #shadow-root(open)
+                            États-Unis
+                        </lightning-base-combobox-formatted-text>
+                      </span>
+                  </lightning-base-combobox-item>
+                </div>
+              </div>
+          </lightning-base-combobox>
+        </div>
+    </lightning-combobox>
+</lightning-picklist>
+`;
+
+exports[`on mobile/tablet multi-select picklist renders primitive-select with correct options 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-primitive-select
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <label
+          class="slds-form-element__label"
+          for="select-235"
+        >
+          <abbr
+            class="slds-required"
+            title="required"
+          >
+            *
+          </abbr>
+          Picklist Label
+        </label>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-select_container"
+          >
+            <select
+              class="slds-select"
+              id="select-235"
+              multiple=""
+              name="Picklist"
+              size="4"
+            >
+              <optgroup
+                disabled=""
+                hidden=""
+              />
+              <option
+                value="United States"
+              >
+                États-Unis
+              </option>
+              <option
+                value="Canada"
+              >
+                Canada
+              </option>
+              <option
+                value="United Kingdom"
+              >
+                Royaume-Uni
+              </option>
+            </select>
+          </div>
+        </div>
+    </lightning-primitive-select>
+</lightning-picklist>
+`;
+
+exports[`on mobile/tablet single-select picklist renders primitive-select with correct options 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-primitive-select
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <label
+          class="slds-form-element__label"
+          for="select-207"
+        >
+          <abbr
+            class="slds-required"
+            title="required"
+          >
+            *
+          </abbr>
+          Picklist Label
+        </label>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-select_container"
+          >
+            <select
+              class="slds-select"
+              id="select-207"
+              name="Picklist"
+            >
+              <option
+                value=""
+              >
+                --None--
+              </option>
+              <option
+                value="United States"
+              >
+                États-Unis
+              </option>
+              <option
+                value="Canada"
+              >
+                Canada
+              </option>
+              <option
+                value="United Kingdom"
+              >
+                Royaume-Uni
+              </option>
+            </select>
+          </div>
+        </div>
+    </lightning-primitive-select>
+</lightning-picklist>
+`;
+
+exports[`on mobile/tablet single-select picklist renders without -none- option when required and has only one option 1`] = `
+<lightning-picklist>
+  #shadow-root(open)
+    <lightning-primitive-select
+      class="slds-form-element"
+    >
+      #shadow-root(open)
+        <label
+          class="slds-form-element__label"
+          for="select-209"
+        >
+          <abbr
+            class="slds-required"
+            title="required"
+          >
+            *
+          </abbr>
+          Picklist Label
+        </label>
+        <div
+          class="slds-form-element__control"
+        >
+          <div
+            class="slds-select_container"
+          >
+            <select
+              class="slds-select"
+              id="select-209"
+              name="Picklist"
+            >
+              <option
+                value="United States"
+              >
+                États-Unis
+              </option>
+            </select>
+          </div>
+        </div>
+    </lightning-primitive-select>
+</lightning-picklist>
+`;

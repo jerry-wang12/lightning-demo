@@ -1,0 +1,31 @@
+<template>
+    <template if:true={_isLoaded}>
+        <label class={computedLabelClass}>
+            {label}
+        </label>
+        <div class="slds-form-element__control">
+            <lightning-base-combobox
+                class={computedLookupComboboxClass}
+                variant="lookup"
+                items={_items}
+                disabled={disabled}
+                dropdown-alignment="auto"
+                placeholder={placeholder}
+                input-text={inputText}
+                input-icon-name={_inputIconName}
+                show-input-activity-indicator={showActivityIndicator}
+                ontextinput={handleTextInput}
+                onselect={handleSelect}
+                onready={handleComboboxReady}
+                attribution-logo-url={_googleLogoUrl}
+                attribution-logo-assistive-text={_googleLogoText}>
+            </lightning-base-combobox>
+        </div>
+
+    </template>
+    <lightning-primitive-iframe style="display:none"
+                src={apiSrc}
+                domain={apiDomain}
+                oniframeload={handleIframeLoad}>
+    </lightning-primitive-iframe>
+</template>

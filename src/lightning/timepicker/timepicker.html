@@ -1,0 +1,39 @@
+<template>
+    <label class={computedLabelClass}>
+        <template if:true={required}>
+            <abbr class="slds-required" title={i18n.required}>*</abbr>
+        </template>
+        {label}
+    </label>
+    <lightning-helptext if:true={fieldLevelHelp} content={fieldLevelHelp}></lightning-helptext>
+
+    <div class="slds-form-element__control">
+        <lightning-base-combobox
+            onready={handleReady}
+            dropdown-height="small"
+            name={name}
+            variant="lookup"
+            placeholder={placeholder}
+            disabled={disabled}
+            readonly={readOnly}
+            items={items}
+            input-text={displayValue}
+            input-icon-name="utility:clock"
+            input-label={ariaLabel}
+            input-controls-element={ariaControlsElement}
+            input-labelled-by-element={ariaLabelledByElement}
+
+            dropdown-alignment="auto"
+            ontextchange={handleInputChange}
+            ontextinput={handleTextInput}
+            ondropdownopenrequest={handleDropdownOpenRequest}
+            onfocus={handleFocus}
+            onblur={handleBlur}
+            onselect={handleTimeSelect}>
+        </lightning-base-combobox>
+    </div>
+
+    <template if:true={_errorMessage}>
+        <div id="error-message" data-error-message class="slds-form-element__help" aria-live="assertive">{_errorMessage}</div>
+    </template>
+</template>

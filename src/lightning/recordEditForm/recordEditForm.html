@@ -1,0 +1,12 @@
+<template>
+    <form novalidate class={formClass}
+          onclick={handleSubmit}
+          onregisteroutputfield={handleRegister}
+          onregisterinputfield={handleRegister}
+          onregisterfielddependency={registerDependentField}
+          onupdatedependentfields={updateDependentFields}
+          onerror={handleError}
+          >
+        <slot></slot>
+    </form>
+</template>

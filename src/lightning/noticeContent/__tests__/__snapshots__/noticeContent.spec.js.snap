@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-notice-content default 1`] = `
+<lightning-notice-content>
+  #shadow-root(open)
+    <p>
+      <lightning-formatted-text>
+        #shadow-root(open)
+      </lightning-formatted-text>
+    </p>
+</lightning-notice-content>
+`;
+
+exports[`lightning-notice-content should display text with links and newlines 1`] = `
+<lightning-notice-content>
+  #shadow-root(open)
+    <p>
+      <strong>
+        title should be strong
+      </strong>
+    </p>
+    <p>
+      <lightning-formatted-text>
+        #shadow-root(open)
+          this is the first line
+          <br />
+                  should replace 
+          <a
+            href="https://google.com"
+            rel="noopener"
+            target="_blank"
+          >
+            https://google.com
+          </a>
+           into a link in the second line
+          <br />
+                  this should be in the third line.
+      </lightning-formatted-text>
+    </p>
+</lightning-notice-content>
+`;

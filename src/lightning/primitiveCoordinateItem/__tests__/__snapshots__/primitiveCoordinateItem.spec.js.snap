@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lightning-primitive-coordinate-item default 1`] = `
+<lightning-primitive-coordinate-item>
+  #shadow-root(open)
+    <li
+      class="slds-coordinates__item"
+    >
+      <span
+        aria-live="polite"
+        class="slds-assistive-text"
+      >
+        
+      </span>
+      <button
+        aria-pressed="false"
+        class="slds-coordinates__item-action slds-button_reset slds-media"
+      >
+        <span
+          class="slds-media__figure"
+        >
+          <lightning-icon
+            class="slds-icon_container slds-icon-standard-location"
+          >
+            #shadow-root(open)
+              <lightning-primitive-icon>
+                #shadow-root(open)
+                  <svg
+                    aria-hidden="true"
+                    class="slds-icon"
+                    data-key="location"
+                    focusable="false"
+                  >
+                    <use
+                      xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#location"
+                    />
+                  </svg>
+              </lightning-primitive-icon>
+              <span
+                class="slds-assistive-text"
+              >
+                Coordinate
+              </span>
+          </lightning-icon>
+        </span>
+        <span
+          class="slds-media__body"
+        >
+          <span
+            class="slds-text-link"
+          >
+            SalesForce HQ
+          </span>
+          <span>
+            50 fremont st, san francisco, ca 94105
+          </span>
+        </span>
+      </button>
+    </li>
+</lightning-primitive-coordinate-item>
+`;

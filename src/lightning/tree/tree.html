@@ -1,0 +1,9 @@
+<template>
+    <div class="slds-tree_container">
+        <h4 class="slds-text-title_caps" id="treeheading">{header}</h4>
+
+            <lightning-tree-item if:true={hasChildren} class="slds-tree" role="tree" aria-labelledby="treeheading"
+                                 is-root node-key={rootElement} child-items={children} focused-child={focusedChild}>
+            </lightning-tree-item>
+    </div>
+</template>

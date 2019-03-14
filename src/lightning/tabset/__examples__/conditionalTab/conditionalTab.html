@@ -1,0 +1,20 @@
+<template>
+    <lightning-tabset>
+        <lightning-tab label="Item One">
+            One Content !
+        </lightning-tab>
+        <lightning-tab label="Item Two">
+            Two Content !
+        </lightning-tab>
+        <lightning-tab label="Item Three">
+            Three Content !
+        </lightning-tab>
+        <template if:true={showTabFour}>
+            <lightning-tab label="Item Four">
+                Four Content !
+            </lightning-tab>
+        </template>
+    </lightning-tabset>
+
+    <lightning-button label="Toggle Optional Tab" onclick={toggleOptionalTab} ></lightning-button>
+</template>

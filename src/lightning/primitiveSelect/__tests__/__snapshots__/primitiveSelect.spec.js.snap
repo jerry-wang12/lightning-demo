@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multi select renders with correct options 1`] = `
+<lightning-primitve-select
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <label
+      class="slds-form-element__label"
+      for="select-7"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      Select Label
+    </label>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-select_container"
+      >
+        <select
+          class="slds-select"
+          id="select-7"
+          multiple=""
+          name="Select"
+          size="5"
+        >
+          <optgroup
+            disabled=""
+            hidden=""
+          />
+          <option
+            value="United States"
+          >
+            États-Unis
+          </option>
+          <option
+            value="Canada"
+          >
+            Canada
+          </option>
+          <option
+            value="United Kingdom"
+          >
+            Royaume-Uni
+          </option>
+        </select>
+      </div>
+    </div>
+</lightning-primitve-select>
+`;
+
+exports[`multi select sets access key when passed in 1`] = `
+<lightning-primitve-select
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <label
+      class="slds-form-element__label"
+      for="select-13"
+    >
+      Select Label
+    </label>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-select_container"
+      >
+        <select
+          accesskey="s"
+          class="slds-select"
+          id="select-13"
+          name="Select"
+        >
+          <option
+            value="United States"
+          >
+            États-Unis
+          </option>
+          <option
+            value="Canada"
+          >
+            Canada
+          </option>
+          <option
+            value="United Kingdom"
+          >
+            Royaume-Uni
+          </option>
+        </select>
+      </div>
+    </div>
+</lightning-primitve-select>
+`;
+
+exports[`multi select sets tabindex value when passed in 1`] = `
+<lightning-primitve-select
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <label
+      class="slds-form-element__label"
+      for="select-14"
+    >
+      Select Label
+    </label>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-select_container"
+      >
+        <select
+          class="slds-select"
+          id="select-14"
+          name="Select"
+        >
+          <option
+            value="United States"
+          >
+            États-Unis
+          </option>
+          <option
+            value="Canada"
+          >
+            Canada
+          </option>
+          <option
+            value="United Kingdom"
+          >
+            Royaume-Uni
+          </option>
+        </select>
+      </div>
+    </div>
+</lightning-primitve-select>
+`;
+
+exports[`single select renders with correct options 1`] = `
+<lightning-primitve-select
+  class="slds-form-element"
+>
+  #shadow-root(open)
+    <label
+      class="slds-form-element__label"
+      for="select-2"
+    >
+      <abbr
+        class="slds-required"
+        title="required"
+      >
+        *
+      </abbr>
+      Select Label
+    </label>
+    <div
+      class="slds-form-element__control"
+    >
+      <div
+        class="slds-select_container"
+      >
+        <select
+          class="slds-select"
+          id="select-2"
+          name="Select"
+        >
+          <option
+            value="United States"
+          >
+            États-Unis
+          </option>
+          <option
+            value="Canada"
+          >
+            Canada
+          </option>
+          <option
+            value="United Kingdom"
+          >
+            Royaume-Uni
+          </option>
+        </select>
+      </div>
+    </div>
+</lightning-primitve-select>
+`;

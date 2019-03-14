@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-iframe-container">
+        <lightning-primitive-iframe
+                    src={staticMapSrc}
+                    domain={apiDomain}
+                    oniframeload={handleIframeLoad}
+                    width={width}
+                    height={height}
+                    frame-style={mapStyle}>
+        </lightning-primitive-iframe>
+        <div class="slds-iframe-cover"></div>
+    </div>
+</template>
+

@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Input Telephone Example</h1>
+        <p class="slds-text-body_regular">The following examples show various ways to create an input telephone component.</p>
+    </div>
+    <div>
+        <h2>Basic Input Telephone</h2>
+        <lightning-input type="tel" label="Read-only phone field" name="phone1" value="345987345" readonly></lightning-input>
+        <lightning-input type="tel" label="Basic phone field" name="phone2" placeholder="areacode-phone"></lightning-input>
+        <lightning-input type="tel" label="Phone field with pattern matching" name="phone3" value="343-343-3434" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></lightning-input>
+    </div>
+</template>

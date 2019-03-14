@@ -1,0 +1,62 @@
+<template>
+    <template if:true={isDesktop}>
+        <template if:true={multiple}>
+            <lightning-dual-listbox
+                label={label}
+                field-level-help={fieldLevelHelp}
+                name={name}
+                variant={variant}
+                value={internalValue}
+                options={options}
+                size={size}
+                disabled={disabled}
+                required={required}
+                show-activity-indicator={showActivityIndicator}
+                disable-reordering={disableReordering}
+                source-label={i18n.available}
+                selected-label={i18n.chosen}
+                onfocus={handleFocus}
+                onblur={handleBlur}
+                onchange={handleChange}>
+            </lightning-dual-listbox>
+        </template>
+
+        <template if:false={multiple}>
+            <lightning-combobox
+                label={label}
+                field-level-help={fieldLevelHelp}
+                name={name}
+                placeholder={placeholder}
+                variant={variant}
+                value={internalValue}
+                options={options}
+                disabled={disabled}
+                required={required}
+                spinner-active={showActivityIndicator}
+                dropdown-alignment="auto"
+                onfocus={handleFocus}
+                onblur={handleBlur}
+                onchange={handleChange}
+                onopen={handleOpen}>
+            </lightning-combobox>
+        </template>
+    </template>
+
+    <template if:false={isDesktop}>
+        <lightning-primitive-select
+            label={label}
+            multiple={multiple}
+            field-level-help={fieldLevelHelp}
+            name={name}
+            variant={variant}
+            value={internalValue}
+            options={options}
+            size={size}
+            disabled={disabled}
+            required={required}
+            onfocus={handleFocus}
+            onblur={handleBlur}
+            onchange={handleChange}>
+        </lightning-primitive-select>
+    </template>
+</template>

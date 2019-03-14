@@ -1,0 +1,10 @@
+<template>
+    <lightning-tabset variant="scoped" active-tab-value="2">
+        <template for:each={tabs} for:item="tab">
+            <lightning-tab label={tab.label} key={tab.value} value={tab.value} onactive={handleActive}>
+                {tab.content}
+            </lightning-tab>
+        </template>
+    </lightning-tabset>
+    <lightning-formatted-text value={activeValueMessage} ></lightning-formatted-text>
+</template>

@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_small">Input Search Example</h1>
+        <p class="slds-text-body_regular">The following examples show various ways to create an input search component.</p>
+    </div>
+    <div onkeyup={handleKeyUp}>
+        <lightning-input
+            name="enter-search"
+            label="Search when user hits the 'enter' key"
+            type="search"
+        ></lightning-input>
+    </div>
+    <p if:true={queryTerm}>
+        Searched for {queryTerm}!
+    </p>
+</template>

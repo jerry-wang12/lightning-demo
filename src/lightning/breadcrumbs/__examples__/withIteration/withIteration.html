@@ -1,0 +1,12 @@
+<template>
+    <lightning-breadcrumbs>
+        <template for:each={myBreadcrumbs} for:item="crumbs">
+            <lightning-breadcrumb
+                key={crumbs.id}
+                label={crumbs.label}
+                name={crumbs.name}
+                onclick={handleNavigateTo}>
+            </lightning-breadcrumb>
+        </template>
+    </lightning-breadcrumbs>
+</template>
