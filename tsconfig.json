@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "c/hello-world-app": ["src/components/helloWorldApp/helloWorldApp.ts"]
+    }
+  },
+  "include": ["./scripts/**/*", "./src/**/*", "./typings/lwc/**/*.d.ts"]
+}
