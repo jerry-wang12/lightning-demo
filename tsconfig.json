@@ -4,21 +4,970 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "allowJs": true,
-    "module": "commonjs",
+    // "module": "commonjs",
+    "module": "ES2015",
     "target": "es5",
     "jsx": "react",
     "lib": ["es5", "es6", "dom"],
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
-      "lightning/utils": ["src/lightning/utils.js"],
-      "lightning/utilsPrivate": ["src/lightning/utilsPrivate.js"],
-      "lightning/helptext": ["src/lightning/helptext/helptext.js"],
       "lightning/primitiveBubble": [
-        "src/lightning/primitiveBubble/primitiveBubble.js"
+        "compiled/lightning/primitiveBubble/primitiveBubble.js"
       ],
-      "c/hello-world-app": ["src/components/helloWorldApp/helloWorldApp.ts"]
+      "@salesforce/label/LightningInputLocation.invalidLongitude": [
+        "labels/LightningInputLocation.invalidLongitude.js"
+      ],
+      "@salesforce/label/LightningVerticalNavigation.showLess": [
+        "labels/LightningVerticalNavigation.showLess.js"
+      ],
+      "@salesforce/label/LightningRecordEditForm.apiNameMismatch": [
+        "labels/LightningRecordEditForm.apiNameMismatch.js"
+      ],
+      "lightning/progressBar": [
+        "compiled/lightning/progressBar/progressBar.js"
+      ],
+      "@salesforce/label/LightningVerticalNavigation.newItems": [
+        "labels/LightningVerticalNavigation.newItems.js"
+      ],
+      "lightning/resizeObserver": [
+        "compiled/lightning/resizeObserver/resizeObserver.js"
+      ],
+      "@salesforce/label/LightningRecordEditForm.invalidID": [
+        "labels/LightningRecordEditForm.invalidID.js"
+      ],
+      "lightning/primitiveDatatableTooltipBubble": [
+        "compiled/lightning/primitiveDatatableTooltipBubble/primitiveDatatableTooltipBubble.js"
+      ],
+      "lightning/primitiveDatatableIeditInputWrapper": [
+        "compiled/lightning/primitiveDatatableIeditInputWrapper/primitiveDatatableIeditInputWrapper.js"
+      ],
+      "lightning/datatable": ["compiled/lightning/datatable/datatable.js"],
+      "lightning/lookupMobile": [
+        "compiled/lightning/lookupMobile/lookupMobile.js"
+      ],
+      "lightning/formattedLocation": [
+        "compiled/lightning/formattedLocation/formattedLocation.js"
+      ],
+      "lightning/treeGrid": ["compiled/lightning/treeGrid/treeGrid.js"],
+      "lightning/recordUtils": [
+        "compiled/lightning/recordUtils/recordUtils.js"
+      ],
+      "@salesforce/label/LightningInputLocation.coordinateIsRequired": [
+        "labels/LightningInputLocation.coordinateIsRequired.js"
+      ],
+      "lightning/tabBar": ["compiled/lightning/tabBar/tabBar.js"],
+      "@salesforce/label/LightningRichTextButton.strike": [
+        "labels/LightningRichTextButton.strike.js"
+      ],
+      "@salesforce/label/LightningCombobox.deselectOptionKeyboard": [
+        "labels/LightningCombobox.deselectOptionKeyboard.js"
+      ],
+      "lightning/primitiveCellCheckbox": [
+        "compiled/lightning/primitiveCellCheckbox/primitiveCellCheckbox.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.rangeUnderflow": [
+        "labels/LightningDateTimePicker.rangeUnderflow.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.fontSize": [
+        "labels/LightningRichTextEditor.fontSize.js"
+      ],
+      "lightning/primitiveResizeHandler": [
+        "compiled/lightning/primitiveResizeHandler/primitiveResizeHandler.js"
+      ],
+      "lightning/timepicker": ["compiled/lightning/timepicker/timepicker.js"],
+      "lightning/button": ["compiled/lightning/button/button.js"],
+      "@salesforce/label/LightningColorPicker.greenAbbr": [
+        "labels/LightningColorPicker.greenAbbr.js"
+      ],
+      "@salesforce/label/LightningDatatable.edit": [
+        "labels/LightningDatatable.edit.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.imageSizeExceeded": [
+        "labels/LightningRichTextEditor.imageSizeExceeded.js"
+      ],
+      "@salesforce/label/LightningInputLocation.latitude": [
+        "labels/LightningInputLocation.latitude.js"
+      ],
+      "@salesforce/label/LightningPrimitiveCellActions.loadingActions": [
+        "labels/LightningPrimitiveCellActions.loadingActions.js"
+      ],
+      "@salesforce/label/LightningPill.warning": [
+        "labels/LightningPill.warning.js"
+      ],
+      "lightning/noticeFooter": [
+        "compiled/lightning/noticeFooter/noticeFooter.js"
+      ],
+      "lightning/map": ["compiled/lightning/map/map.js"],
+      "@salesforce/label/LightningPillContainer.label": [
+        "labels/LightningPillContainer.label.js"
+      ],
+      "lightning/groupedCombobox": [
+        "compiled/lightning/groupedCombobox/groupedCombobox.js"
+      ],
+      "lightning/primitiveDatatableIeditTypeFactory": [
+        "compiled/lightning/primitiveDatatableIeditTypeFactory/primitiveDatatableIeditTypeFactory.js"
+      ],
+      "@salesforce/label/LightningDatatable.showActions": [
+        "labels/LightningDatatable.showActions.js"
+      ],
+      "lightning/numberFormat": [
+        "compiled/lightning/numberFormat/numberFormat.js"
+      ],
+      "@salesforce/label/LightningClickToDial.disabled": [
+        "labels/LightningClickToDial.disabled.js"
+      ],
+      "lightning/platformNotificationUtils": [
+        "compiled/lightning/platformNotificationUtils/platformNotificationUtils.js"
+      ],
+      "lightning/testUtils": ["compiled/lightning/testUtils/testUtils.js"],
+      "lightning/datatableKeyboardMixins": [
+        "compiled/lightning/datatableKeyboardMixins/datatableKeyboardMixins.js"
+      ],
+      "@salesforce/label/LightningControl.active": [
+        "labels/LightningControl.active.js"
+      ],
+      "@salesforce/label/LightningDatatable.loading": [
+        "labels/LightningDatatable.loading.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.link": [
+        "labels/LightningRichTextButton.link.js"
+      ],
+      "@salesforce/label/LightningDualListbox.optionLockAssistiveText": [
+        "labels/LightningDualListbox.optionLockAssistiveText.js"
+      ],
+      "lightning/inputLocation": [
+        "compiled/lightning/inputLocation/inputLocation.js"
+      ],
+      "lightning/verticalNavigation": [
+        "compiled/lightning/verticalNavigation/verticalNavigation.js"
+      ],
+      "@salesforce/label/LightningTabs.overflowMore": [
+        "labels/LightningTabs.overflowMore.js"
+      ],
+      "@salesforce/label/LightningPicklist.available": [
+        "labels/LightningPicklist.available.js"
+      ],
+      "lightning/datetimepicker": [
+        "compiled/lightning/datetimepicker/datetimepicker.js"
+      ],
+      "lightning/formattedEmail": [
+        "compiled/lightning/formattedEmail/formattedEmail.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.ariaLabelMonth": [
+        "labels/LightningDateTimePicker.ariaLabelMonth.js"
+      ],
+      "lightning/dynamicIcon": [
+        "compiled/lightning/dynamicIcon/dynamicIcon.js"
+      ],
+      "@salesforce/label/LightningDatatable.sortAsc": [
+        "labels/LightningDatatable.sortAsc.js"
+      ],
+      "lightning/platformShowToastEvent": [
+        "compiled/lightning/platformShowToastEvent/platformShowToastEvent.js"
+      ],
+      "@salesforce/label/LightningCombobox.ariaSelectedOptions": [
+        "labels/LightningCombobox.ariaSelectedOptions.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.italic": [
+        "labels/LightningRichTextButton.italic.js"
+      ],
+      "@salesforce/label/LightningTree.collapseBranch": [
+        "labels/LightningTree.collapseBranch.js"
+      ],
+      "@salesforce/label/LightningControl.inactive": [
+        "labels/LightningControl.inactive.js"
+      ],
+      "lightning/staticMap": ["compiled/lightning/staticMap/staticMap.js"],
+      "@salesforce/label/LightningDatatable.error": [
+        "labels/LightningDatatable.error.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.indent": [
+        "labels/LightningRichTextButton.indent.js"
+      ],
+      "lightning/radioGroup": ["compiled/lightning/radioGroup/radioGroup.js"],
+      "lightning/buttonIconStateful": [
+        "compiled/lightning/buttonIconStateful/buttonIconStateful.js"
+      ],
+      "@salesforce/label/LightningDatatable.sort": [
+        "labels/LightningDatatable.sort.js"
+      ],
+      "@salesforce/label/LightningDatatable.sortNone": [
+        "labels/LightningDatatable.sortNone.js"
+      ],
+      "lightning/carouselImage": [
+        "compiled/lightning/carouselImage/carouselImage.js"
+      ],
+      "lightning/treeItem": ["compiled/lightning/treeItem/treeItem.js"],
+      "lightning/formattedRichText": [
+        "compiled/lightning/formattedRichText/formattedRichText.js"
+      ],
+      "@salesforce/label/LightningCombobox.loadingText": [
+        "labels/LightningCombobox.loadingText.js"
+      ],
+      "lightning/picklist": ["compiled/lightning/picklist/picklist.js"],
+      "@salesforce/label/LightningRichTextButton.outdent": [
+        "labels/LightningRichTextButton.outdent.js"
+      ],
+      "@salesforce/label/LightningDatatable.rowLevelErrorAssistiveText": [
+        "labels/LightningDatatable.rowLevelErrorAssistiveText.js"
+      ],
+      "@salesforce/label/LightningCombobox.pillCloseButtonAlternativeText": [
+        "labels/LightningCombobox.pillCloseButtonAlternativeText.js"
+      ],
+      "@salesforce/label/LightningColorPickerPanel.defaultTab": [
+        "labels/LightningColorPickerPanel.defaultTab.js"
+      ],
+      "@salesforce/label/LightningInputFile.buttonLabel": [
+        "labels/LightningInputFile.buttonLabel.js"
+      ],
+      "lightning/messages": ["compiled/lightning/messages/messages.js"],
+      "@salesforce/label/LightningColorPicker.blueAbbr": [
+        "labels/LightningColorPicker.blueAbbr.js"
+      ],
+      "@salesforce/label/LightningDualListbox.moveSelectionToAssistiveText": [
+        "labels/LightningDualListbox.moveSelectionToAssistiveText.js"
+      ],
+      "lightning/input": ["compiled/lightning/input/input.js"],
+      "lightning/tile": ["compiled/lightning/tile/tile.js"],
+      "lightning/formattedTime": [
+        "compiled/lightning/formattedTime/formattedTime.js"
+      ],
+      "@salesforce/label/LightningCombobox.currentSelection": [
+        "labels/LightningCombobox.currentSelection.js"
+      ],
+      "lightning/baseCombobox": [
+        "compiled/lightning/baseCombobox/baseCombobox.js"
+      ],
+      "@salesforce/label/LightningInputName.none": [
+        "labels/LightningInputName.none.js"
+      ],
+      "@salesforce/label/LightningCarousel.tabString": [
+        "labels/LightningCarousel.tabString.js"
+      ],
+      "@salesforce/label/LightningColorPicker.hueInput": [
+        "labels/LightningColorPicker.hueInput.js"
+      ],
+      "lightning/buttonStateful": [
+        "compiled/lightning/buttonStateful/buttonStateful.js"
+      ],
+      "lightning/internalLocalizationService": [
+        "compiled/lightning/internalLocalizationService/internalLocalizationService.js"
+      ],
+      "lightning/verticalNavigationItemIcon": [
+        "compiled/lightning/verticalNavigationItemIcon/verticalNavigationItemIcon.js"
+      ],
+      "@salesforce/label/LightningPrimitiveCellTree.expandBranch": [
+        "labels/LightningPrimitiveCellTree.expandBranch.js"
+      ],
+      "lightning/primitiveHeaderActions": [
+        "compiled/lightning/primitiveHeaderActions/primitiveHeaderActions.js"
+      ],
+      "lightning/primitiveSelect": [
+        "compiled/lightning/primitiveSelect/primitiveSelect.js"
+      ],
+      "@salesforce/label/LightningVerticalNavigation.showMore": [
+        "labels/LightningVerticalNavigation.showMore.js"
+      ],
+      "@salesforce/label/LightningColorPicker.rInput": [
+        "labels/LightningColorPicker.rInput.js"
+      ],
+      "lightning/tree": ["compiled/lightning/tree/tree.js"],
+      "lightning/colorPickerCustom": [
+        "compiled/lightning/colorPickerCustom/colorPickerCustom.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.dateLabel": [
+        "labels/LightningDateTimePicker.dateLabel.js"
+      ],
+      "lightning/carousel": ["compiled/lightning/carousel/carousel.js"],
+      "@salesforce/label/LightningPill.delete": [
+        "labels/LightningPill.delete.js"
+      ],
+      "lightning/noticeContent": [
+        "compiled/lightning/noticeContent/noticeContent.js"
+      ],
+      "@salesforce/label/LightningDualListbox.minRequiredErrorPlural": [
+        "labels/LightningDualListbox.minRequiredErrorPlural.js"
+      ],
+      "lightning/lookupDesktop": [
+        "compiled/lightning/lookupDesktop/lookupDesktop.js"
+      ],
+      "@salesforce/label/LightningPicklist.noneLabel": [
+        "labels/LightningPicklist.noneLabel.js"
+      ],
+      "lightning/inputRichText": [
+        "compiled/lightning/inputRichText/inputRichText.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.invalidDate": [
+        "labels/LightningDateTimePicker.invalidDate.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityTypeMismatch": [
+        "labels/LightningErrorMessage.validityTypeMismatch.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.underline": [
+        "labels/LightningRichTextButton.underline.js"
+      ],
+      "@salesforce/label/LightningProgressIndicator.currentStage": [
+        "labels/LightningProgressIndicator.currentStage.js"
+      ],
+      "lightning/buttonGroup": [
+        "compiled/lightning/buttonGroup/buttonGroup.js"
+      ],
+      "lightning/slider": ["compiled/lightning/slider/slider.js"],
+      "lightning/lookupAddress": [
+        "compiled/lightning/lookupAddress/lookupAddress.js"
+      ],
+      "lightning/accordionSection": [
+        "compiled/lightning/accordionSection/accordionSection.js"
+      ],
+      "@salesforce/label/LightningColorPicker.colorPickerInstructions": [
+        "labels/LightningColorPicker.colorPickerInstructions.js"
+      ],
+      "lightning/platformResourceLoader": [
+        "compiled/lightning/platformResourceLoader/platformResourceLoader.js"
+      ],
+      "@salesforce/label/LightningPrimitiveCoordinate.selected": [
+        "labels/LightningPrimitiveCoordinate.selected.js"
+      ],
+      "lightning/outputField": [
+        "compiled/lightning/outputField/outputField.js"
+      ],
+      "lightning/eventBusLib": [
+        "compiled/lightning/eventBusLib/eventBusLib.js"
+      ],
+      "@salesforce/label/LightningButtonMenu.loading": [
+        "labels/LightningButtonMenu.loading.js"
+      ],
+      "@salesforce/label/LightningDualListbox.requiredError": [
+        "labels/LightningDualListbox.requiredError.js"
+      ],
+      "lightning/fileUpload": ["compiled/lightning/fileUpload/fileUpload.js"],
+      "@salesforce/label/LightningListView.loadMore": [
+        "labels/LightningListView.loadMore.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.leftAlign": [
+        "labels/LightningRichTextButton.leftAlign.js"
+      ],
+      "lightning/primitiveHeaderFactory": [
+        "compiled/lightning/primitiveHeaderFactory/primitiveHeaderFactory.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.rightAlign": [
+        "labels/LightningRichTextButton.rightAlign.js"
+      ],
+      "lightning/configProvider": [
+        "compiled/lightning/configProvider/configProvider.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.timeLabel": [
+        "labels/LightningDateTimePicker.timeLabel.js"
+      ],
+      "lightning/uiObjectInfoApi": [
+        "compiled/lightning/uiObjectInfoApi/uiObjectInfoApi.js"
+      ],
+      "@salesforce/label/LightningDualListbox.downButtonAssistiveText": [
+        "labels/LightningDualListbox.downButtonAssistiveText.js"
+      ],
+      "lightning/primitiveDatatableCell": [
+        "compiled/lightning/primitiveDatatableCell/primitiveDatatableCell.js"
+      ],
+      "@salesforce/label/LightningColorPicker.redAbbr": [
+        "labels/LightningColorPicker.redAbbr.js"
+      ],
+      "@salesforce/label/LightningDualListbox.minHelp": [
+        "labels/LightningDualListbox.minHelp.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.number": [
+        "labels/LightningRichTextButton.number.js"
+      ],
+      "lightning/inputAddress": [
+        "compiled/lightning/inputAddress/inputAddress.js"
+      ],
+      "@salesforce/label/LightningTabs.overflowMoreAlternativeText": [
+        "labels/LightningTabs.overflowMoreAlternativeText.js"
+      ],
+      "lightning/tab": ["compiled/lightning/tab/tab.js"],
+      "@salesforce/label/LightningColorPicker.gInput": [
+        "labels/LightningColorPicker.gInput.js"
+      ],
+      "@salesforce/label/LightningDualListbox.minErrorSingular": [
+        "labels/LightningDualListbox.minErrorSingular.js"
+      ],
+      "@salesforce/label/LightningControl.loading": [
+        "labels/LightningControl.loading.js"
+      ],
+      "lightning/pill": ["compiled/lightning/pill/pill.js"],
+      "@salesforce/label/LightningInputName.informalName": [
+        "labels/LightningInputName.informalName.js"
+      ],
+      "@salesforce/label/LightningControl.activeCapitalized": [
+        "labels/LightningControl.activeCapitalized.js"
+      ],
+      "@salesforce/label/LightningSlider.slider": [
+        "labels/LightningSlider.slider.js"
+      ],
+      "@salesforce/label/LightningDatatable.selectAll": [
+        "labels/LightningDatatable.selectAll.js"
+      ],
+      "@salesforce/label/LightningInputName.firstName": [
+        "labels/LightningInputName.firstName.js"
+      ],
+      "@salesforce/label/LightningLookup.searchPlaceholder": [
+        "labels/LightningLookup.searchPlaceholder.js"
+      ],
+      "@salesforce/label/LightningButtonMenu.showMenu": [
+        "labels/LightningButtonMenu.showMenu.js"
+      ],
+      "lightning/uiListApi": ["compiled/lightning/uiListApi/uiListApi.js"],
+      "lightning/lookup": ["compiled/lightning/lookup/lookup.js"],
+      "lightning/formattedText": [
+        "compiled/lightning/formattedText/formattedText.js"
+      ],
+      "@salesforce/label/LightningRichTextAssist.chooseFont": [
+        "labels/LightningRichTextAssist.chooseFont.js"
+      ],
+      "lightning/outputFieldUtils": [
+        "compiled/lightning/outputFieldUtils/outputFieldUtils.js"
+      ],
+      "@salesforce/label/LightningDualListbox.maxHelp": [
+        "labels/LightningDualListbox.maxHelp.js"
+      ],
+      "@salesforce/label/LightningLookup.searchObjectsPlaceholder": [
+        "labels/LightningLookup.searchObjectsPlaceholder.js"
+      ],
+      "lightning/breadcrumbs": [
+        "compiled/lightning/breadcrumbs/breadcrumbs.js"
+      ],
+      "lightning/dualListbox": [
+        "compiled/lightning/dualListbox/dualListbox.js"
+      ],
+      "lightning/primitiveTreegridCellToggle": [
+        "compiled/lightning/primitiveTreegridCellToggle/primitiveTreegridCellToggle.js"
+      ],
+      "@salesforce/label/LightningColorPicker.cancelButton": [
+        "labels/LightningColorPicker.cancelButton.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.previousMonth": [
+        "labels/LightningDateTimePicker.previousMonth.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityStepMismatch": [
+        "labels/LightningErrorMessage.validityStepMismatch.js"
+      ],
+      "lightning/formattedUrl": [
+        "compiled/lightning/formattedUrl/formattedUrl.js"
+      ],
+      "lightning/recordForm": ["compiled/lightning/recordForm/recordForm.js"],
+      "@salesforce/label/LightningControl.clear": [
+        "labels/LightningControl.clear.js"
+      ],
+      "lightning/formattedAddress": [
+        "compiled/lightning/formattedAddress/formattedAddress.js"
+      ],
+      "@salesforce/label/LightningLookup.search": [
+        "labels/LightningLookup.search.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.font": [
+        "labels/LightningRichTextEditor.font.js"
+      ],
+      "@salesforce/label/LightningHelptext.buttonAlternativeText": [
+        "labels/LightningHelptext.buttonAlternativeText.js"
+      ],
+      "lightning/colorPickerPanel": [
+        "compiled/lightning/colorPickerPanel/colorPickerPanel.js"
+      ],
+      "@salesforce/label/LightningLookup.searchForInObject": [
+        "labels/LightningLookup.searchForInObject.js"
+      ],
+      "lightning/buttonIcon": ["compiled/lightning/buttonIcon/buttonIcon.js"],
+      "@salesforce/label/LightningColorPicker.bInput": [
+        "labels/LightningColorPicker.bInput.js"
+      ],
+      "@salesforce/label/LightningInputFile.bodyText": [
+        "labels/LightningInputFile.bodyText.js"
+      ],
+      "@salesforce/label/LightningDualListbox.requiredOptionError": [
+        "labels/LightningDualListbox.requiredOptionError.js"
+      ],
+      "@salesforce/label/LightningTree.expandBranch": [
+        "labels/LightningTree.expandBranch.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.removeFormatting": [
+        "labels/LightningRichTextButton.removeFormatting.js"
+      ],
+      "lightning/mixinBuilder": [
+        "compiled/lightning/mixinBuilder/mixinBuilder.js"
+      ],
+      "@salesforce/label/LightningProgressBar.progress": [
+        "labels/LightningProgressBar.progress.js"
+      ],
+      "@salesforce/label/LightningDatatable.chooseARow": [
+        "labels/LightningDatatable.chooseARow.js"
+      ],
+      "@salesforce/label/LightningDatatable.closeButtonAssistiveText": [
+        "labels/LightningDatatable.closeButtonAssistiveText.js"
+      ],
+      "lightning/dateTimeUtils": [
+        "compiled/lightning/dateTimeUtils/dateTimeUtils.js"
+      ],
+      "@salesforce/label/LightningDualListbox.maxError": [
+        "labels/LightningDualListbox.maxError.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.centerAlign": [
+        "labels/LightningRichTextButton.centerAlign.js"
+      ],
+      "@salesforce/label/LightningDatatable.apply": [
+        "labels/LightningDatatable.apply.js"
+      ],
+      "@salesforce/label/LightningTabs.errorStateAlternativeText": [
+        "labels/LightningTabs.errorStateAlternativeText.js"
+      ],
+      "lightning/uiRecordApi": [
+        "compiled/lightning/uiRecordApi/uiRecordApi.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.linkSave": [
+        "labels/LightningRichTextEditor.linkSave.js"
+      ],
+      "@salesforce/label/LightningDualListbox.minErrorPlural": [
+        "labels/LightningDualListbox.minErrorPlural.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.moreActions": [
+        "labels/LightningRichTextButton.moreActions.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.bullet": [
+        "labels/LightningRichTextButton.bullet.js"
+      ],
+      "assert": ["external/assert.js"],
+      "@salesforce/label/LightningMap.coordinatesTitle": [
+        "labels/LightningMap.coordinatesTitle.js"
+      ],
+      "lightning/checkboxGroup": [
+        "compiled/lightning/checkboxGroup/checkboxGroup.js"
+      ],
+      "lightning/calendar": ["compiled/lightning/calendar/calendar.js"],
+      "@salesforce/label/LightningInputLocation.invalidLatitude": [
+        "labels/LightningInputLocation.invalidLatitude.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityRangeOverflow": [
+        "labels/LightningErrorMessage.validityRangeOverflow.js"
+      ],
+      "lightning/pillContainer": [
+        "compiled/lightning/pillContainer/pillContainer.js"
+      ],
+      "@salesforce/label/LightningProgressIndicator.stageComplete": [
+        "labels/LightningProgressIndicator.stageComplete.js"
+      ],
+      "@salesforce/label/LightningDatatable.columnWidth": [
+        "labels/LightningDatatable.columnWidth.js"
+      ],
+      "lightning/helptext": ["compiled/lightning/helptext/helptext.js"],
+      "@salesforce/label/LightningTabs.overflowMoreTitle": [
+        "labels/LightningTabs.overflowMoreTitle.js"
+      ],
+      "lightning/progressStep": [
+        "compiled/lightning/progressStep/progressStep.js"
+      ],
+      "@salesforce/label/LightningClickToDial.enabled": [
+        "labels/LightningClickToDial.enabled.js"
+      ],
+      "lightning/primitiveCellEditableButton": [
+        "compiled/lightning/primitiveCellEditableButton/primitiveCellEditableButton.js"
+      ],
+      "lightning/accordion": ["compiled/lightning/accordion/accordion"],
+      "@salesforce/label/LightningCarousel.autoPlay": [
+        "labels/LightningCarousel.autoPlay.js"
+      ],
+      "lightning/formattedNumber": [
+        "compiled/lightning/formattedNumber/formattedNumber.js"
+      ],
+      "@salesforce/label/LightningControl.required": [
+        "labels/LightningControl.required.js"
+      ],
+      "@salesforce/label/LightningRichTextAssist.chooseSize": [
+        "labels/LightningRichTextAssist.chooseSize.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.yearSelector": [
+        "labels/LightningDateTimePicker.yearSelector.js"
+      ],
+      "lightning/deprecatedOverlayLibrary": [
+        "compiled/lightning/deprecatedOverlayLibrary/deprecatedOverlayLibrary.js"
+      ],
+      "lightning/colorSwatch": [
+        "compiled/lightning/colorSwatch/colorSwatch.js"
+      ],
+      "lightning/layout": ["compiled/lightning/layout/layout.js"],
+      "@salesforce/label/LightningRecordEditForm.genericError": [
+        "labels/LightningRecordEditForm.genericError.js"
+      ],
+      "lightning/icon": ["compiled/lightning/icon/icon.js"],
+      "lightning/breadcrumb": ["compiled/lightning/breadcrumb/breadcrumb.js"],
+      "@salesforce/label/LightningInputLocation.longitude": [
+        "labels/LightningInputLocation.longitude.js"
+      ],
+      "lightning/utils": ["compiled/lightning/utils/utils.js"],
+      "lightning/inputUtils": ["compiled/lightning/inputUtils/inputUtils.js"],
+      "@salesforce/label/LightningDateTimePicker.rangeOverflow": [
+        "labels/LightningDateTimePicker.rangeOverflow.js"
+      ],
+      "lightning/overflowLibrary": [
+        "compiled/lightning/overflowLibrary/overflowLibrary.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityTooLong": [
+        "labels/LightningErrorMessage.validityTooLong.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.selectDate": [
+        "labels/LightningDateTimePicker.selectDate.js"
+      ],
+      "lightning/recordEditUtils": [
+        "compiled/lightning/recordEditUtils/recordEditUtils.js"
+      ],
+      "@salesforce/label/LightningPrimitiveCellActions.showActions": [
+        "labels/LightningPrimitiveCellActions.showActions.js"
+      ],
+      "@salesforce/label/LightningLookup.currentSelection": [
+        "labels/LightningLookup.currentSelection.js"
+      ],
+      "lightning/layoutItem": ["compiled/lightning/layoutItem/layoutItem.js"],
+      "@salesforce/label/LightningDateTimePicker.nextMonth": [
+        "labels/LightningDateTimePicker.nextMonth.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.removeFormatting": [
+        "labels/LightningRichTextEditor.removeFormatting.js"
+      ],
+      "@salesforce/label/LightningDatatable.cancel": [
+        "labels/LightningDatatable.cancel.js"
+      ],
+      "@salesforce/label/LightningRecordForm.cancel": [
+        "labels/LightningRecordForm.cancel.js"
+      ],
+      "lightning/primitiveModal": [
+        "compiled/lightning/primitiveModal/primitiveModal.js"
+      ],
+      "@salesforce/label/LightningDatatable.save": [
+        "labels/LightningDatatable.save.js"
+      ],
+      "lightning/recordEditForm": [
+        "compiled/lightning/recordEditForm/recordEditForm.js"
+      ],
+      "@salesforce/label/LightningDateTimePicker.today": [
+        "labels/LightningDateTimePicker.today.js"
+      ],
+      "lightning/formattedPhone": [
+        "compiled/lightning/formattedPhone/formattedPhone.js"
+      ],
+      "@salesforce/label/LightningFormattedEmail.emailIconLabel": [
+        "labels/LightningFormattedEmail.emailIconLabel.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.linkInput": [
+        "labels/LightningRichTextEditor.linkInput.js"
+      ],
+      "lightning:IntlLibrary": ["external/intl-library.js"],
+      "@salesforce/label/LightningLookup.createNewObject": [
+        "labels/LightningLookup.createNewObject.js"
+      ],
+      "lightning/fieldUtils": ["compiled/lightning/fieldUtils/fieldUtils.js"],
+      "lightning/testUtilsButtonGroup": [
+        "compiled/lightning/testUtilsButtonGroup/testUtilsButtonGroup.js"
+      ],
+      "lightning/utilsPrivate": [
+        "compiled/lightning/utilsPrivate/utilsPrivate.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityBadInput": [
+        "labels/LightningErrorMessage.validityBadInput.js"
+      ],
+      "lightning/card": ["compiled/lightning/card/card.js"],
+      "@salesforce/label/LightningErrorMessage.validityRangeUnderflow": [
+        "labels/LightningErrorMessage.validityRangeUnderflow.js"
+      ],
+      "lightning/primitiveDatatableTooltip": [
+        "compiled/lightning/primitiveDatatableTooltip/primitiveDatatableTooltip.js"
+      ],
+      "lightning/formattedDateTime": [
+        "compiled/lightning/formattedDateTime/formattedDateTime.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityTooShort": [
+        "labels/LightningErrorMessage.validityTooShort.js"
+      ],
+      "lightning/verticalNavigationOverflow": [
+        "compiled/lightning/verticalNavigationOverflow/verticalNavigationOverflow.js"
+      ],
+      "lightning/menuSubheader": [
+        "compiled/lightning/menuSubheader/menuSubheader.js"
+      ],
+      "lightning/baseComboboxItem": [
+        "compiled/lightning/baseComboboxItem/baseComboboxItem.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.formatFont": [
+        "labels/LightningRichTextEditor.formatFont.js"
+      ],
+      "@salesforce/label/LightningDatatable.clipText": [
+        "labels/LightningDatatable.clipText.js"
+      ],
+      "lightning/avatar": ["compiled/lightning/avatar/avatar.js"],
+      "@salesforce/label/LightningPicklist.chosen": [
+        "labels/LightningPicklist.chosen.js"
+      ],
+      "lightning/primitiveFileDroppableZone": [
+        "compiled/lightning/primitiveFileDroppableZone/primitiveFileDroppableZone.js"
+      ],
+      "@salesforce/label/LightningColorPicker.doneButton": [
+        "labels/LightningColorPicker.doneButton.js"
+      ],
+      "@salesforce/label/LightningDatatable.selectItem": [
+        "labels/LightningDatatable.selectItem.js"
+      ],
+      "lightning/iconUtils": ["compiled/lightning/iconUtils/iconUtils.js"],
+      "lightning/badge": ["compiled/lightning/badge/badge.js"],
+      "@salesforce/label/LightningInputName.salutation": [
+        "labels/LightningInputName.salutation.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityPatternMismatch": [
+        "labels/LightningErrorMessage.validityPatternMismatch.js"
+      ],
+      "lightning/recordViewForm": [
+        "compiled/lightning/recordViewForm/recordViewForm.js"
+      ],
+      "@salesforce/label/LightningInputName.lastName": [
+        "labels/LightningInputName.lastName.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.imageUploadFailed": [
+        "labels/LightningRichTextEditor.imageUploadFailed.js"
+      ],
+      "lightning/combobox": ["compiled/lightning/combobox/combobox.js"],
+      "lightning/navigation": ["compiled/lightning/navigation/navigation.js"],
+      "lightning/platformOverlayUtils": [
+        "compiled/lightning/platformOverlayUtils/platformOverlayUtils.js"
+      ],
+      "@salesforce/label/LightningDatatable.updateSelectedItems": [
+        "labels/LightningDatatable.updateSelectedItems.js"
+      ],
+      "lightning/primitiveDatatableStatusBar": [
+        "compiled/lightning/primitiveDatatableStatusBar/primitiveDatatableStatusBar.js"
+      ],
+      "lightning/inputName": ["compiled/lightning/inputName/inputName.js"],
+      "lightning/baseComboboxFormattedText": [
+        "compiled/lightning/baseComboboxFormattedText/baseComboboxFormattedText.js"
+      ],
+      "@salesforce/label/LightningInputName.suffix": [
+        "labels/LightningInputName.suffix.js"
+      ],
+      "lightning/uiLookupsApi": [
+        "compiled/lightning/uiLookupsApi/uiLookupsApi.js"
+      ],
+      "@salesforce/label/LightningDatatable.editHasError": [
+        "labels/LightningDatatable.editHasError.js"
+      ],
+      "@salesforce/label/LightningCombobox.selectedLabelMore": [
+        "labels/LightningCombobox.selectedLabelMore.js"
+      ],
+      "lightning/primitiveDatatableLoadingIndicator": [
+        "compiled/lightning/primitiveDatatableLoadingIndicator/primitiveDatatableLoadingIndicator.js"
+      ],
+      "lightning/primitiveCellWrapper": [
+        "compiled/lightning/primitiveCellWrapper/primitiveCellWrapper.js"
+      ],
+      "lightning/datepicker": ["compiled/lightning/datepicker/datepicker.js"],
+      "lightning/menuItem": ["compiled/lightning/menuItem/menuItem.js"],
+      "@salesforce/label/LightningLookup.add": [
+        "labels/LightningLookup.add.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.image": [
+        "labels/LightningRichTextButton.image.js"
+      ],
+      "lightning/fieldDependencyManager": [
+        "compiled/lightning/fieldDependencyManager/fieldDependencyManager.js"
+      ],
+      "lightning/textarea": ["compiled/lightning/textarea/textarea.js"],
+      "lightning/numberUtils": [
+        "compiled/lightning/numberUtils/numberUtils.js"
+      ],
+      "lightning/primitiveCellTypes": [
+        "compiled/lightning/primitiveCellTypes/primitiveCellTypes.js"
+      ],
+      "@salesforce/label/LightningDatatable.wrapText": [
+        "labels/LightningDatatable.wrapText.js"
+      ],
+      "lightning/primitiveCellButton": [
+        "compiled/lightning/primitiveCellButton/primitiveCellButton.js"
+      ],
+      "lightning/verticalNavigationSection": [
+        "compiled/lightning/verticalNavigationSection/verticalNavigationSection.js"
+      ],
+      "lightning/routingService": [
+        "compiled/lightning/routingService/routingService.js"
+      ],
+      "lightning/primitiveDatatableIeditPanel": [
+        "compiled/lightning/primitiveDatatableIeditPanel/primitiveDatatableIeditPanel.js"
+      ],
+      "lightning/spinner": ["compiled/lightning/spinner/spinner.js"],
+      "lightning/quillLib": ["compiled/lightning/quillLib/quillLib.js"],
+      "@salesforce/label/LightningVerticalNavigation.subPage": [
+        "labels/LightningVerticalNavigation.subPage.js"
+      ],
+      "@salesforce/label/LightningInputName.middleName": [
+        "labels/LightningInputName.middleName.js"
+      ],
+      "@salesforce/label/LightningPill.error": [
+        "labels/LightningPill.error.js"
+      ],
+      "@salesforce/label/LightningRichTextButton.bold": [
+        "labels/LightningRichTextButton.bold.js"
+      ],
+      "lightning/formattedName": [
+        "compiled/lightning/formattedName/formattedName.js"
+      ],
+      "@salesforce/label/LightningDualListbox.upButtonAssistiveText": [
+        "labels/LightningDualListbox.upButtonAssistiveText.js"
+      ],
+      "@salesforce/label/LightningRecordForm.save": [
+        "labels/LightningRecordForm.save.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.formatBody": [
+        "labels/LightningRichTextEditor.formatBody.js"
+      ],
+      "lightning/messageDispatcher": [
+        "compiled/lightning/messageDispatcher/messageDispatcher.js"
+      ],
+      "lightning/deprecatedOverlayUtils": [
+        "compiled/lightning/deprecatedOverlayUtils/deprecatedOverlayUtils.js"
+      ],
+      "lightning/menuDivider": [
+        "compiled/lightning/menuDivider/menuDivider.js"
+      ],
+      "lightning/tabset": ["compiled/lightning/tabset/tabset.js"],
+      "@salesforce/label/LightningColorPicker.a11yTriggerText": [
+        "labels/LightningColorPicker.a11yTriggerText.js"
+      ],
+      "lightning/primitiveCellFactory": [
+        "compiled/lightning/primitiveCellFactory/primitiveCellFactory.js"
+      ],
+      "lightning/verticalNavigationItem": [
+        "compiled/lightning/verticalNavigationItem/verticalNavigationItem.js"
+      ],
+      "@salesforce/label/LightningLookup.recentObject": [
+        "labels/LightningLookup.recentObject.js"
+      ],
+      "@salesforce/label/LightningPill.remove": [
+        "labels/LightningPill.remove.js"
+      ],
+      "@salesforce/label/LightningPillContainer.more": [
+        "labels/LightningPillContainer.more.js"
+      ],
+      "@salesforce/label/LightningDatatable.sortDesc": [
+        "labels/LightningDatatable.sortDesc.js"
+      ],
+      "@salesforce/label/LightningPrimitiveCellTree.collapseBranch": [
+        "labels/LightningPrimitiveCellTree.collapseBranch.js"
+      ],
+      "lightning/primitiveButton": [
+        "compiled/lightning/primitiveButton/primitiveButton.js"
+      ],
+      "lightning/formattedLookup": [
+        "compiled/lightning/formattedLookup/formattedLookup.js"
+      ],
+      "lightning/formElement": [
+        "compiled/lightning/formElement/formElement.js"
+      ],
+      "@salesforce/label/LightningErrorMessage.validityValueMissing": [
+        "labels/LightningErrorMessage.validityValueMissing.js"
+      ],
+      "@salesforce/label/LightningColorPicker.hexLabel": [
+        "labels/LightningColorPicker.hexLabel.js"
+      ],
+      "@salesforce/label/LightningMap.openInGoogleMaps": [
+        "labels/LightningMap.openInGoogleMaps.js"
+      ],
+      "lightning/accordionUtilsPrivate": [
+        "compiled/lightning/accordionUtilsPrivate/accordionUtilsPrivate.js"
+      ],
+      "lightning/quill": ["compiled/lightning/quill/quill.js"],
+      "@salesforce/label/LightningRecordForm.loading": [
+        "labels/LightningRecordForm.loading.js"
+      ],
+      "lightning/uiActionsApi": [
+        "compiled/lightning/uiActionsApi/uiActionsApi.js"
+      ],
+      "@salesforce/label/LightningControl.inactiveCapitalized": [
+        "labels/LightningControl.inactiveCapitalized.js"
+      ],
+      "@salesforce/label/LightningDualListbox.componentAssistiveText": [
+        "labels/LightningDualListbox.componentAssistiveText.js"
+      ],
+      "@salesforce/label/LightningColorPicker.errorMessage": [
+        "labels/LightningColorPicker.errorMessage.js"
+      ],
+      "@salesforce/label/LightningNoticeFooter.okButton": [
+        "labels/LightningNoticeFooter.okButton.js"
+      ],
+      "lightning/primitiveCoordinateItem": [
+        "compiled/lightning/primitiveCoordinateItem/primitiveCoordinateItem.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.formatBackground": [
+        "labels/LightningRichTextEditor.formatBackground.js"
+      ],
+      "lightning/primitiveIframe": [
+        "compiled/lightning/primitiveIframe/primitiveIframe.js"
+      ],
+      "lightning/clickToDial": [
+        "compiled/lightning/clickToDial/clickToDial.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.insertContent": [
+        "labels/LightningRichTextEditor.insertContent.js"
+      ],
+      "lightning/buttonMenu": ["compiled/lightning/buttonMenu/buttonMenu.js"],
+      "@salesforce/label/LightningDualListbox.minRequiredErrorSingular": [
+        "labels/LightningDualListbox.minRequiredErrorSingular.js"
+      ],
+      "lightning/primitiveCellActions": [
+        "compiled/lightning/primitiveCellActions/primitiveCellActions.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.linkCancel": [
+        "labels/LightningRichTextEditor.linkCancel.js"
+      ],
+      "@salesforce/label/LightningCombobox.selectedLabelSingle": [
+        "labels/LightningCombobox.selectedLabelSingle.js"
+      ],
+      "lightning/clickToDialService": [
+        "compiled/lightning/clickToDialService/clickToDialService.js"
+      ],
+      "@salesforce/label/LightningLookup.selectObject": [
+        "labels/LightningLookup.selectObject.js"
+      ],
+      "@salesforce/label/LightningRichTextEditor.alignText": [
+        "labels/LightningRichTextEditor.alignText.js"
+      ],
+      "lightning/primitiveColorpickerButton": [
+        "compiled/lightning/primitiveColorpickerButton/primitiveColorpickerButton.js"
+      ],
+      "lightning/relativeDateTime": [
+        "compiled/lightning/relativeDateTime/relativeDateTime.js"
+      ],
+      "lightning/progressIndicator": [
+        "compiled/lightning/progressIndicator/progressIndicator.js"
+      ],
+      "@salesforce/label/LightningColorPickerPanel.customTab": [
+        "labels/LightningColorPickerPanel.customTab.js"
+      ],
+      "lightning/positionLibrary": [
+        "compiled/lightning/positionLibrary/positionLibrary.js"
+      ],
+      "lightning/verticalNavigationItemBadge": [
+        "compiled/lightning/verticalNavigationItemBadge/verticalNavigationItemBadge.js"
+      ],
+      "lightning/primitiveIcon": [
+        "compiled/lightning/primitiveIcon/primitiveIcon.js"
+      ],
+      "lightning/inputField": ["compiled/lightning/inputField/inputField.js"],
+      "@salesforce/label/LightningRichTextEditor.formatText": [
+        "labels/LightningRichTextEditor.formatText.js"
+      ],
+      "@salesforce/label/LightningRichTextAssist.composeText": [
+        "labels/LightningRichTextAssist.composeText.js"
+      ],
+      "c/hello-world-app": ["src/components/helloWorldApp/helloWorldApp.js"]
     }
   },
-  "include": ["./scripts/**/*", "./src/**/*", "./typings/lwc/**/*.d.ts"]
+  "include": [
+    "./scripts/**/*",
+    "./src/**/*",
+    "./labels/**/*",
+    "./typings/lwc/**/*.d.ts"
+  ]
 }

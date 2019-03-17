@@ -1,25 +1,53 @@
 import { compile } from '@lwc/compiler';
+import * as fs from 'fs';
 
-const options = {
-  name: 'foo',
+let options = {
+  outputConfig: {
+    minify: false,
+    compat: false,
+    resolveProxyCompat: {
+      global: 'Proxy'
+    },
+    format: 'es'
+  },
+  input: 'src/components/helloWorldApp/',
+  baseDir: 'src/components/helloWorldApp/',
+  name: 'helloWorldApp',
   namespace: 'c',
   files: {
-    'foo.js': `
-          import { LightningElement } from 'lwc';
-          export default class Foo extends LightningElement {}
-        `,
-    'foo.html': `<template><h1>Foo</h1><lightning-button>button</lightning-button></template>`
+    'src/components/helloWorldApp/helloWorldApp.html': fs.readFileSync('src/components/helloWorldApp/helloWorldApp.html').toString(),
+    'src/components/helloWorldApp/helloWorldApp.js': fs.readFileSync('src/components/helloWorldApp/helloWorldApp.ts').toString(),
   }
 };
+// let options = {
+//   outputConfig: {
+//     minify: false,
+//     compat: false,
+//     resolveProxyCompat: {
+//       global: 'Proxy'
+//     },
+//     format: 'es'
+//   },
+//   input: 'src/lightning/',
+//   baseDir: 'src/lightning/',
+//   name: 'supportsSvg',
+//   namespace: 'lightning',
+//   files: {
+//     'src/lightning/supportsSvg.js': fs.readFileSync('src/lightning/supportsSvg.js').toString(),
+//   }
+// };
 
-async function doCompile(): Promise<String> {
+async function doCompile(options:any): Promise<String> {
   const {
-    success,
-    diagnostics,
     result: { code }
   } = await compile(options);
 
   return code;
 }
 
-doCompile().then(code => console.log(code));
+doCompile(options).then(code => {
+  // console.log(code);
+  fs.writeFileSync('src/components/helloWorldApp/helloWorldApp.js', code);
+});
+
+// doCompile(options2).then(code => console.log(code));
