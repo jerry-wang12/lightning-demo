@@ -7,21 +7,6 @@ declare module 'lwc' {
   }
 
   class HTMLElementTheGoodPart {
-    dispatchEvent(evt: ComposableEvent): boolean;
-    addEventListener(
-      type: string,
-      listener: EventListenerOrEventListenerObject,
-      options?: boolean | AddEventListenerOptions
-    ): void;
-    removeEventListener(
-      type: string,
-      listener: EventListenerOrEventListenerObject,
-      options?: boolean | EventListenerOptions
-    ): void;
-    getAttribute(name: string): string | null;
-    getBoundingClientRect(): ClientRect;
-    querySelector(selectors: string): HTMLElement | null;
-    querySelectorAll(selectors: string): NodeListOf<HTMLElement>;
     readonly tagName: string;
     readonly classList: DOMTokenList;
 
@@ -82,6 +67,21 @@ declare module 'lwc' {
     ariaRowIndex: string | null;
     ariaRowSpan: string | null;
     role: string | null;
+    dispatchEvent(evt: ComposableEvent): boolean;
+    addEventListener(
+      type: string,
+      listener: EventListenerOrEventListenerObject,
+      options?: boolean | AddEventListenerOptions
+    ): void;
+    removeEventListener(
+      type: string,
+      listener: EventListenerOrEventListenerObject,
+      options?: boolean | EventListenerOptions
+    ): void;
+    getAttribute(name: string): string | null;
+    getBoundingClientRect(): ClientRect;
+    querySelector(selectors: string): HTMLElement | null;
+    querySelectorAll(selectors: string): NodeListOf<HTMLElement>;
   }
 
   interface ShadowRootTheGoodPart extends NodeSelector {
@@ -93,19 +93,6 @@ declare module 'lwc' {
     readonly textContent: string;
     readonly childNodes: Node[];
     readonly delegatesFocus: boolean;
-    addEventListener(
-      type: string,
-      listener: EventListenerOrEventListenerObject,
-      options?: boolean | AddEventListenerOptions
-    ): void;
-    removeEventListener(
-      type: string,
-      listener: EventListenerOrEventListenerObject,
-      options?: boolean | EventListenerOptions
-    ): void;
-    hasChildNodes(): boolean;
-    compareDocumentPosition(otherNode: Node): number;
-    contains(otherNode: Node): boolean;
 
     // Aria Properties
     ariaAutoComplete: string | null;
@@ -154,12 +141,28 @@ declare module 'lwc' {
     ariaRowIndex: string | null;
     ariaRowSpan: string | null;
     role: string | null;
+    addEventListener(
+      type: string,
+      listener: EventListenerOrEventListenerObject,
+      options?: boolean | AddEventListenerOptions
+    ): void;
+    removeEventListener(
+      type: string,
+      listener: EventListenerOrEventListenerObject,
+      options?: boolean | EventListenerOptions
+    ): void;
+    hasChildNodes(): boolean;
+    compareDocumentPosition(otherNode: Node): number;
+    contains(otherNode: Node): boolean;
   }
 
   /**
    * Base class for the Lightning Web Component JavaScript class
    */
   export class LightningElement extends HTMLElementTheGoodPart {
+
+    readonly template: ShadowRootTheGoodPart;
+    readonly shadowRoot: null;
     /**
      * Called when the component is created
      */
@@ -180,9 +183,6 @@ declare module 'lwc' {
      * Called when a descendant component throws an error in one of its lifecycle hooks
      */
     errorCallback(error: any, stack: string): void;
-
-    readonly template: ShadowRootTheGoodPart;
-    readonly shadowRoot: null;
   }
 
   /**
@@ -200,10 +200,7 @@ declare module 'lwc' {
    * @param getType imperative accessor for the data source
    * @param config configuration object for the accessor
    */
-  export function wire(
-    getType: (config?: any) => any,
-    config?: any
-  ): PropertyDecorator;
+  export function wire(getType: (config?: any) => any, config?: any): PropertyDecorator;
 
   export function createElement(sel: String, options?: any): Element;
 }

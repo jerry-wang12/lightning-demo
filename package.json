@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "rollup-plugin-typescript2": "^0.20.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3333"
   }
 }
