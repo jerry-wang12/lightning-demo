@@ -6,4 +6,8 @@ const option = {
   outputDir: '../compiled/lightning/'
 };
 
-doCompileModules(option);
+export async function compileLightningModules(): Promise<void> {
+  await doCompileModules(option);
+}
+
+compileLightningModules();

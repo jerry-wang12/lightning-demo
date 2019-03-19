@@ -7,4 +7,8 @@ const option = {
   outputDir: '../compiled/components/helloWorldApp/'
 };
 
-doCompile(option);
+export async function compileComponents(): Promise<void> {
+  await doCompile(option);
+}
+
+compileComponents();

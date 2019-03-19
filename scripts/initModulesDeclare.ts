@@ -19,7 +19,7 @@ const paths = {
   'lightning:IntlLibrary': ['external/intl-library.js']
 };
 
-async function initModulePaths() {
+export async function initModulePaths(): Promise<void> {
   Object.assign(paths, await getModulesByFile(labelOption));
   Object.assign(paths, await getModulesByDir(lightningOptions));
   Object.assign(paths, await getModulesByDir(componentOption));

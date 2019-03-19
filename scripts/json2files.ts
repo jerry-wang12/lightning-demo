@@ -3,15 +3,16 @@ import { mkdirs, readFile, writeFile } from './compile-util';
 
 const needConvertDirs = ['external', 'src', 'labels'];
 
-readFile('../static/lwc-components-lightning.json').then((content) => {
+export async function json2files(): Promise<void> {
+  const content = await readFile('../static/lwc-components-lightning.json');
   const jsonObject = JSON.parse(content.toString());
   for (const item of jsonObject.children) {
     if (!needConvertDirs.includes(item.name)) {
       continue;
     }
-    createDirOrFile(item);
+    await createDirOrFile(item);
   }
-});
+}
 
 async function createDirOrFile(item: any, parentDir: string = '../'): Promise<void> {
   const filePath = path.join(parentDir, item.name);
@@ -24,3 +25,5 @@ async function createDirOrFile(item: any, parentDir: string = '../'): Promise<vo
     await writeFile(filePath, item.content);
   }
 }
+
+json2files();

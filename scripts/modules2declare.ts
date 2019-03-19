@@ -5,6 +5,10 @@ const option = {
   dir: 'compiled/components/',
   namespace: 'c/'
 };
-getModulesByDir(option).then((paths) => {
+
+export async function initCustomModules(): Promise<void> {
+  const paths = await getModulesByDir(option);
   extendConfigFile(paths);
-});
+}
+
+initCustomModules();

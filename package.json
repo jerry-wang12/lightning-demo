@@ -10,6 +10,11 @@
     "lightning web components"
   ],
   "scripts": {
+    "json2files": "cd scripts && ts-node json2files.ts",
+    "clean-compiled": "rm -f -r -d compiled",
+    "compile-all": "cd scripts && ts-node compile-lightning.ts && ts-node compile-components.ts",
+    "compile-components": "cd scripts && ts-node compile-components.ts",
+    "init-modules-declare": "cd scripts && ts-node initModulesDeclare.ts",
     "build": "npm run clean-dist && webpack -p --config=configs/webpack/prod.js",
     "clean-dist": "rm -f -r -d dist",
     "lint": "tslint './src/**/*.ts*' --format stylish --force",
