@@ -4,7 +4,7 @@ import { mkdirs, readFile, writeFile } from './compile-util';
 const needConvertDirs = ['external', 'src', 'labels'];
 
 export async function json2files(): Promise<void> {
-  const content = await readFile('../static/lwc-components-lightning.json');
+  const content = await readFile('lwc-components-lightning.json');
   const jsonObject = JSON.parse(content.toString());
   for (const item of jsonObject.children) {
     if (!needConvertDirs.includes(item.name)) {
