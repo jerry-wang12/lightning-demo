@@ -473,7 +473,8 @@
       "lightning/verticalNavigationSection": [
         "compiled/lightning/verticalNavigationSection/verticalNavigationSection.js"
       ],
-      "c/hello-world-app": ["compiled/components/helloWorldApp/helloWorldApp.js"]
+      "c/hello-world-app": ["compiled/components/helloWorldApp/helloWorldApp.js"],
+      "lwc": ["vendor/engine/engine.js"]
     }
   },
   "include": ["./scripts/**/*", "./src/**/*", "./labels/**/*", "./typings/lwc/**/*.d.ts"]

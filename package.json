@@ -15,7 +15,7 @@
     "compile-all": "cd scripts && ts-node compile-lightning.ts && ts-node compile-components.ts",
     "compile-components": "cd scripts && ts-node compile-components.ts",
     "init-modules-declare": "cd scripts && ts-node initModulesDeclare.ts",
-    "build": "npm run clean-dist && webpack -p --config=configs/webpack/prod.js",
+    "build": "npm run clean-dist && webpack --config configs/webpack/webpack.config.js",
     "clean-dist": "rm -f -r -d dist",
     "lint": "tslint './src/**/*.ts*' --format stylish --force",
     "start": "npm run start-dev",
@@ -50,7 +50,9 @@
   },
   "devDependencies": {
     "rollup-plugin-typescript2": "^0.20.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "webpack-cli": "^3.3.0"
   }
 }
